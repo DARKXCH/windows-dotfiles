@@ -18,8 +18,8 @@ channels = ["#halloy","#archlinux"]
 enabled = true
 
 [servers.liberachat.sasl.plain]
-username = username = {{ (keepassxc "web.libera.chat").UserName }}
-password = password = {{ (keepassxc "web.libera.chat").Password }}
+    username = {{ (keepassxc "web.libera.chat").UserName }}
+    password = {{ (keepassxc "web.libera.chat").Password }}
 
 [buffer.server_messages.change_host]
 enabled = true
