@@ -6,4 +6,6 @@
 	st = status
 [safe]
 	directory = F:\\notes\\NOEIS.git
-	directory = F:\notes\typst.git
+	directory = F:\\notes\\typst.git
+	directory = G:\\notes\\NOEIS.git
+	directory = G:\\notes\\typst.git
