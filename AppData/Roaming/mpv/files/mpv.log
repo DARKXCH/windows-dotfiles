@@ -1,0 +1,1446 @@
+[   0.000][v][cplayer] Command line options: '--player-operation-mode=pseudo-gui'
+[   0.000][v][cplayer] mpv v0.40.0-267-g2b74582fc Copyright © 2000-2025 mpv/MPlayer/mplayer2 projects
+[   0.000][v][cplayer]  built on Aug  8 2025 02:05:52
+[   0.000][v][cplayer] libplacebo version: v7.352.0 (v7.351.0-38-g8f86f7a-dirty)
+[   0.000][v][cplayer] FFmpeg version: N-120561-g7f150dc4b
+[   0.000][v][cplayer] FFmpeg library versions:
+[   0.000][v][cplayer]    libavcodec      62.9.100
+[   0.000][v][cplayer]    libavdevice     62.0.100
+[   0.000][v][cplayer]    libavfilter     11.3.100
+[   0.000][v][cplayer]    libavformat     62.1.103
+[   0.000][v][cplayer]    libavutil       60.7.100
+[   0.000][v][cplayer]    libswresample   6.0.100
+[   0.000][v][cplayer]    libswscale      9.0.100
+[   0.000][v][cplayer] Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Dgl=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/meson_cross.txt
+[   0.000][v][cplayer] List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan wasapi win32 win32-desktop win32-executable win32-smtc win32-threads zimg zimg-st428 zlib
+[   0.000][v][cplayer] Built with NDEBUG.
+[   0.000][d][global] home path: '' -> 'C:\Users\darkxch\AppData\Roaming/mpv'
+[   0.000][d][global] user path: '~~home/' -> 'C:\Users\darkxch\AppData\Roaming/mpv'
+[   0.000][d][global] user path: '~~old_home/' -> ''
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> 'G:/mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> 'G:/mpv/mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'mpv.conf' -> 'C:\Users\darkxch\AppData\Roaming/mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/config'
+[   0.000][d][global] config path: 'mpv.conf' -/-> 'G:/mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> 'G:/mpv/config'
+[   0.000][d][global] config path: 'mpv.conf' -/-> 'G:/mpv/mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> 'G:/mpv/mpv/config'
+[   0.000][v][cplayer] Reading config file C:\Users\darkxch\AppData\Roaming/mpv/mpv.conf
+[   0.000][v][ifo_dvdnav] Opening C:\Users\darkxch\AppData\Roaming/mpv/mpv.conf
+[   0.000][v][bdmv/bluray] Opening C:\Users\darkxch\AppData\Roaming/mpv/mpv.conf
+[   0.000][v][file] Opening C:\Users\darkxch\AppData\Roaming/mpv/mpv.conf
+[   0.000][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.000][d][file] Stream opened successfully.
+[   0.000][v][cplayer] Applying profile 'default'...
+[   0.000][v][cplayer] Setting option 'vo' = 'gpu-next' (flags = 4)
+[   0.000][v][cplayer] Setting option 'gpu-api' = 'd3d11' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hwdec' = 'auto-copy' (flags = 4)
+[   0.000][v][cplayer] Setting option 'title' = '${?pause==yes:⏸}${?mute==yes:🔇}${?ontop==yes:📌}${?demuxer-via-network==yes:${media-title}}${?demuxer-via-network==no:${filename}}' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osc' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'title-bar' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'autofit-smaller' = '50%x50%' (flags = 4)
+[   0.000][v][cplayer] Setting option 'idle' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'snap-window' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'log-file' = '~~/files/mpv.log' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ontop' = '' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hr-seek' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hr-seek-framedrop' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'save-position-on-quit' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'write-filename-in-watch-later-config' = '' (flags = 4)
+[   0.000][v][cplayer] Setting option 'watch-later-dir' = '~~/cache/watch_later' (flags = 4)
+[   0.000][v][cplayer] Setting option 'watch-later-options' = 'start,vid,aid,sid,sub-scale' (flags = 4)
+[   0.000][v][cplayer] Setting option 'save-watch-history' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'watch-history-path' = '~~/files/watch_history.jsonl' (flags = 4)
+[   0.000][v][cplayer] Setting option 'autocreate-playlist' = 'filter' (flags = 4)
+[   0.000][v][cplayer] Setting option 'reset-on-next-file' = 'vf,af,brightness,gamma,deinterlace,contrast,hue' (flags = 4)
+[   0.000][v][cplayer] Setting option 'input-ipc-server' = '\\.\pipe\mpvsocket' (flags = 4)
+[   0.000][v][cplayer] Setting option 'directory-mode' = 'ignore' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-bar' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-on-seek' = 'msg-bar' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-bar-w' = '100' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-bar-h' = '2' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-bar-align-y' = '-1' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-font' = 'LXGW WenKai Mono' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-font-size' = '24' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-color' = '#FFFFFF' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-outline-size' = '1.0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-outline-color' = '#1C1B1F' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-shadow-offset' = '0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-back-color' = '#1C1B1F' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-border-style' = 'outline-and-shadow' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-playlist-entry' = 'filename' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-duration' = '2000' (flags = 4)
+[   0.000][v][cplayer] Setting option 'audio-device' = 'auto' (flags = 4)
+[   0.000][v][cplayer] Setting option 'audio-channels' = '7.1,5.1,stereo' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ao' = 'wasapi' (flags = 4)
+[   0.000][v][cplayer] Setting option 'audio-file-auto' = 'fuzzy' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-codepage' = 'gb18030' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-auto' = 'fuzzy' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-scale' = '0.4' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-font' = 'LXGW WenKai Momo' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-font-size' = '50' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-bold' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-color' = '#FFFFFF' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-outline-size' = '0.5' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-outline-color' = '#000000' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-shadow-offset' = '0.5' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-back-color' = '#000000' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-format' = 'webp' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-webp-quality' = '85' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-webp-compression' = '6' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-tag-colorspace' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-template' = 'C:/Users/darkxch/%{media-title}-%P-%n' (flags = 4)
+[   0.000][v][cplayer] Setting option 'gpu-shader-cache-dir' = '~~/cache/shaders_cache' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-format' = 'bestvideo*+bestaudio/best' (flags = 4)
+[   0.000][v][cplayer] Setting option 'profile' = 'ICC' (flags = 4)
+[   0.000][v][cplayer] Applying profile 'ICC'...
+[   0.000][v][cplayer] Setting option 'icc-profile' = '' (flags = 4)
+[   0.000][v][cplayer] Setting option 'icc-profile-auto' = '' (flags = 4)
+[   0.000][v][cplayer] Setting option 'icc-intent' = '0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'icc-force-contrast' = '1000' (flags = 4)
+[   0.000][v][cplayer] Setting option 'icc-3dlut-size' = 'auto' (flags = 4)
+[   0.000][v][cplayer] Setting option 'icc-cache-dir' = '~~/cache/icc_cache' (flags = 4)
+[   0.000][v][cplayer] Setting option 'profile' = 'Dither' (flags = 4)
+[   0.000][v][cplayer] Applying profile 'Dither'...
+[   0.000][v][cplayer] Setting option 'dither-depth' = 'auto' (flags = 4)
+[   0.000][v][cplayer] Setting option 'dither' = 'fruit' (flags = 4)
+[   0.000][v][cplayer] Setting option 'dither-size-fruit' = '6' (flags = 4)
+[   0.000][v][cplayer] Setting option 'profile' = 'Tscale' (flags = 4)
+[   0.000][v][cplayer] Applying profile 'Tscale'...
+[   0.000][v][cplayer] Setting option 'video-sync' = 'display-resample' (flags = 4)
+[   0.000][v][cplayer] Setting option 'interpolation' = '' (flags = 4)
+[   0.000][v][cplayer] Setting option 'tscale' = 'oversample' (flags = 4)
+[   0.000][v][cplayer] Setting option 'profile' = 'HQ' (flags = 4)
+[   0.000][v][cplayer] Applying profile 'HQ'...
+[   0.000][v][cplayer] Setting option 'scale' = 'ewa_lanczossharp' (flags = 4)
+[   0.000][v][cplayer] Setting option 'cscale' = 'bilinear' (flags = 4)
+[   0.000][v][cplayer] Setting option 'dscale' = 'catmull_rom' (flags = 4)
+[   0.000][v][cplayer] Setting option 'scale-antiring' = '0.5' (flags = 4)
+[   0.000][v][cplayer] Setting option 'dscale-antiring' = '0.5' (flags = 4)
+[   0.000][v][cplayer] Setting option 'linear-upscaling' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sigmoid-upscaling' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'correct-downscaling' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'linear-downscaling' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'deband' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'profile' = 'DeBand-low' (flags = 4)
+[   0.000][v][cplayer] Applying profile 'DeBand-low'...
+[   0.000][v][cplayer] Setting option 'deband-iterations' = '1' (flags = 4)
+[   0.000][v][cplayer] Setting option 'deband-threshold' = '48' (flags = 4)
+[   0.000][v][cplayer] Setting option 'deband-range' = '16' (flags = 4)
+[   0.000][v][cplayer] Setting option 'deband-grain' = '16' (flags = 4)
+[   0.000][v][cplayer] Setting option 'profile' = 'HDR2SDR' (flags = 4)
+[   0.000][v][cplayer] Applying profile 'HDR2SDR'...
+[   0.000][v][cplayer] Setting option 'tone-mapping' = 'auto' (flags = 4)
+[   0.000][v][cplayer] Setting option 'gamut-mapping-mode' = 'auto' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hdr-contrast-recovery' = '0.30' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hdr-compute-peak' = 'auto' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hdr-peak-percentile' = '99.995' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hdr-peak-decay-rate' = '100' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hdr-scene-threshold-low' = '5.5' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hdr-scene-threshold-high' = '10' (flags = 4)
+[   0.000][v][cplayer] Setting option 'allow-delayed-peak-detect' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'profile' = 'NNEDI3' (flags = 4)
+[   0.000][v][cplayer] Applying profile 'NNEDI3'...
+[   0.000][v][cplayer] Setting option 'glsl-shaders' = '~~/shaders/nnedi3/nnedi3-nns32-win8x4.glsl;~~/shaders/igv/adaptive-sharpen_luma.glsl' (flags = 4)
+[   0.000][v][cplayer] Setting option 'player-operation-mode' = 'pseudo-gui' (flags = 8)
+[   0.000][v][cplayer] Applying profile 'builtin-pseudo-gui'...
+[   0.000][v][cplayer] Setting option 'terminal' = 'no' (flags = 260)
+[   0.000][v][cplayer] Setting option 'force-window' = 'yes' (flags = 260)
+[   0.000][v][cplayer] Setting option 'screenshot-dir' = '~~desktop/' (flags = 260)
+[   0.000][v][cplayer] Applying profile 'pseudo-gui'...
+[   0.000][v][cplayer] Setting option 'player-operation-mode' = 'pseudo-gui' (flags = 4)
+[   0.000][d][global] config path: 'input.conf' -> 'C:\Users\darkxch\AppData\Roaming/mpv/input.conf'
+[   0.000][d][global] config path: 'input.conf' -/-> 'G:/mpv/input.conf'
+[   0.000][d][global] config path: 'input.conf' -/-> 'G:/mpv/mpv/input.conf'
+[   0.000][v][ifo_dvdnav] Opening C:\Users\darkxch\AppData\Roaming/mpv/input.conf
+[   0.000][v][bdmv/bluray] Opening C:\Users\darkxch\AppData\Roaming/mpv/input.conf
+[   0.000][v][file] Opening C:\Users\darkxch\AppData\Roaming/mpv/input.conf
+[   0.000][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.000][d][file] Stream opened successfully.
+[   0.000][v][input] Parsing input config file C:\Users\darkxch\AppData\Roaming/mpv/input.conf
+[   0.000][v][input] Input config file C:\Users\darkxch\AppData\Roaming/mpv/input.conf parsed: 11 binds
+[   0.000][d][global] config path: 'files/mpv.log' -> 'C:\Users\darkxch\AppData\Roaming/mpv/files/mpv.log'
+[   0.000][d][global] user path: '~~/files/mpv.log' -> 'C:\Users\darkxch\AppData\Roaming/mpv/files/mpv.log'
+[   0.007][v][cplayer] mpv v0.40.0-267-g2b74582fc Copyright © 2000-2025 mpv/MPlayer/mplayer2 projects
+[   0.007][v][cplayer]  built on Aug  8 2025 02:05:52
+[   0.007][v][cplayer] libplacebo version: v7.352.0 (v7.351.0-38-g8f86f7a-dirty)
+[   0.007][v][cplayer] FFmpeg version: N-120561-g7f150dc4b
+[   0.007][v][cplayer] FFmpeg library versions:
+[   0.007][v][cplayer]    libavcodec      62.9.100
+[   0.007][v][cplayer]    libavdevice     62.0.100
+[   0.007][v][cplayer]    libavfilter     11.3.100
+[   0.007][v][cplayer]    libavformat     62.1.103
+[   0.007][v][cplayer]    libavutil       60.7.100
+[   0.007][v][cplayer]    libswresample   6.0.100
+[   0.007][v][cplayer]    libswscale      9.0.100
+[   0.007][v][cplayer] Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Dgl=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/meson_cross.txt
+[   0.007][v][cplayer] List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan wasapi win32 win32-desktop win32-executable win32-smtc win32-threads zimg zimg-st428 zlib
+[   0.007][v][cplayer] Built with NDEBUG.
+[   0.007][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.007][d][stats] Loading lua script @stats.lua...
+[   0.007][d][console] Loading lua script @console.lua...
+[   0.007][d][auto_profiles] Loading lua script @auto_profiles.lua...
+[   0.007][d][select] Loading lua script @select.lua...
+[   0.007][d][positioning] Loading lua script @positioning.lua...
+[   0.007][d][commands] Loading lua script @commands.lua...
+[   0.007][v][clipboard] Initialized win32 clipboard backend.
+[   0.007][d][global] config path: 'scripts' -> 'C:\Users\darkxch\AppData\Roaming/mpv/scripts'
+[   0.007][d][global] config path: 'scripts' -/-> 'G:/mpv/scripts'
+[   0.007][d][global] config path: 'scripts' -/-> 'G:/mpv/mpv/scripts'
+[   0.007][d][console] loading mp.defaults
+[   0.007][d][commands] loading mp.defaults
+[   0.007][d][select] loading mp.defaults
+[   0.007][d][stats] loading mp.defaults
+[   0.007][d][ytdl_hook] loading mp.defaults
+[   0.007][d][auto_profiles] loading mp.defaults
+[   0.007][v][ipc] Starting IPC master
+[   0.007][d][positioning] loading mp.defaults
+[   0.008][d][console] loading @console.lua
+[   0.008][d][commands] loading @commands.lua
+[   0.008][d][select] loading @select.lua
+[   0.008][d][thumbfast] Loading lua script C:\Users\darkxch\AppData\Roaming/mpv/scripts/thumbfast.lua...
+[   0.008][d][stats] loading @stats.lua
+[   0.008][d][uosc] Loading lua script C:\Users\darkxch\AppData\Roaming/mpv/scripts/uosc/main.lua...
+[   0.008][d][auto_profiles] loading @auto_profiles.lua
+[   0.008][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.008][d][uosc_danmaku] Loading lua script C:\Users\darkxch\AppData\Roaming/mpv/scripts/uosc_danmaku/main.lua...
+[   0.008][d][positioning] loading @positioning.lua
+[   0.008][d][thumbfast] loading mp.defaults
+[   0.008][v][cplayer] Waiting for scripts...
+[   0.008][d][select] reading options for select
+[   0.008][d][uosc] loading mp.defaults
+[   0.008][d][uosc_danmaku] loading mp.defaults
+[   0.008][d][positioning] reading options for positioning
+[   0.008][v][ipc] Listening to IPC pipe.
+[   0.008][d][global] config path: 'script-opts/select.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/script-opts/select.conf'
+[   0.008][d][global] config path: 'script-opts/select.conf' -/-> 'G:/mpv/script-opts/select.conf'
+[   0.008][d][global] config path: 'script-opts/select.conf' -/-> 'G:/mpv/mpv/script-opts/select.conf'
+[   0.008][d][select] script-opts/select.conf not found.
+[   0.008][d][thumbfast] loading file C:\Users\darkxch\AppData\Roaming/mpv/scripts/thumbfast.lua
+[   0.008][d][commands] reading options for commands
+[   0.009][d][global] config path: 'script-opts/positioning.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/script-opts/positioning.conf'
+[   0.009][d][global] config path: 'lua-settings/select.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/lua-settings/select.conf'
+[   0.009][d][global] config path: 'script-opts/positioning.conf' -/-> 'G:/mpv/script-opts/positioning.conf'
+[   0.009][d][uosc_danmaku] loading file C:\Users\darkxch\AppData\Roaming/mpv/scripts/uosc_danmaku/main.lua
+[   0.009][d][global] config path: 'script-opts/positioning.conf' -/-> 'G:/mpv/mpv/script-opts/positioning.conf'
+[   0.009][d][console] reading options for console
+[   0.009][d][positioning] script-opts/positioning.conf not found.
+[   0.009][d][global] config path: 'script-opts/commands.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/script-opts/commands.conf'
+[   0.009][d][uosc] loading file C:\Users\darkxch\AppData\Roaming/mpv/scripts/uosc/main.lua
+[   0.009][d][global] config path: 'lua-settings/select.conf' -/-> 'G:/mpv/lua-settings/select.conf'
+[   0.009][d][global] config path: 'script-opts/commands.conf' -/-> 'G:/mpv/script-opts/commands.conf'
+[   0.009][d][ytdl_hook] reading options for ytdl_hook
+[   0.009][d][global] config path: 'script-opts/commands.conf' -/-> 'G:/mpv/mpv/script-opts/commands.conf'
+[   0.009][d][commands] script-opts/commands.conf not found.
+[   0.009][d][global] config path: 'lua-settings/select.conf' -/-> 'G:/mpv/mpv/lua-settings/select.conf'
+[   0.009][d][select] lua-settings/select.conf not found.
+[   0.009][d][stats] reading options for stats
+[   0.009][d][cplayer] Run command: define-section, flags=64, args=[name="input_select", contents="", flags="default"]
+[   0.009][d][cplayer] Run command: enable-section, flags=64, args=[name="input_select", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.009][d][global] config path: 'script-opts/console.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/script-opts/console.conf'
+[   0.009][d][global] config path: 'lua-settings/positioning.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/lua-settings/positioning.conf'
+[   0.009][d][cplayer] Run command: script-message, flags=64, args=[args="uosc_danmaku-version", args="2.0.0"]
+[   0.009][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_select", contents="", flags="force"]
+[   0.009][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/script-opts/ytdl_hook.conf'
+[   0.009][d][global] config path: 'script-opts/console.conf' -/-> 'G:/mpv/script-opts/console.conf'
+[   0.009][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_select", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.009][d][global] config path: 'lua-settings/positioning.conf' -/-> 'G:/mpv/lua-settings/positioning.conf'
+[   0.009][d][global] config path: 'script-opts/console.conf' -/-> 'G:/mpv/mpv/script-opts/console.conf'
+[   0.009][d][console] script-opts/console.conf not found.
+[   0.009][d][thumbfast] reading options for thumbfast
+[   0.009][d][global] config path: 'lua-settings/commands.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/lua-settings/commands.conf'
+[   0.009][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> 'G:/mpv/script-opts/ytdl_hook.conf'
+[   0.009][d][global] config path: 'lua-settings/positioning.conf' -/-> 'G:/mpv/mpv/lua-settings/positioning.conf'
+[   0.009][d][positioning] lua-settings/positioning.conf not found.
+[   0.009][v][auto_profiles] Re-evaluating auto profile media-title
+[   0.009][d][global] config path: 'script-opts/stats.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/script-opts/stats.conf'
+[   0.009][d][global] config path: 'lua-settings/commands.conf' -/-> 'G:/mpv/lua-settings/commands.conf'
+[   0.009][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> 'G:/mpv/mpv/script-opts/ytdl_hook.conf'
+[   0.009][d][ytdl_hook] script-opts/ytdl_hook.conf not found.
+[   0.009][v][auto_profiles] Profile condition error on evaluating: [string "profile media-title condition"]:1: attempt to index global 'path' (a nil value)
+[   0.009][d][global] config path: 'script-opts/stats.conf' -/-> 'G:/mpv/script-opts/stats.conf'
+[   0.009][v][auto_profiles] Re-evaluating auto profile end
+[   0.009][d][global] config path: 'lua-settings/commands.conf' -/-> 'G:/mpv/mpv/lua-settings/commands.conf'
+[   0.009][d][commands] lua-settings/commands.conf not found.
+[   0.009][d][cplayer] Run command: define-section, flags=64, args=[name="input_positioning", contents="", flags="default"]
+[   0.009][d][global] config path: 'script-opts/stats.conf' -/-> 'G:/mpv/mpv/script-opts/stats.conf'
+[   0.009][d][stats] script-opts/stats.conf not found.
+[   0.009][i][auto_profiles] Applying auto profile: end
+[   0.009][d][cplayer] Run command: enable-section, flags=64, args=[name="input_positioning", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.009][d][cplayer] Run command: apply-profile, flags=64, args=[name="end", mode="apply"]
+[   0.009][v][cplayer] Applying profile 'end'...
+[   0.009][v][cplayer] Setting option 'fullscreen' = 'no' (flags = 4)
+[   0.009][v][cplayer] Setting option 'window-maximized' = 'no' (flags = 4)
+[   0.009][v][auto_profiles] Re-evaluating auto profile minimized
+[   0.009][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_positioning", contents="", flags="force"]
+[   0.009][d][cplayer] Run command: define-section, flags=64, args=[name="input_commands", contents="", flags="default"]
+[   0.009][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_positioning", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.010][d][cplayer] Run command: enable-section, flags=64, args=[name="input_commands", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.010][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_commands", contents="", flags="force"]
+[   0.010][v][auto_profiles] Re-evaluating auto profile maximized
+[   0.010][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_commands", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.010][v][auto_profiles] Re-evaluating auto profile pause
+[   0.010][d][cplayer] Run command: script-message, flags=64, args=[args="uosc-version", args="5.10.0"]
+[   0.010][v][auto_profiles] Re-evaluating auto profile pgs-fix
+[   0.010][v][cplayer] Set property: osc="no" -> 1
+[   0.010][v][auto_profiles] Profile condition error on evaluating: [string "profile pgs-fix condition"]:1: attempt to compare number with nil
+[   0.010][v][auto_profiles] Re-evaluating auto profile 8k-fix
+[   0.010][v][auto_profiles] Profile condition error on evaluating: [string "profile 8k-fix condition"]:1: attempt to compare number with nil
+[   0.010][v][auto_profiles] Re-evaluating auto profile fps-fix
+[   0.010][v][auto_profiles] Profile condition error on evaluating: [string "profile fps-fix condition"]:1: attempt to compare number with nil
+[   0.010][v][auto_profiles] Re-evaluating auto profile video-sync
+[   0.010][d][global] config path: 'lua-settings/console.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/lua-settings/console.conf'
+[   0.010][v][auto_profiles] Re-evaluating auto profile SDR-Gamut
+[   0.010][d][global] config path: 'lua-settings/console.conf' -/-> 'G:/mpv/lua-settings/console.conf'
+[   0.010][d][global] config path: 'lua-settings/console.conf' -/-> 'G:/mpv/mpv/lua-settings/console.conf'
+[   0.010][d][console] lua-settings/console.conf not found.
+[   0.010][v][auto_profiles] Re-evaluating auto profile HDR-PASS
+[   0.010][v][auto_profiles] Profile condition error on evaluating: [string "profile HDR-PASS condition"]:1: attempt to compare number with nil
+[   0.010][v][auto_profiles] Re-evaluating auto profile HDR
+[   0.010][v][auto_profiles] Profile condition error on evaluating: [string "profile HDR condition"]:1: attempt to compare number with nil
+[   0.010][v][auto_profiles] Re-evaluating auto profile SDR-target
+[   0.010][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/lua-settings/ytdl_hook.conf'
+[   0.010][d][global] config path: 'lua-settings/stats.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/lua-settings/stats.conf'
+[   0.010][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> 'G:/mpv/lua-settings/ytdl_hook.conf'
+[   0.010][d][global] config path: 'lua-settings/stats.conf' -/-> 'G:/mpv/lua-settings/stats.conf'
+[   0.010][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> 'G:/mpv/mpv/lua-settings/ytdl_hook.conf'
+[   0.010][d][ytdl_hook] lua-settings/ytdl_hook.conf not found.
+[   0.010][d][global] config path: 'lua-settings/stats.conf' -/-> 'G:/mpv/mpv/lua-settings/stats.conf'
+[   0.010][d][global] config path: 'script-opts/thumbfast.conf' -> 'C:\Users\darkxch\AppData\Roaming/mpv/script-opts/thumbfast.conf'
+[   0.010][d][stats] lua-settings/stats.conf not found.
+[   0.010][v][thumbfast] Opened config file script-opts/thumbfast.conf.
+[   0.010][d][uosc] reading options for uosc
+[   0.010][v][auto_profiles] Re-evaluating auto profile peak-percentile
+[   0.010][v][auto_profiles] Profile condition error on evaluating: [string "profile peak-percentile condition"]:1: attempt to compare nil with number
+[   0.010][v][auto_profiles] Re-evaluating auto profile hdr-2390
+[   0.010][d][global] config path: 'script-opts/uosc.conf' -> 'C:\Users\darkxch\AppData\Roaming/mpv/script-opts/uosc.conf'
+[   0.010][v][uosc] Opened config file script-opts/uosc.conf.
+[   0.010][v][auto_profiles] Re-evaluating auto profile Deband
+[   0.011][d][uosc_danmaku] reading options for uosc_danmaku
+[   0.011][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="", flags="default"]
+[   0.011][d][global] config path: 'script-opts/uosc_danmaku.conf' -> 'C:\Users\darkxch\AppData\Roaming/mpv/script-opts/uosc_danmaku.conf'
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile Deband condition"]:1: attempt to compare nil with number
+[   0.011][v][auto_profiles] Re-evaluating auto profile SD
+[   0.011][v][uosc_danmaku] Opened config file script-opts/uosc_danmaku.conf.
+[   0.011][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.011][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile SD condition"]:1: attempt to compare number with nil
+[   0.011][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.011][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.011][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.011][v][auto_profiles] Re-evaluating auto profile media-title
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile media-title condition"]:1: attempt to index global 'path' (a nil value)
+[   0.011][v][auto_profiles] Re-evaluating auto profile end
+[   0.011][v][auto_profiles] Re-evaluating auto profile minimized
+[   0.011][v][auto_profiles] Re-evaluating auto profile maximized
+[   0.011][v][auto_profiles] Re-evaluating auto profile pause
+[   0.011][v][auto_profiles] Re-evaluating auto profile pgs-fix
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile pgs-fix condition"]:1: attempt to compare number with nil
+[   0.011][v][auto_profiles] Re-evaluating auto profile 8k-fix
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile 8k-fix condition"]:1: attempt to compare number with nil
+[   0.011][v][auto_profiles] Re-evaluating auto profile fps-fix
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile fps-fix condition"]:1: attempt to compare number with nil
+[   0.011][v][auto_profiles] Re-evaluating auto profile video-sync
+[   0.011][v][auto_profiles] Re-evaluating auto profile SDR-Gamut
+[   0.011][v][auto_profiles] Re-evaluating auto profile HDR-PASS
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile HDR-PASS condition"]:1: attempt to compare number with nil
+[   0.011][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.011][v][auto_profiles] Re-evaluating auto profile HDR
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile HDR condition"]:1: attempt to compare number with nil
+[   0.011][v][auto_profiles] Re-evaluating auto profile SDR-target
+[   0.011][v][auto_profiles] Re-evaluating auto profile peak-percentile
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile peak-percentile condition"]:1: attempt to compare nil with number
+[   0.011][v][auto_profiles] Re-evaluating auto profile hdr-2390
+[   0.011][v][auto_profiles] Re-evaluating auto profile Deband
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile Deband condition"]:1: attempt to compare nil with number
+[   0.011][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.011][v][auto_profiles] Re-evaluating auto profile SD
+[   0.011][v][auto_profiles] Profile condition error on evaluating: [string "profile SD condition"]:1: attempt to compare number with nil
+[   0.013][d][cplayer] Run command: define-section, flags=64, args=[name="mbtn_left", contents="mbtn_left script-binding uosc/__keybinding1\nalt+mbtn_left script-binding uosc/__keybinding2\nalt+ctrl+mbtn_left script-binding uosc/__keybinding3\nalt+shift+mbtn_left script-binding uosc/__keybinding4\nalt+ctrl+shift+mbtn_left script-binding uosc/__keybinding5\nctrl+mbtn_left script-binding uosc/__keybinding6\nctrl+shift+mbtn_left script-binding uosc/__keybinding7\nshift+mbtn_left script-binding uosc/__keybinding8\n", flags="force"]
+[   0.013][d][cplayer] Run command: define-section, flags=64, args=[name="mbtn_left_dbl", contents="mbtn_left_dbl ignore\n", flags="force"]
+[   0.013][d][cplayer] Run command: define-section, flags=64, args=[name="mbtn_right", contents="mbtn_right script-binding uosc/__keybinding9\n", flags="force"]
+[   0.013][d][cplayer] Run command: define-section, flags=64, args=[name="wheel", contents="wheel_up script-binding uosc/__keybinding10\nwheel_down script-binding uosc/__keybinding11\n", flags="force"]
+[   0.015][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="set-button", args="danmaku", args="{\"tooltip\":\"弹幕搜索\",\"command\":\"script-message open_search_danmaku_menu\",\"icon\":\"search\"}"]
+[   0.015][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="set-button", args="danmaku_source", args="{\"tooltip\":\"从源添加弹幕\",\"command\":\"script-message open_add_source_menu\",\"icon\":\"add_box\"}"]
+[   0.015][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="set-button", args="danmaku_styles", args="{\"tooltip\":\"弹幕样式\",\"command\":\"script-message open_setup_danmaku_menu\",\"icon\":\"palette\"}"]
+[   0.015][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="set-button", args="danmaku_delay", args="{\"tooltip\":\"弹幕源延迟设置\",\"command\":\"script-message open_source_delay_menu\",\"icon\":\"more_time\"}"]
+[   0.015][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="set-button", args="danmaku_menu", args="{\"tooltip\":\"弹幕设置\",\"command\":\"script-message open_add_total_menu\",\"icon\":\"grid_view\"}"]
+[   0.015][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="set", args="show_danmaku", args="off"]
+[   0.016][d][global] config path: 'danmaku-history.json' -> 'C:\Users\darkxch\AppData\Roaming/mpv/danmaku-history.json'
+[   0.016][d][global] user path: '~~/danmaku-history.json' -> 'C:\Users\darkxch\AppData\Roaming/mpv/danmaku-history.json'
+[   0.016][v][cplayer] Set property: user-data/uosc_danmaku/danmaku-delay=0 -> 1
+[   0.016][d][cplayer] Run command: define-section, flags=64, args=[name="input_uosc_danmaku", contents="Ctrl+d nonscalable script-binding uosc_danmaku/open_search_danmaku_menu\nj nonscalable script-binding uosc_danmaku/show_danmaku_keyboard\n", flags="default"]
+[   0.016][d][cplayer] Run command: enable-section, flags=64, args=[name="input_uosc_danmaku", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.016][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_uosc_danmaku", contents="", flags="force"]
+[   0.016][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_uosc_danmaku", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.020][v][cplayer] Done loading scripts.
+[   0.020][v][vo/gpu-next] Probing for best GPU context.
+[   0.020][v][vo/gpu-next/d3d11] Initializing GPU context 'd3d11'
+[   0.145][v][vo/gpu-next/d3d11] Using Direct3D 11 feature level 12_1
+[   0.145][v][vo/gpu-next/d3d11] Device Name: NVIDIA GeForce RTX 4070 Ti
+[   0.145][v][vo/gpu-next/d3d11] Device ID: 10de:2782 (rev a1)
+[   0.145][v][vo/gpu-next/d3d11] Subsystem ID: 10de:16e1
+[   0.145][v][vo/gpu-next/d3d11] LUID: 0000000000010c1d
+[   0.145][v][vo/gpu-next/d3d11] Initializing SPIR-V compiler 'shaderc'
+[   0.145][v][vo/gpu-next/d3d11] Using Direct3D 11.1 runtime
+[   0.145][v][vo/gpu-next/d3d11] Maximum Texture2D size: 16384x16384
+[   0.146][v][vo/gpu-next/d3d11] D3DCompiler version: 10.0.26100.5742
+[   0.152][v][vo/gpu-next/win32] DPI detected from the new API: 96
+[   0.152][v][vo/gpu-next/win32] display-fps: 170.003000
+[   0.153][v][vo/gpu-next/win32] color-profile: C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm
+[   0.153][v][vo/gpu-next/win32] resize window: 120:60
+[   0.159][v][vo/gpu-next/d3d11] Using DXGI 1.2+
+[   0.159][v][vo/gpu-next/d3d11] Queried output: \\.\DISPLAY1, 2560x1440 @ 8 bits, colorspace: RGB_FULL_G22_NONE_P709 (0)
+[   0.159][v][vo/gpu-next/d3d11] Selected swapchain format R8G8B8A8_UNORM (28), attempting to utilize it.
+[   0.161][v][vo/gpu-next/d3d11] Selected swapchain color space RGB_FULL_G22_NONE_P709 (0), attempting to utilize it.
+[   0.161][v][vo/gpu-next/d3d11] Swapchain capabilities for color space RGB_FULL_G22_NONE_P709 (0): normal: yes, overlay: yes
+[   0.161][v][vo/gpu-next/d3d11] Swapchain successfully configured to color space RGB_FULL_G22_NONE_P709 (0)!
+[   0.161][v][vo/gpu-next/d3d11] Using flip-model presentation
+[   0.161][v][vo/gpu-next/libplacebo] Initialized libplacebo v7.352.0 (v7.351.0-38-g8f86f7a-dirty) (API v352)
+[   0.161][v][vo/gpu-next/libplacebo] Using DXGI 1.2+
+[   0.161][v][vo/gpu-next/libplacebo] Using Direct3D 11 feature level 12_1
+[   0.161][v][vo/gpu-next/libplacebo] Direct3D 11 device properties:
+[   0.161][v][vo/gpu-next/libplacebo]     Device Name: NVIDIA GeForce RTX 4070 Ti
+[   0.161][v][vo/gpu-next/libplacebo]     Device ID: 10de:2782 (rev a1)
+[   0.161][v][vo/gpu-next/libplacebo]     Subsystem ID: 10de:16e1
+[   0.161][v][vo/gpu-next/libplacebo]     LUID: 0000000000010c1d
+[   0.161][v][vo/gpu-next/libplacebo]     Driver version: 32.0.15.8088
+[   0.161][v][vo/gpu-next/libplacebo] shaderc SPIR-V version 1.6 rev 1
+[   0.161][v][vo/gpu-next/libplacebo] Initialized SPIR-V compiler 'shaderc'
+[   0.161][v][vo/gpu-next/libplacebo] Using Direct3D 11.4 runtime
+[   0.161][v][vo/gpu-next/libplacebo] D3DCompiler version: 10.0.26100.5742
+[   0.161][v][vo/gpu-next/libplacebo] GPU information:
+[   0.161][v][vo/gpu-next/libplacebo]     GLSL version: 450 (vulkan)
+[   0.161][v][vo/gpu-next/libplacebo]       max_shmem_size:            32768
+[   0.161][v][vo/gpu-next/libplacebo]       max_group_threads:         1024
+[   0.161][v][vo/gpu-next/libplacebo]       max_group_size[0]:         1024
+[   0.161][v][vo/gpu-next/libplacebo]       max_group_size[1]:         1024
+[   0.161][v][vo/gpu-next/libplacebo]       max_group_size[2]:         64
+[   0.161][v][vo/gpu-next/libplacebo]       subgroup_size:             0
+[   0.161][v][vo/gpu-next/libplacebo]       min_gather_offset:         -32
+[   0.161][v][vo/gpu-next/libplacebo]       max_gather_offset:         31
+[   0.161][v][vo/gpu-next/libplacebo]     Limits:
+[   0.161][v][vo/gpu-next/libplacebo]       thread_safe:               0
+[   0.161][v][vo/gpu-next/libplacebo]       callbacks:                 0
+[   0.161][v][vo/gpu-next/libplacebo]       max_buf_size:              2147483648
+[   0.161][v][vo/gpu-next/libplacebo]       max_ubo_size:              65536
+[   0.161][v][vo/gpu-next/libplacebo]       max_ssbo_size:             2147483648
+[   0.161][v][vo/gpu-next/libplacebo]       max_vbo_size:              2147483648
+[   0.161][v][vo/gpu-next/libplacebo]       max_mapped_size:           0
+[   0.161][v][vo/gpu-next/libplacebo]       max_buffer_texels:         134217728
+[   0.161][v][vo/gpu-next/libplacebo]       align_host_ptr:            0
+[   0.161][v][vo/gpu-next/libplacebo]       host_cached:               0
+[   0.161][v][vo/gpu-next/libplacebo]       max_tex_1d_dim:            16384
+[   0.161][v][vo/gpu-next/libplacebo]       max_tex_2d_dim:            16384
+[   0.161][v][vo/gpu-next/libplacebo]       max_tex_3d_dim:            2048
+[   0.161][v][vo/gpu-next/libplacebo]       blittable_1d_3d:           1
+[   0.161][v][vo/gpu-next/libplacebo]       buf_transfer:              0
+[   0.161][v][vo/gpu-next/libplacebo]       align_tex_xfer_pitch:      1
+[   0.161][v][vo/gpu-next/libplacebo]       align_tex_xfer_offset:     32
+[   0.161][v][vo/gpu-next/libplacebo]       max_variable_comps:        0
+[   0.161][v][vo/gpu-next/libplacebo]       max_constants:             0
+[   0.161][v][vo/gpu-next/libplacebo]       max_pushc_size:            0
+[   0.161][v][vo/gpu-next/libplacebo]       align_vertex_stride:       1
+[   0.161][v][vo/gpu-next/libplacebo]       max_dispatch[0]:           65535
+[   0.161][v][vo/gpu-next/libplacebo]       max_dispatch[1]:           65535
+[   0.161][v][vo/gpu-next/libplacebo]       max_dispatch[2]:           65535
+[   0.161][v][vo/gpu-next/libplacebo]       fragment_queues:           1
+[   0.161][v][vo/gpu-next/libplacebo]       compute_queues:            1
+[   0.161][d][vo/gpu-next/libplacebo] GPU texture formats:
+[   0.161][d][vo/gpu-next/libplacebo]     NAME                 TYPE   SIZE COMP CAPS         EMU DEPTH         HOST_BITS     GLSL_TYPE  GLSL_FMT   FOURCC
+[   0.161][d][vo/gpu-next/libplacebo]     r8                   UNORM  1    R    SsLRbBVutHWG n   {8  0  0  0 } {8  0  0  0 } float      r8         R8    
+[   0.161][d][vo/gpu-next/libplacebo]     r8s                  SNORM  1    R    SsLRbBVutHWG n   {8  0  0  0 } {8  0  0  0 } float      r8_snorm         
+[   0.161][d][vo/gpu-next/libplacebo]     rg8                  UNORM  2    RG   SsLRbBVutHWG n   {8  8  0  0 } {8  8  0  0 } vec2       rg8        GR88  
+[   0.161][d][vo/gpu-next/libplacebo]     rg8s                 SNORM  2    RG   SsLRbBVutHWG n   {8  8  0  0 } {8  8  0  0 } vec2       rg8_snorm        
+[   0.161][d][vo/gpu-next/libplacebo]     rgba8                UNORM  4    RGBA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8      AB24  
+[   0.161][d][vo/gpu-next/libplacebo]     rgba8s               SNORM  4    RGBA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8_snorm       
+[   0.161][d][vo/gpu-next/libplacebo]     bgra8                UNORM  4    BGRA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8      AR24  
+[   0.161][d][vo/gpu-next/libplacebo]     rgb10a2              UNORM  4    RGBA SsLRbBVutHWG n   {10 10 10 2 } {10 10 10 2 } vec4       rgb10_a2   AB30  
+[   0.161][d][vo/gpu-next/libplacebo]     rg11b10f             FLOAT  4    RGB  SsLRbBVutHWG n   {11 11 10 0 } {11 11 10 0 } vec3       r11f_g11f_b10f       
+[   0.161][d][vo/gpu-next/libplacebo]     r16                  UNORM  2    R    SsLRbBVutHWG n   {16 0  0  0 } {16 0  0  0 } float      r16        R16   
+[   0.161][d][vo/gpu-next/libplacebo]     r16hf                FLOAT  2    R    SsLRbBVutHWG n   {16 0  0  0 } {16 0  0  0 } float      r16f             
+[   0.161][d][vo/gpu-next/libplacebo]     r16s                 SNORM  2    R    SsLRbBVutHWG n   {16 0  0  0 } {16 0  0  0 } float      r16_snorm        
+[   0.161][d][vo/gpu-next/libplacebo]     rg16                 UNORM  4    RG   SsLRbBVutHWG n   {16 16 0  0 } {16 16 0  0 } vec2       rg16       GR32  
+[   0.161][d][vo/gpu-next/libplacebo]     rg16hf               FLOAT  4    RG   SsLRbBVutHWG n   {16 16 0  0 } {16 16 0  0 } vec2       rg16f            
+[   0.161][d][vo/gpu-next/libplacebo]     rg16s                SNORM  4    RG   SsLRbBVutHWG n   {16 16 0  0 } {16 16 0  0 } vec2       rg16_snorm       
+[   0.161][d][vo/gpu-next/libplacebo]     rgba16               UNORM  8    RGBA SsLRbBVutHWG n   {16 16 16 16} {16 16 16 16} vec4       rgba16     AB48  
+[   0.161][d][vo/gpu-next/libplacebo]     rgba16hf             FLOAT  8    RGBA SsLRbBVutHWG n   {16 16 16 16} {16 16 16 16} vec4       rgba16f    AB4H  
+[   0.161][d][vo/gpu-next/libplacebo]     rgba16s              SNORM  8    RGBA SsLRbBVutHWG n   {16 16 16 16} {16 16 16 16} vec4       rgba16_snorm       
+[   0.161][d][vo/gpu-next/libplacebo]     r32f                 FLOAT  4    R    SsLRbBVutHWG n   {32 0  0  0 } {32 0  0  0 } float      r32f             
+[   0.161][d][vo/gpu-next/libplacebo]     rg32f                FLOAT  8    RG   SsLRbBVutHWG n   {32 32 0  0 } {32 32 0  0 } vec2       rg32f            
+[   0.161][d][vo/gpu-next/libplacebo]     rgba32f              FLOAT  16   RGBA SsLRbBVutHWG n   {32 32 32 32} {32 32 32 32} vec4       rgba32f          
+[   0.161][d][vo/gpu-next/libplacebo]     bgr5a1               UNORM  2    BGRA S-LRb----H-G n   {5  5  5  1 } {5  5  5  1 }                       AR15  
+[   0.161][d][vo/gpu-next/libplacebo]     bgr565               UNORM  2    BGR  S-LRb----H-G n   {5  6  5  0 } {5  6  5  0 }                       RG16  
+[   0.161][d][vo/gpu-next/libplacebo]     bgrx8                UNORM  4    BGR  S-LRb-Vu-H-G n   {8  8  8  0 } {8  8  8  0 } vec3                        
+[   0.161][d][vo/gpu-next/libplacebo]     r8i                  SINT   1    R    -s-R-BVutHW- n   {8  0  0  0 } {8  0  0  0 } int        r8i              
+[   0.161][d][vo/gpu-next/libplacebo]     r8u                  UINT   1    R    -s-R-BVutHW- n   {8  0  0  0 } {8  0  0  0 } uint       r8ui             
+[   0.161][d][vo/gpu-next/libplacebo]     rg8i                 SINT   2    RG   -s-R-BVutHW- n   {8  8  0  0 } {8  8  0  0 } ivec2      rg8i             
+[   0.161][d][vo/gpu-next/libplacebo]     rg8u                 UINT   2    RG   -s-R-BVutHW- n   {8  8  0  0 } {8  8  0  0 } uvec2      rg8ui            
+[   0.161][d][vo/gpu-next/libplacebo]     rgba8i               SINT   4    RGBA -s-R-BVutHW- n   {8  8  8  8 } {8  8  8  8 } ivec4      rgba8i           
+[   0.161][d][vo/gpu-next/libplacebo]     rgba8u               UINT   4    RGBA -s-R-BVutHW- n   {8  8  8  8 } {8  8  8  8 } uvec4      rgba8ui          
+[   0.161][d][vo/gpu-next/libplacebo]     rgb10a2u             UINT   4    RGBA -s-R-BVutHW- n   {10 10 10 2 } {10 10 10 2 } uvec4      rgb10_a2ui       
+[   0.161][d][vo/gpu-next/libplacebo]     r16i                 SINT   2    R    -s-R-BVutHW- n   {16 0  0  0 } {16 0  0  0 } int        r16i             
+[   0.161][d][vo/gpu-next/libplacebo]     r16u                 UINT   2    R    -s-R-BVutHW- n   {16 0  0  0 } {16 0  0  0 } uint       r16ui            
+[   0.161][d][vo/gpu-next/libplacebo]     rg16i                SINT   4    RG   -s-R-BVutHW- n   {16 16 0  0 } {16 16 0  0 } ivec2      rg16i            
+[   0.161][d][vo/gpu-next/libplacebo]     rg16u                UINT   4    RG   -s-R-BVutHW- n   {16 16 0  0 } {16 16 0  0 } uvec2      rg16ui           
+[   0.161][d][vo/gpu-next/libplacebo]     rgba16i              SINT   8    RGBA -s-R-BVutHW- n   {16 16 16 16} {16 16 16 16} ivec4      rgba16i          
+[   0.161][d][vo/gpu-next/libplacebo]     rgba16u              UINT   8    RGBA -s-R-BVutHW- n   {16 16 16 16} {16 16 16 16} uvec4      rgba16ui         
+[   0.161][d][vo/gpu-next/libplacebo]     r32i                 SINT   4    R    -s-R-BVutHW- n   {32 0  0  0 } {32 0  0  0 } int        r32i             
+[   0.161][d][vo/gpu-next/libplacebo]     r32u                 UINT   4    R    -s-R-BVutHW- n   {32 0  0  0 } {32 0  0  0 } uint       r32ui            
+[   0.161][d][vo/gpu-next/libplacebo]     rg32i                SINT   8    RG   -s-R-BVutHW- n   {32 32 0  0 } {32 32 0  0 } ivec2      rg32i            
+[   0.161][d][vo/gpu-next/libplacebo]     rg32u                UINT   8    RG   -s-R-BVutHW- n   {32 32 0  0 } {32 32 0  0 } uvec2      rg32ui           
+[   0.161][d][vo/gpu-next/libplacebo]     rgba32i              SINT   16   RGBA -s-R-BVutHW- n   {32 32 32 32} {32 32 32 32} ivec4      rgba32i          
+[   0.161][d][vo/gpu-next/libplacebo]     rgba32u              UINT   16   RGBA -s-R-BVutHW- n   {32 32 32 32} {32 32 32 32} uvec4      rgba32ui         
+[   0.161][d][vo/gpu-next/libplacebo]     bgra4                UNORM  2    BGRA S-L------H-G n   {4  4  4  4 } {4  4  4  4 }                       AR12  
+[   0.161][d][vo/gpu-next/libplacebo]     rgb32f               FLOAT  12   RGB  S-----Vu-H-- n   {32 32 32 0 } {32 32 32 0 } vec3                        
+[   0.162][d][vo/gpu-next/libplacebo]     rgb32i               SINT   12   RGB  ------Vu-H-- n   {32 32 32 0 } {32 32 32 0 } ivec3                       
+[   0.162][d][vo/gpu-next/libplacebo]     rgb32u               UINT   12   RGB  ------Vu-H-- n   {32 32 32 0 } {32 32 32 0 } uvec3                       
+[   0.162][d][vo/gpu-next/libplacebo]     rgb8                 UNORM  3    RGB  SsLRbBVutHWG y   {8  8  8  0 } {8  8  8  0 } vec3                  BG24  
+[   0.162][d][vo/gpu-next/libplacebo]     rgb16                UNORM  6    RGB  SsLRbBVutHWG y   {16 16 16 0 } {16 16 16 0 } vec3                        
+[   0.162][d][vo/gpu-next/libplacebo]     rgb16hf              FLOAT  6    RGB  SsLRbBVutHWG y   {16 16 16 0 } {16 16 16 0 } vec3                        
+[   0.162][d][vo/gpu-next/libplacebo]     r16f                 FLOAT  4    R    SsLRbBVutHWG y   {16 0  0  0 } {32 0  0  0 } float      r16f             
+[   0.162][d][vo/gpu-next/libplacebo]     rg16f                FLOAT  8    RG   SsLRbBVutHWG y   {16 16 0  0 } {32 32 0  0 } vec2       rg16f            
+[   0.162][d][vo/gpu-next/libplacebo]     rgb16f               FLOAT  12   RGB  SsLRbBVutHWG y   {16 16 16 0 } {32 32 32 0 } vec3                        
+[   0.162][d][vo/gpu-next/libplacebo]     rgba16f              FLOAT  16   RGBA SsLRbBVutHWG y   {16 16 16 16} {32 32 32 32} vec4       rgba16f          
+[   0.162][v][vo/gpu-next/libplacebo] Using flip-model presentation
+[   0.162][v][vo/gpu-next/libplacebo] Initial swap chain configuration: format: R10G10B10A2_UNORM, color space: RGB_FULL_G22_NONE_P709.
+[   0.162][d][global] config path: 'cache/shaders_cache' -> 'C:\Users\darkxch\AppData\Roaming/mpv/cache/shaders_cache'
+[   0.162][d][global] user path: '~~/cache/shaders_cache' -> 'C:\Users\darkxch\AppData\Roaming/mpv/cache/shaders_cache'
+[   0.162][d][global] config path: 'cache/icc_cache' -> 'C:\Users\darkxch\AppData\Roaming/mpv/cache/icc_cache'
+[   0.162][d][global] user path: '~~/cache/icc_cache' -> 'C:\Users\darkxch\AppData\Roaming/mpv/cache/icc_cache'
+[   0.162][d][global] config path: 'shaders/nnedi3/nnedi3-nns32-win8x4.glsl' -> 'C:\Users\darkxch\AppData\Roaming/mpv/shaders/nnedi3/nnedi3-nns32-win8x4.glsl'
+[   0.162][d][global] user path: '~~/shaders/nnedi3/nnedi3-nns32-win8x4.glsl' -> 'C:\Users\darkxch\AppData\Roaming/mpv/shaders/nnedi3/nnedi3-nns32-win8x4.glsl'
+[   0.162][v][vo/gpu-next/libplacebo] Registering hook pass: NNEDI3 (double_y, nns32, win8x4)
+[   0.162][v][vo/gpu-next/libplacebo] Registering hook pass: NNEDI3 (combine_y, nns32, win8x4)
+[   0.162][v][vo/gpu-next/libplacebo] Registering hook pass: NNEDI3 (double_x, nns32, win8x4)
+[   0.162][v][vo/gpu-next/libplacebo] Registering hook pass: NNEDI3 (combine_x, nns32, win8x4)
+[   0.162][d][vo/gpu-next/libplacebo] Loaded user shader:
+[   0.162][d][vo/gpu-next/libplacebo] [  1] // 
+[   0.162][d][vo/gpu-next/libplacebo] [  2] // This program is free software: you can redistribute it and/or modify
+[   0.162][d][vo/gpu-next/libplacebo] [  3] // it under the terms of the GNU Lesser General Public License as published by
+[   0.162][d][vo/gpu-next/libplacebo] [  4] // the Free Software Foundation, either version 3 of the License, or
+[   0.162][d][vo/gpu-next/libplacebo] [  5] // (at your option) any later version.
+[   0.162][d][vo/gpu-next/libplacebo] [  6] // 
+[   0.162][d][vo/gpu-next/libplacebo] [  7] // This program is distributed in the hope that it will be useful,
+[   0.162][d][vo/gpu-next/libplacebo] [  8] // but WITHOUT ANY WARRANTY; without even the implied warranty of
+[   0.162][d][vo/gpu-next/libplacebo] [  9] // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+[   0.162][d][vo/gpu-next/libplacebo] [ 10] // GNU Lesser General Public License for more details.
+[   0.162][d][vo/gpu-next/libplacebo] [ 11] // 
+[   0.162][d][vo/gpu-next/libplacebo] [ 12] // You should have received a copy of the GNU Lesser General Public License
+[   0.162][d][vo/gpu-next/libplacebo] [ 13] // along with this program.  If not, see <http://www.gnu.org/licenses/>.
+[   0.162][d][vo/gpu-next/libplacebo] [ 14] 
+[   0.162][d][vo/gpu-next/libplacebo] [ 15] //!DESC NNEDI3 (double_y, nns32, win8x4)
+[   0.162][d][vo/gpu-next/libplacebo] [ 16] //!HOOK LUMA
+[   0.162][d][vo/gpu-next/libplacebo] [ 17] //!BIND HOOKED
+[   0.162][d][vo/gpu-next/libplacebo] [ 18] //!SAVE nnedi3_int
+[   0.162][d][vo/gpu-next/libplacebo] [ 19] //!WHEN HOOKED.h OUTPUT.h / 0.833333 <
+[   0.162][d][vo/gpu-next/libplacebo] [ 20] float nnedi3(vec4 samples[8]) {
+[   0.162][d][vo/gpu-next/libplacebo] [ 21] float sum = 0.0, sumsq = 0.0;
+[   0.162][d][vo/gpu-next/libplacebo] [ 22] for (int i = 0; i < 8; i++) {
+[   0.162][d][vo/gpu-next/libplacebo] [ 23]     sum += dot(samples[i], vec4(1.0));
+[   0.162][d][vo/gpu-next/libplacebo] [ 24]     sumsq += dot(samples[i], samples[i]);
+[   0.162][d][vo/gpu-next/libplacebo] [ 25] }
+[   0.162][d][vo/gpu-next/libplacebo] [ 26] float mstd0 = sum / 32.0;
+[   0.162][d][vo/gpu-next/libplacebo] [ 27] float mstd1 = sumsq / 32.0 - mstd0 * mstd0;
+[   0.162][d][vo/gpu-next/libplacebo] [ 28] float mstd2 = mix(0.0, inversesqrt(mstd1), mstd1 >= 1.192092896e-7);
+[   0.162][d][vo/gpu-next/libplacebo] [ 29] mstd1 *= mstd2;
+[   0.162][d][vo/gpu-next/libplacebo] [ 30] float vsum = 0.0, wsum = 0.0, sum1, sum2;
+[   0.162][d][vo/gpu-next/libplacebo] [ 31] #define T(x) intBitsToFloat(x)
+[   0.162][d][vo/gpu-next/libplacebo] [ 32] #define W(i,w0,w1,w2,w3) dot(samples[i],vec4(T(w0),T(w1),T(w2),T(w3)))
+[   0.162][d][vo/gpu-next/libplacebo] [ 33] #define WS(w0,w1) sum1 = exp(sum1 * mstd2 + T(w0)); sum2 = sum2 * mstd2 + T(w1); wsum += sum1; vsum += sum1*(sum2/(1.0+abs(sum2)));
+[   0.162][d][vo/gpu-next/libplacebo] [ 34] sum1=W(0,-1091571194,-1095740683,1039469975,1036208225)+W(1,1032174663,1026075554,1028885330,1048590727)+W(2,-1097328754,1025116802,1039536921,1027560868)+W(3,1023201972,1042058704,1017576356,1039928979)+W(4,1043923973,1049700439,1035622988,-1144450173)+W(5,1033278580,1046104373,-1090255529,-1098962113)+W(6,1024545936,1047463785,1029776426,1024461970)+W(7,1035224848,1043393326,-1090407950,-1100301043);sum2=W(0,1055965966,-1101782718,-1166389754,-1098253927)+W(1,-1096709168,-1105895383,983512221,1006679350)+W(2,1045236553,-1132225959,1034460863,-1106582410)+W(3,1040768379,1030302550,-1090237017,-1097283179)+W(4,1057568628,1055278331,-1113669665,1027738130)+W(5,-1111760224,1033275358,-1133967067,1036184228)+W(6,-1127810369,-1108092808,-1129223232,1016925525)+W(7,-1104949250,1045297871,1009711002,1022264595);WS(-1080723616,-1076327864);
+[   0.162][d][vo/gpu-next/libplacebo] [ 35] sum1=W(0,-1106293281,1024505865,-1140602116,1017315691)+W(1,-1113397025,1022464939,-1129176587,1041272315)+W(2,-1101486193,1027220277,-1107192473,1037257964)+W(3,1024865293,1043879330,-1098639185,1040932726)+W(4,1032001763,-1106692027,1022805527,1022003974)+W(5,-1118929755,-1123579783,1038889695,1032224091)+W(6,1020788295,-1109388172,1014959990,1021604747)+W(7,-1117432531,998707020,1036681163,1019749115);sum2=W(0,-1127131649,1016927815,-1140061902,1015755803)+W(1,1033341381,1024947773,-1129880851,-1137718334)+W(2,-1112279061,-1095938931,1032555441,-1129835189)+W(3,1058036499,1079454606,-1069364926,-1089663810)+W(4,-1116204914,1009679614,-1123339814,-1138877514)+W(5,1053318688,1022404175,-1148409052,-1092530653)+W(6,-1153656135,-1146249364,-1165772366,1016646759)+W(7,1028043253,1025789685,1018619187,-1122312216);WS(1058954560,1004956589);
+[   0.162][d][vo/gpu-next/libplacebo] [ 36] sum1=W(0,-1102342440,-1105082889,1038458494,-1128607008)+W(1,1038455278,-1156235011,-1147341058,1027139080)+W(2,-1085974686,1047296084,1026348672,1047693245)+W(3,-1103441674,1029167261,-1100046248,1057887999)+W(4,1058722958,-1135229473,-1116524774,-1108459679)+W(5,1033885827,1027001826,1043502422,-1087115665)+W(6,1019546620,-1122816147,-1117551096,1024592800)+W(7,-1124163292,1023459588,1043995308,1020243248);sum2=W(0,1032715073,1035295215,-1116902056,1039897191)+W(1,-1103487249,-1118716257,-1120385367,-1104821098)+W(2,1051413477,-1089611288,-1116419565,-1115617116)+W(3,-1091510775,1048354743,-1132652148,1060018690)+W(4,1039274043,-1102315300,1003022729,-1121428266)+W(5,1040404198,1037629937,-1117381948,1008252604)+W(6,1012620980,1023483611,-1161229156,1032782009)+W(7,1035102099,-1132320852,-1116040249,-1113601670);WS(-1088253760,-1127575790);
+[   0.162][d][vo/gpu-next/libplacebo] [ 37] sum1=W(0,-1156102863,1042126700,1033404580,1038728366)+W(1,1011512228,1043566527,-1111684630,1036225546)+W(2,-1099951467,-1083618166,1045370723,1036121471)+W(3,1032168346,1050156122,-1088174091,1050604224)+W(4,1040753147,-1099186053,1036217881,994877095)+W(5,1037663513,1034991255,1039701042,-1098202972)+W(6,1033329669,-1099351704,1040247041,1012008372)+W(7,1030253051,1041638884,1032444126,1015138122);sum2=W(0,-1147399085,1025260806,1009286759,1030438042)+W(1,-1109485523,-1143426189,-1086940227,-1093920639)+W(2,1032031341,1065802217,1019667875,1027607240)+W(3,-1114490725,-1135657207,1049694895,-1090745109)+W(4,1046766533,-1110418147,1032828373,-1113200383)+W(5,1032826151,1024844082,1041550488,-1117099650)+W(6,-1137630919,-1119451994,1008172775,-1125602091)+W(7,993352218,-1137428855,1034586333,-1114583845);WS(-1079364256,1057874888);
+[   0.162][d][vo/gpu-next/libplacebo] [ 38] sum1=W(0,1023431711,1034807569,1028964378,1038744583)+W(1,1027252187,1030066159,-1105253352,-1097930673)+W(2,1043817591,-1093522810,1044691424,1038770168)+W(3,1037737491,1045101529,-1085514994,-1095573950)+W(4,1033837359,1026052487,1031872786,1039465822)+W(5,1019830473,1014931844,1038514603,-1111615463)+W(6,1024735357,1032349913,1026510455,1031706975)+W(7,1030853165,1025856707,1036441879,1029114647);sum2=W(0,1023276596,1020476676,-1122608874,-1110129969)+W(1,-1115008651,-1145788944,-1106237621,1028080466)+W(2,1055608478,1056514262,1036903789,-1109784187)+W(3,-1135649000,1034305529,-1099727798,-1110801543)+W(4,-1122102418,1032271709,-1134147112,1016388156)+W(5,1019861916,-1104837577,-1114242709,1033517697)+W(6,-1109100200,1030585586,-1114085729,1025386706)+W(7,1027443202,-1105665752,-1128034084,-1110189468);WS(-1091483264,-1079194671);
+[   0.162][d][vo/gpu-next/libplacebo] [ 39] sum1=W(0,-1116837930,1032278999,-1113984995,-1131351604)+W(1,1024497830,-1120582522,987288903,-1139989065)+W(2,-1099425098,1045060919,-1116327562,1021186040)+W(3,-1105371085,-1115581427,1046630795,1055014512)+W(4,1054575181,-1113261897,-1206829265,-1132080655)+W(5,1026057008,-1110689206,1027226210,-1092379987)+W(6,-1130307600,-1115285054,-1126861572,1023600234)+W(7,-1130576880,-1136751161,1003385298,-1122295330);sum2=W(0,1004745569,-1114381934,1028468886,-1129629424)+W(1,1021845392,1000184001,1032075412,1012138921)+W(2,1032177433,1051604488,-1136732761,-1120636360)+W(3,1017905952,-1141636449,-1122709320,-1114041388)+W(4,-1115452378,1026786204,1022425868,1036262769)+W(5,-1138562729,1006971361,-1102674451,-1105925279)+W(6,-1123076816,-1139760465,-1123045172,1019955588)+W(7,-1146151969,-1127921184,-1135173233,1002766561);WS(1067689632,-1150117831);
+[   0.162][d][vo/gpu-next/libplacebo] [ 40] sum1=W(0,1047555836,1029999475,-1130553174,-1109849008)+W(1,-1099893915,-1113991840,-1114674616,1035630764)+W(2,1050420518,-1116179871,1036413160,-1123520321)+W(3,-1107722684,-1150636351,-1098283742,1040630545)+W(4,1035246488,-1104890550,-1127374955,1029117869)+W(5,1041501593,1019029347,-1116392999,1031697439)+W(6,1020611803,-1113066609,1027561031,-1140464318)+W(7,1031847583,1006720846,-1114557056,-1125473743);sum2=W(0,1032483043,1037446674,-1114467512,1032302578)+W(1,-1089061083,-1095432519,1053856893,1055539881)+W(2,-1114962225,-1107033941,-1140727686,1035589071)+W(3,-1087688027,-1119624965,1044678306,1060021172)+W(4,1017647091,-1102520792,-1123814512,1028178655)+W(5,1060967891,1056004093,-1096729370,-1086216329)+W(6,1028700703,-1106445462,-1114865396,-1131958732)+W(7,1046082925,1049601918,-1103816765,-1098594526);WS(1053174400,-1151490459);
+[   0.162][d][vo/gpu-next/libplacebo] [ 41] sum1=W(0,1032070534,-1116405775,-1147738936,-1122069115)+W(1,1016988943,-1131178679,1015337751,-1106451229)+W(2,1043517586,-1108806494,1032697654,1027718109)+W(3,1030116243,1014470144,-1117317899,-1118269791)+W(4,1041596435,1030488179,-1112696969,1025368761)+W(5,-1112007328,1036691591,-1098708424,1044803791)+W(6,-1145227340,1032005679,-1121758051,1007532846)+W(7,-1121635481,1025294511,-1105947015,1024445699);sum2=W(0,-1130068082,-1126516206,1021517080,1030975148)+W(1,1009416079,1014043007,1010660367,-1128045540)+W(2,-1091517508,-1071480833,1077778659,1055956931)+W(3,-1124472846,1028586964,-1096786527,-1115164896)+W(4,-1089646275,-1129174056,1029844584,1057214094)+W(5,1004868686,-1122799750,1010452735,-1109767888)+W(6,-1116251741,998387790,1021753404,1029913248)+W(7,1023899390,-1126055830,-1161269496,-1130073888);WS(1064255296,1017910760);
+[   0.162][d][vo/gpu-next/libplacebo] [ 42] sum1=W(0,1054734130,1053450179,-1112041607,1034554881)+W(1,-1127407003,-1117294562,1024002066,-1098111935)+W(2,1051103338,1044871248,-1098306542,-1108750194)+W(3,1016696883,-1097130662,1046694116,-1095577677)+W(4,-1103441076,1027829882,-1117661336,-1140839485)+W(5,983357671,-1104687573,1048629833,-1111281057)+W(6,-1122634224,1024857124,-1131295699,-1142577806)+W(7,-1118108640,-1098281839,1048835924,1032310597);sum2=W(0,1053966016,1073793292,1032914397,-1120767464)+W(1,-1147532546,-1129131123,1040357442,1035968374)+W(2,1060302091,-1072585870,1040094052,-1109760249)+W(3,-1130362887,-1116834009,-1086238928,-1122023462)+W(4,-1094220304,-1113143087,1009241688,1016200567)+W(5,1036030945,1015923256,1043210576,-1172011891)+W(6,1028063795,-1104349617,1032959032,-1122384418)+W(7,1017132829,1019714285,-1119727737,1025380203);WS(-1096343168,-1126236522);
+[   0.162][d][vo/gpu-next/libplacebo] [ 43] sum1=W(0,-1108689250,-1119306439,1007810299,1030703603)+W(1,-1121378303,-1127608870,1031818658,1038321302)+W(2,-1096469888,-1085509191,1047119465,1040041675)+W(3,-1126859158,1045457184,-1089344732,1053153171)+W(4,1056154112,1020253526,-1132527909,-1113575360)+W(5,-1144694086,1029954693,999324634,1045446045)+W(6,1041829816,1033231243,1009418349,-1134236941)+W(7,1019451938,1026209383,-1107897834,-1115315934);sum2=W(0,1020456556,-1144975071,1016178696,983284602)+W(1,1015204808,1022946788,-1131007184,-1131636264)+W(2,-1114118472,1041996066,1029986296,1029794920)+W(3,998054973,1023304596,1053737341,997214653)+W(4,-1139464095,-1114876306,-1131549160,-1109420788)+W(5,1029400914,1024576522,-1113647896,-1097949071)+W(6,1015095008,983229178,-1117716768,-1118046352)+W(7,-1124860928,-1131778280,-1141234271,-1115559594);WS(1054415488,1031748714);
+[   0.162][d][vo/gpu-next/libplacebo] [ 44] sum1=W(0,1016814449,1048190511,-1106849745,1032036500)+W(1,1018567785,-1119790601,-1110288412,-1098109636)+W(2,1025341687,1051815981,998976710,1032905605)+W(3,1041909072,1029877301,1042721902,-1090213441)+W(4,-1102465150,-1113968464,1024707071,1035586875)+W(5,1033626399,-1106536335,1046144796,-1117518441)+W(6,-1127337837,-1115415046,1040319748,-1137244643)+W(7,1018599181,-1122513053,-1135047459,-1117570737);sum2=W(0,-1103416430,-1121991569,-1138393335,990440998)+W(1,1034530622,-1117267403,1037302636,-1120602807)+W(2,-1128966950,-1100463136,1002996807,-1115155620)+W(3,1032576586,-1114490937,1060125031,-1098451061)+W(4,-1095499559,1010012987,-1107496177,-1122715509)+W(5,-1120765719,-1126507430,1038403096,1057202890)+W(6,1000571127,1048400711,-1100731818,-1109700727)+W(7,1027555951,-1105804206,1041385707,1011003397);WS(1057399616,1074070393);
+[   0.162][d][vo/gpu-next/libplacebo] [ 45] sum1=W(0,1049855515,1048650971,-1167692925,-1116946950)+W(1,1045229301,1041758026,-1103643414,-1097294408)+W(2,1035712138,-1096264273,1027460150,1025124136)+W(3,1045455640,1036926493,-1106323062,-1094845877)+W(4,-1093603523,-1089515076,1043057687,1033233658)+W(5,1036007790,-1123310040,1057610273,1045414146)+W(6,-1102565613,-1089497938,1036180887,1031827147)+W(7,1012034194,1034964477,1048651645,1043872372);sum2=W(0,-1135117191,-1104821294,1016280180,-1099019906)+W(1,-1102919364,1021862852,-1108236474,1053230727)+W(2,1031344902,1057285857,-1160553787,-1104956478)+W(3,-1102746088,-1121198562,1060881655,1044240449)+W(4,-1108143797,-1096822242,1040551613,-1115190705)+W(5,-1107568696,1027740054,-1110487530,-1141578351)+W(6,-1121444630,-1108844527,1043284947,-1110901592)+W(7,-1115478973,1039050835,-1097266933,1033167055);WS(-1079272096,-1088198283);
+[   0.162][d][vo/gpu-next/libplacebo] [ 46] sum1=W(0,-1112293630,-1147892734,-1136809437,-1150549691)+W(1,-1117531256,1024124492,-1131332343,1038263474)+W(2,-1101200910,-1153686203,-1114730926,1035238887)+W(3,1022854919,1038223988,-1109365886,1042949876)+W(4,1033312670,-1111552818,1024493634,1013948517)+W(5,-1137128325,-1131368443,1033656538,-1123815596)+W(6,993656219,-1115285591,1007675727,1014747375)+W(7,-1123012682,983503863,1031561484,999554974);sum2=W(0,-1131869901,973137042,933663296,-1130912341)+W(1,-1116201618,-1114826138,1031913949,1021624533)+W(2,1022547165,-1103034755,1026863962,1024898014)+W(3,-1097351564,-1074065991,1074345895,1049231168)+W(4,1032168251,-1122671508,1015250909,1006981209)+W(5,-1101411998,-1116799454,1033396431,1046910286)+W(6,1002623282,-1124284861,-1163156681,-1128875465)+W(7,-1122428830,-1131138133,987851849,1015118461);WS(1066898592,-1135257599);
+[   0.162][d][vo/gpu-next/libplacebo] [ 47] sum1=W(0,1039457202,1036077428,-1104421608,-1110180874)+W(1,1033603984,1025966004,-1109956850,-1099722419)+W(2,1042328969,1047234565,-1109212258,-1108282395)+W(3,1027866348,-1127852161,1050666829,-1108344348)+W(4,-1102031401,-1101771699,-1104815307,-1112266449)+W(5,-1117920074,-1103088922,1056795268,1052651555)+W(6,-1107974833,-1105991798,-1107536862,-1117810340)+W(7,-1114797145,-1109126692,1052879183,1044347095);sum2=W(0,1053252716,-1099761318,-1130272686,-1109573955)+W(1,-1104024699,-1113318439,1023415227,-1111963093)+W(2,1053124236,1015950468,-1135365682,-1112628352)+W(3,-1113101390,989675628,-1098416341,1036225124)+W(4,1055173972,1056516595,-1109041460,-1127976571)+W(5,-1113626094,1021900236,-1099834172,984548524)+W(6,-1111992284,-1111067004,-1124075328,-1141484375)+W(7,-1121224929,1035158074,-1123095583,-1115296758);WS(-1080514464,1071098312);
+[   0.162][d][vo/gpu-next/libplacebo] [ 48] sum1=W(0,-1104998922,-1109637973,1032590577,1029423638)+W(1,-1121480226,-1116754806,1035675859,1034143047)+W(2,-1100165641,1052963835,1032314563,1026820152)+W(3,-1119258414,-1124675269,1044386890,1041959039)+W(4,1049180397,1051364482,-1118573868,-1121041060)+W(5,-1141724766,1026232616,-1091683740,-1094089003)+W(6,1040988017,1046351030,-1138006521,-1120807462)+W(7,-1142663074,-1128189972,-1100071438,-1104568584);sum2=W(0,1047440331,-1161898742,1015651007,-1103917515)+W(1,-1101094893,1034127906,-1107946310,1045127249)+W(2,1037971494,1064882055,-1102760582,-1110033797)+W(3,-1105034150,-1105985747,1062501861,1032097498)+W(4,-1094052244,-1095531648,1038662254,-1111112749)+W(5,952358760,1029080884,-1103513552,-1097807648)+W(6,1028288648,-1103088589,1037944898,-1114159185)+W(7,-1115269879,1036625418,-1103412727,1000704926);WS(1048356096,1025975827);
+[   0.162][d][vo/gpu-next/libplacebo] [ 49] sum1=W(0,1042988217,1042373466,-1122099232,-1127785256)+W(1,-1113788528,985728647,-1109964850,-1143337570)+W(2,1057753530,1024353684,1026577988,-1101696686)+W(3,981326605,1025248769,1027827940,-1091154007)+W(4,-1089144738,-1100403603,1035389109,1038799529)+W(5,1031883373,1042938314,-1125657656,1052285203)+W(6,-1117105634,-1118224663,1026531900,1026796836)+W(7,1041478413,1024598728,-1110632314,-1109515886);sum2=W(0,-1127410563,-1105350472,-1116521159,1012220951)+W(1,-1150652997,-1121646209,1023881724,-1133847817)+W(2,1052174871,-1097063130,1029633040,-1112142878)+W(3,-1123898264,1019540966,-1106094805,1044599155)+W(4,-1157154125,1029744370,-1123437332,-1134401830)+W(5,-1101447493,-1113752268,-1111846084,1059986787)+W(6,-1133421881,1031896001,-1127142758,-1127274631)+W(7,-1115689394,-1144497399,-1111750394,1028497368);WS(1047538944,-1094881626);
+[   0.162][d][vo/gpu-next/libplacebo] [ 50] sum1=W(0,1026526343,1015768341,-1116924690,-1131292909)+W(1,-1137761291,-1105713526,1040643394,-1137367995)+W(2,1061821276,1006944475,1021777101,-1112297452)+W(3,1031500559,-1122499811,-1090839121,-1088680894)+W(4,-1091685625,1042550748,-1116873677,1043477817)+W(5,-1107169411,-1119456201,-1162815447,1059324523)+W(6,-1112344306,1025260793,-1142312694,-1148100662)+W(7,998501030,1032218389,1009991259,1036475455);sum2=W(0,-1112001321,-1114299623,1027383442,1018368946)+W(1,-1136144308,995591994,-1113414147,-1120361628)+W(2,-1159080892,1048017951,-1120907217,1026347909)+W(3,-1130300135,-1113455406,1047229175,-1114902877)+W(4,1043117803,-1117678872,1015876554,-1113638165)+W(5,-1104824263,-1135559770,-1153448320,1034197636)+W(6,1016312397,-1122492527,-1157376536,-1121952605)+W(7,-1116260909,1024817261,-1146986041,1030999359);WS(1059019584,-1093542352);
+[   0.162][d][vo/gpu-next/libplacebo] [ 51] sum1=W(0,1030085820,-1117660736,1036739212,-1118590060)+W(1,-1139295455,1017695255,1037660574,1044414089)+W(2,1053611807,-1088498407,1044992135,-1117950862)+W(3,-1132182919,1041445842,-1087395836,1035930184)+W(4,-1106481599,1041316489,-1157350427,1031932973)+W(5,-1162575911,1028651518,-1101366685,1044296603)+W(6,1033416637,1042914684,-1135788111,1018600951)+W(7,1029799946,1024137952,-1105147443,-1113146202);sum2=W(0,-1098733365,-1096002059,-1129149604,-1139124704)+W(1,1017748092,-1120672660,-1139933424,-1134878408)+W(2,-1099326395,1042574015,1041796064,-1112674264)+W(3,1007868832,1038924927,1054885382,1006823136)+W(4,993486752,1013026008,983636161,1023328190)+W(5,-1118903044,-1117420588,1012616072,1040771663)+W(6,-1121650464,1025526661,968306692,-1131439188)+W(7,1032346590,1016029412,1007743024,-1119789204);WS(1034201600,1032755867);
+[   0.162][d][vo/gpu-next/libplacebo] [ 52] sum1=W(0,-1096012775,-1105013167,1027758260,-1153568391)+W(1,-1151613767,-1113241540,1040809774,1054286804)+W(2,-1096428191,1052356477,-1106713574,-1120836106)+W(3,-1109787424,-1103823871,1045456334,1052819554)+W(4,1040996254,1046162344,-1113115007,-1110497539)+W(5,-1140335480,-1136669162,-1106901340,-1104715738)+W(6,1026611286,1046578147,-1106649828,-1129181937)+W(7,-1129950605,1018423993,-1111616164,-1119554608);sum2=W(0,1046553581,1044137813,-1114916062,-1116195452)+W(1,-1133268119,1023665145,1067697792,1060291180)+W(2,1039450853,-1081686100,1031939547,1015539387)+W(3,1037512606,1033868463,-1075409426,1056432615)+W(4,-1106570618,1023858175,1002967134,1004500534)+W(5,1015733077,-1120650920,1018449047,-1100622921)+W(6,1032662783,1018521363,1037899637,-1116253852)+W(7,1016550645,1008358731,-1106597825,1002080710);WS(-1092032128,-1114982082);
+[   0.162][d][vo/gpu-next/libplacebo] [ 53] sum1=W(0,-1092594901,-1096516325,1030256707,1022785838)+W(1,-1131318086,-1117764855,1038780564,1053421570)+W(2,-1091986421,1046024022,-1129380878,1019093490)+W(3,-1114799192,-1136363407,1055287349,1047196191)+W(4,-1122621159,1047446468,-1112386231,-1136259347)+W(5,-1144800614,1031400745,-1103792760,-1127922606)+W(6,983613607,1044817638,-1105547264,-1119087591)+W(7,-1141783466,1035179430,-1107803612,-1127804734);sum2=W(0,-1101864626,-1105911709,-1122718101,1041280609)+W(1,1033694830,-1107222411,-1103824921,-1094055741)+W(2,-1098031958,1058683727,-1105883428,1032208518)+W(3,-1124818562,-1108861898,1064792422,-1096453130)+W(4,-1120084233,1049511237,-1105712369,1032385022)+W(5,-1126293810,-1108778587,1028614917,1036982526)+W(6,-1101782173,1048360263,-1100029914,1026423073)+W(7,1022233154,-1104838815,1045846387,1024411853);WS(-1109129728,1010433912);
+[   0.162][d][vo/gpu-next/libplacebo] [ 54] sum1=W(0,-1096823624,-1105899410,1006908285,-1117250164)+W(1,1019407999,-1137630799,1019351431,1040646763)+W(2,-1092542200,1057728383,-1107144297,-1122855062)+W(3,-1109418342,-1105008732,1064635860,1052048931)+W(4,1037050434,1026000812,-1123315850,-1106683568)+W(5,-1114857797,1029923270,-1107858814,-1117087348)+W(6,-1117617698,-1122267030,-1125685047,-1130212999)+W(7,-1137382471,1034575732,-1100117973,-1107016783);sum2=W(0,-1138461074,1040260969,-1146428548,-1153548328)+W(1,970383811,1016706951,-1109276610,-1109953492)+W(2,1050908092,1057542522,-1131960189,-1122720334)+W(3,-1113772244,-1149783528,-1109440842,-1119113122)+W(4,1046314824,-1105004761,-1140382642,-1105417557)+W(5,-1111645386,-1114961145,-1140136790,1008998438)+W(6,1024281381,-1110366356,1025793768,-1130524097)+W(7,-1128062487,-1113390177,-1135544654,-1119699464);WS(1028043776,1066748487);
+[   0.162][d][vo/gpu-next/libplacebo] [ 55] sum1=W(0,1042153037,-1142684082,1029235758,1020869188)+W(1,-1111756535,1025123714,-1109061593,-1114798157)+W(2,1055996350,1053860476,1035504777,-1130366216)+W(3,1039957533,1020063133,1054127718,-1084468040)+W(4,-1085695847,-1103910983,1028701624,1043701316)+W(5,1020852591,1027291444,-1111428405,1050138268)+W(6,-1112356264,-1125763849,-1122144394,-1140377801)+W(7,1023500800,-1137256281,-1122964802,-1142788434);sum2=W(0,-1129530165,-1119644642,924100096,-1124029698)+W(1,1021970837,-1133743274,1007880106,-1125964837)+W(2,-1119677450,1050522694,-1110737625,-1114278109)+W(3,-1118803866,-1114387111,1051750384,1030663674)+W(4,1031715210,-1121636434,-1121059730,-1113250169)+W(5,999385235,1025411170,-1117515026,-1120664914)+W(6,-1145009875,-1119348450,-1125884533,998717971)+W(7,1019195093,-1127692741,1010693450,-1122454562);WS(1060837696,-1133947077);
+[   0.162][d][vo/gpu-next/libplacebo] [ 56] sum1=W(0,1043511426,-1107876293,1028161858,-1111653883)+W(1,-1102491073,-1120891991,1015032078,1035524535)+W(2,1032976162,-1100826286,1035200691,1026751705)+W(3,-1107214884,-1125941943,-1104551490,1051427819)+W(4,1046154066,-1109841015,-1124636570,1000443428)+W(5,1038586510,1029969865,-1105048272,1014718172)+W(6,1028652293,-1123706233,1010162044,-1153569903)+W(7,1023653077,990755503,-1122173975,-1150803951);sum2=W(0,-1124907300,-1130116966,1027230711,-1109148006)+W(1,1058387135,1052271642,-1092832201,-1092637531)+W(2,-1099589874,1033368851,-1115012616,-1141349815)+W(3,1062146597,1019043320,1040685020,-1085994041)+W(4,-1097709653,1048790586,-1129789352,1025861327)+W(5,-1085821967,-1089224415,1056989663,1063174823)+W(6,-1111271581,1042673858,1031045509,1018453676)+W(7,-1100831168,-1096709646,1044673285,1049450817);WS(1052991104,1024635730);
+[   0.162][d][vo/gpu-next/libplacebo] [ 57] sum1=W(0,1054985227,1053766219,-1113667962,1035832004)+W(1,-1119430356,-1121298600,1027437528,-1101014640)+W(2,1046292645,-1128304655,-1099876558,-1115665493)+W(3,1029858016,-1098528437,-1148766910,-1097461637)+W(4,-1115760280,1032906080,-1123144798,-1124670698)+W(5,1026860541,-1107490221,1048476772,-1103841730)+W(6,1011324759,1032830229,991927035,-1141396670)+W(7,-1114702739,-1098098175,1048946541,1034147624);sum2=W(0,-1101540780,-1081244300,-1123155104,1023525971)+W(1,-1124206084,989815561,-1107189914,-1109590196)+W(2,-1094597742,1068940029,-1119336486,1037524511)+W(3,979200786,1039597181,1038949441,1026840221)+W(4,1051860638,998725346,-1140931614,-1120201684)+W(5,-1126284432,-1128575576,-1110977051,1014639773)+W(6,1002156586,1038812729,-1116496860,1025256785)+W(7,-1123250336,-1117282785,1033886084,-1117345859);WS(-1106197760,-1107941957);
+[   0.162][d][vo/gpu-next/libplacebo] [ 58] sum1=W(0,958134964,-1096404880,992223587,-1126741205)+W(1,-1131232109,-1156891819,-1114006205,1042417753)+W(2,1050569383,-1089676235,-1096167611,-1103296147)+W(3,-1104768673,-1105076618,-1101748223,1053212362)+W(4,1032016157,1020956357,1041994672,-1103227950)+W(5,-1101041056,-1124618361,1042030605,1057274419)+W(6,-1180953690,1043412107,1027666259,-1124973941)+W(7,-1114495652,-1117167007,1052224033,1049652990);sum2=W(0,1033666378,1045400432,-1149001791,-1114619118)+W(1,1027002418,-1125963088,-1103940412,1015708744)+W(2,924614016,1063026008,-1090736686,-1110825372)+W(3,-1103385448,-1091159350,1059931802,-1107881456)+W(4,-1114127208,-1108719036,1027272732,-1106216772)+W(5,-1139192735,-1125128312,1024735270,-1107266078)+W(6,1032301903,-1114760302,-1120615480,1033544093)+W(7,1019689496,1032462491,1034226031,-1134995311);WS(-1076602784,-1079939509);
+[   0.162][d][vo/gpu-next/libplacebo] [ 59] sum1=W(0,-1103738752,-1119780485,-1124683769,1033209209)+W(1,1002177000,-1112424745,1041533536,1025390185)+W(2,-1096323000,1042233324,-1141354248,1015980198)+W(3,-1104846498,-1113895617,1039917313,1052087227)+W(4,1054450248,1052850909,-1114123684,-1106007132)+W(5,-1119444855,-1112376802,-1098158311,-1105614956)+W(6,1043529432,1045060053,1019464370,-1121157953)+W(7,1021969694,-1109951699,-1103437636,-1107965437);sum2=W(0,-1106233686,-1117977933,-1119329897,1032197744)+W(1,1036373860,-1113988579,1035649904,-1119285117)+W(2,-1119744119,-1074309068,1042368013,1026978731)+W(3,-1150690390,-1148379867,-1080074847,1046616172)+W(4,1068607081,1064708176,-1109569271,1034747948)+W(5,1031972703,-1113275705,1043980108,1045039448)+W(6,-1119111329,1041980892,-1111213511,1037031349)+W(7,1015848847,1008019670,1028259198,1029320825);WS(-1093673600,-1131421273);
+[   0.162][d][vo/gpu-next/libplacebo] [ 60] sum1=W(0,-1114120908,-1110871822,-1126420325,-1121371719)+W(1,1009001293,1008740253,1021798446,1035660544)+W(2,-1087025669,-1118558279,1021303790,1033366837)+W(3,-1120291359,1022689127,1042294182,1058317703)+W(4,1056872571,1032969664,1011797877,-1117842165)+W(5,1031810222,-1148303562,-1114500968,-1088792724)+W(6,1037611499,1040800018,-1131840478,1021502382)+W(7,-1137856917,-1121301883,1017988942,-1111697864);sum2=W(0,-1114206314,-1119983153,-1129835426,-1145039688)+W(1,1020565626,1000979816,-1113040628,-1116540509)+W(2,-1121785409,1051729955,-1110668832,-1119915157)+W(3,989230112,-1112437186,1051989643,-1118504757)+W(4,1012089860,-1118223897,1002833896,-1111519800)+W(5,-1112214518,1015165050,1025479957,1039755978)+W(6,-1130809610,-1123764449,1006052904,-1127947266)+W(7,-1128941978,1025956493,-1127132522,-1158783904);WS(1065682080,-1111828541);
+[   0.162][d][vo/gpu-next/libplacebo] [ 61] sum1=W(0,-1145885026,-1115077208,1017604463,1015869752)+W(1,-1126764880,1032942526,1021224792,1022264616)+W(2,1052074397,-1121697500,1024786188,-1112250175)+W(3,1040282413,1035803452,1047440331,-1089954536)+W(4,-1086889687,1045248549,1002255762,1036568133)+W(5,-1125683619,1031850711,-1109225970,1049268572)+W(6,-1130857684,1037568127,982208647,-1131800664)+W(7,-1141787602,1017131424,-1113425822,-1123514660);sum2=W(0,1016858600,968811648,1016040732,-1122978131)+W(1,993636865,-1144040913,1021399769,1028741871)+W(2,1029169324,1051074882,-1125004872,-1114060649)+W(3,-1118019503,-1109484363,1031746308,1032336595)+W(4,1006053609,-1154135582,1026938249,1029971540)+W(5,-1124468225,1013417282,-1113140779,-1103346234)+W(6,-1115290499,-1140773838,-1124460348,1017189437)+W(7,-1169769501,-1139883250,-1122277912,-1141169189);WS(1068575136,1057679145);
+[   0.162][d][vo/gpu-next/libplacebo] [ 62] sum1=W(0,1049880682,1049251178,1008215334,-1106541599)+W(1,1052783569,1042509671,-1111487207,-1093397815)+W(2,1026486412,-1095539136,1042310507,989927934)+W(3,1051194971,1040579493,-1103138323,-1092992340)+W(4,-1094672658,-1089191083,1040070410,1018512183)+W(5,1038856114,-1114567880,1057944056,1043830943)+W(6,-1100618939,-1087252724,1041475113,1014261304)+W(7,1025292508,1038361721,1049811244,1044894993);sum2=W(0,1053593458,1055007475,-1136765855,-1114445084)+W(1,-1150175899,-1141017037,1054334485,1057823779)+W(2,-1105638736,-1078800745,-1113238946,1039574032)+W(3,1042094581,-1134493359,-1078443122,-1096181786)+W(4,-1104375874,1059224194,-1106803932,1030357662)+W(5,1020483059,-1099695416,1058193036,1049857835)+W(6,1050059734,1035501186,-1113028634,964162478)+W(7,-1118569338,-1110238952,1029634285,1043677394);WS(-1069843280,1043992756);
+[   0.162][d][vo/gpu-next/libplacebo] [ 63] sum1=W(0,1027695014,-1119099178,-1135429253,-1124948267)+W(1,1008956039,-1129507307,1017935435,-1108770183)+W(2,1044103833,-1113789227,1025838726,1025550072)+W(3,1030807982,1014849865,-1130965835,-1112757821)+W(4,1039477491,1024839950,-1116233196,1019242118)+W(5,-1114625158,1035190516,-1101790135,1042243413)+W(6,-1142719774,1028120504,-1130610171,998797102)+W(7,-1127852007,1023573770,-1106167085,1012540023);sum2=W(0,1026300352,1028491168,-1121247640,-1114838118)+W(1,-1130791968,-1127851536,-1130258048,1004928481)+W(2,1053083344,1074653957,-1072953064,-1095359738)+W(3,1025789396,1030571860,-1102013621,1024432884)+W(4,1056568596,1033233928,-1115141896,-1093135708)+W(5,984097412,1025870428,-1116002270,1030571276)+W(6,1030713448,1023653964,-1127503160,-1116140314)+W(7,-1120604784,1016702232,-1129660856,1015669456);WS(1066802848,-1129257078);
+[   0.162][d][vo/gpu-next/libplacebo] [ 64] sum1=W(0,1033473243,-1155453851,-1118978065,1015630667)+W(1,-1114728473,-1121467910,-1122431286,-1104672775)+W(2,1035395194,1065736411,-1101616805,-1113784260)+W(3,-1105320751,-1095556296,1061324843,-1115117829)+W(4,1045542397,1040181775,-1114908350,-1108037466)+W(5,-1104703871,-1109993148,-1114134583,-1100789945)+W(6,-1177594330,1036229652,-1111947911,-1114956027)+W(7,-1111474306,-1106051686,-1138173719,-1124148059);sum2=W(0,-1155123513,-1108713026,-1134031950,-1109560646)+W(1,-1115008786,1019412439,-1107664082,1035199782)+W(2,1038996664,1026897780,1017238679,-1107125821)+W(3,-1123597732,1016515095,1051508948,1043157052)+W(4,-1107646918,-1107869542,-1127256871,1024343484)+W(5,-1106563795,-1116358964,998755997,1055083262)+W(6,-1112902766,-1145442397,-1129735047,1004378333)+W(7,-1117600772,-1110777694,1012570830,-1159444594);WS(-1093453440,1062530498);
+[   0.162][d][vo/gpu-next/libplacebo] [ 65] sum1=W(0,-1115495349,-1109318263,1018166794,-1124930739)+W(1,1023868966,1023563962,1039727605,1025637074)+W(2,1024699176,1040214918,-1114300581,-1109529502)+W(3,-1131885027,-1104984446,1052285453,931786146)+W(4,-1105577322,1043329716,1023247327,1025096231)+W(5,-1110072888,-1137647791,-1105534248,1009762919)+W(6,-1123543752,1034740398,-1125424515,998443854)+W(7,-1123805240,1018092315,-1116356474,988548151);sum2=W(0,1018118074,-1135013993,-1110334365,-1116378324)+W(1,-1110082211,-1111471528,1002595554,1027066059)+W(2,-1117515615,-1097345050,-1134041225,-1139723269)+W(3,-1114430561,1040454031,1043336959,1053899571)+W(4,1039717826,-1107830137,-1112237914,-1147091114)+W(5,1033656482,-1117546906,1010598309,1040668505)+W(6,1032288465,978891919,-1131603942,-1123080609)+W(7,-1115822981,-1119917138,1026333875,1016807738);WS(1067735712,-1080534052);
+[   0.162][d][vo/gpu-next/libplacebo] [ 66] return clamp(mstd0 + 5.0 * vsum / wsum * mstd1, 0.0, 1.0);
+[   0.162][d][vo/gpu-next/libplacebo] [ 67] }  // nnedi3
+[   0.162][d][vo/gpu-next/libplacebo] [ 68] vec4 hook() {
+[   0.162][d][vo/gpu-next/libplacebo] [ 69] vec4 ret = vec4(0.0);
+[   0.162][d][vo/gpu-next/libplacebo] [ 70] vec4 samples[8];
+[   0.162][d][vo/gpu-next/libplacebo] [ 71] samples[0] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(-3, -1), 0);
+[   0.162][d][vo/gpu-next/libplacebo] [ 72] samples[1] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(-3, 1), 0);
+[   0.162][d][vo/gpu-next/libplacebo] [ 73] samples[2] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(-1, -1), 0);
+[   0.162][d][vo/gpu-next/libplacebo] [ 74] samples[3] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(-1, 1), 0);
+[   0.162][d][vo/gpu-next/libplacebo] [ 75] samples[4] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(1, -1), 0);
+[   0.162][d][vo/gpu-next/libplacebo] [ 76] samples[5] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(1, 1), 0);
+[   0.162][d][vo/gpu-next/libplacebo] [ 77] samples[6] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(3, -1), 0);
+[   0.162][d][vo/gpu-next/libplacebo] [ 78] samples[7] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(3, 1), 0);
+[   0.162][d][vo/gpu-next/libplacebo] [ 79] ret[0] = nnedi3(samples);
+[   0.162][d][vo/gpu-next/libplacebo] [ 80] return ret;
+[   0.162][d][vo/gpu-next/libplacebo] [ 81] }  // hook
+[   0.162][d][vo/gpu-next/libplacebo] [ 82] //!DESC NNEDI3 (combine_y, nns32, win8x4)
+[   0.162][d][vo/gpu-next/libplacebo] [ 83] //!HOOK LUMA
+[   0.162][d][vo/gpu-next/libplacebo] [ 84] //!BIND HOOKED
+[   0.162][d][vo/gpu-next/libplacebo] [ 85] //!BIND nnedi3_int
+[   0.162][d][vo/gpu-next/libplacebo] [ 86] //!HEIGHT 2 HOOKED.h *
+[   0.162][d][vo/gpu-next/libplacebo] [ 87] //!OFFSET 0.000000 -0.500000
+[   0.162][d][vo/gpu-next/libplacebo] [ 88] //!WHEN HOOKED.h OUTPUT.h / 0.833333 <
+[   0.162][d][vo/gpu-next/libplacebo] [ 89] vec4 hook() {
+[   0.162][d][vo/gpu-next/libplacebo] [ 90]     vec2 dir = fract(HOOKED_pos * HOOKED_size) - 0.5;
+[   0.162][d][vo/gpu-next/libplacebo] [ 91]     if (dir.y < 0.0) {
+[   0.162][d][vo/gpu-next/libplacebo] [ 92]         return HOOKED_texOff(-dir);
+[   0.162][d][vo/gpu-next/libplacebo] [ 93]     } else {
+[   0.162][d][vo/gpu-next/libplacebo] [ 94]         return nnedi3_int_texOff(-dir);
+[   0.162][d][vo/gpu-next/libplacebo] [ 95]     }
+[   0.162][d][vo/gpu-next/libplacebo] [ 96] }
+[   0.162][d][vo/gpu-next/libplacebo] [ 97] //!DESC NNEDI3 (double_x, nns32, win8x4)
+[   0.162][d][vo/gpu-next/libplacebo] [ 98] //!HOOK LUMA
+[   0.162][d][vo/gpu-next/libplacebo] [ 99] //!BIND HOOKED
+[   0.162][d][vo/gpu-next/libplacebo] [100] //!SAVE nnedi3_int
+[   0.162][d][vo/gpu-next/libplacebo] [101] //!WHEN HOOKED.w OUTPUT.w / 0.833333 <
+[   0.162][d][vo/gpu-next/libplacebo] [102] float nnedi3(vec4 samples[8]) {
+[   0.162][d][vo/gpu-next/libplacebo] [103] float sum = 0.0, sumsq = 0.0;
+[   0.162][d][vo/gpu-next/libplacebo] [104] for (int i = 0; i < 8; i++) {
+[   0.162][d][vo/gpu-next/libplacebo] [105]     sum += dot(samples[i], vec4(1.0));
+[   0.162][d][vo/gpu-next/libplacebo] [106]     sumsq += dot(samples[i], samples[i]);
+[   0.162][d][vo/gpu-next/libplacebo] [107] }
+[   0.162][d][vo/gpu-next/libplacebo] [108] float mstd0 = sum / 32.0;
+[   0.162][d][vo/gpu-next/libplacebo] [109] float mstd1 = sumsq / 32.0 - mstd0 * mstd0;
+[   0.162][d][vo/gpu-next/libplacebo] [110] float mstd2 = mix(0.0, inversesqrt(mstd1), mstd1 >= 1.192092896e-7);
+[   0.162][d][vo/gpu-next/libplacebo] [111] mstd1 *= mstd2;
+[   0.162][d][vo/gpu-next/libplacebo] [112] float vsum = 0.0, wsum = 0.0, sum1, sum2;
+[   0.162][d][vo/gpu-next/libplacebo] [113] #define T(x) intBitsToFloat(x)
+[   0.162][d][vo/gpu-next/libplacebo] [114] #define W(i,w0,w1,w2,w3) dot(samples[i],vec4(T(w0),T(w1),T(w2),T(w3)))
+[   0.162][d][vo/gpu-next/libplacebo] [115] #define WS(w0,w1) sum1 = exp(sum1 * mstd2 + T(w0)); sum2 = sum2 * mstd2 + T(w1); wsum += sum1; vsum += sum1*(sum2/(1.0+abs(sum2)));
+[   0.162][d][vo/gpu-next/libplacebo] [116] sum1=W(0,1039469975,-1095740683,-1091571194,1036208225)+W(1,1039536921,1025116802,-1097328754,1027560868)+W(2,1035622988,1049700439,1043923973,-1144450173)+W(3,1029776426,1047463785,1024545936,1024461970)+W(4,1028885330,1026075554,1032174663,1048590727)+W(5,1017576356,1042058704,1023201972,1039928979)+W(6,-1090255529,1046104373,1033278580,-1098962113)+W(7,-1090407950,1043393326,1035224848,-1100301043);sum2=W(0,-1166389754,-1101782718,1055965966,-1098253927)+W(1,1034460863,-1132225959,1045236553,-1106582410)+W(2,-1113669665,1055278331,1057568628,1027738130)+W(3,-1129223232,-1108092808,-1127810369,1016925525)+W(4,983512221,-1105895383,-1096709168,1006679350)+W(5,-1090237017,1030302550,1040768379,-1097283179)+W(6,-1133967067,1033275358,-1111760224,1036184228)+W(7,1009711002,1045297871,-1104949250,1022264595);WS(-1080723616,-1076327864);
+[   0.162][d][vo/gpu-next/libplacebo] [117] sum1=W(0,-1140602116,1024505865,-1106293281,1017315691)+W(1,-1107192473,1027220277,-1101486193,1037257964)+W(2,1022805527,-1106692027,1032001763,1022003974)+W(3,1014959990,-1109388172,1020788295,1021604747)+W(4,-1129176587,1022464939,-1113397025,1041272315)+W(5,-1098639185,1043879330,1024865293,1040932726)+W(6,1038889695,-1123579783,-1118929755,1032224091)+W(7,1036681163,998707020,-1117432531,1019749115);sum2=W(0,-1140061902,1016927815,-1127131649,1015755803)+W(1,1032555441,-1095938931,-1112279061,-1129835189)+W(2,-1123339814,1009679614,-1116204914,-1138877514)+W(3,-1165772366,-1146249364,-1153656135,1016646759)+W(4,-1129880851,1024947773,1033341381,-1137718334)+W(5,-1069364926,1079454606,1058036499,-1089663810)+W(6,-1148409052,1022404175,1053318688,-1092530653)+W(7,1018619187,1025789685,1028043253,-1122312216);WS(1058954560,1004956589);
+[   0.162][d][vo/gpu-next/libplacebo] [118] sum1=W(0,1038458494,-1105082889,-1102342440,-1128607008)+W(1,1026348672,1047296084,-1085974686,1047693245)+W(2,-1116524774,-1135229473,1058722958,-1108459679)+W(3,-1117551096,-1122816147,1019546620,1024592800)+W(4,-1147341058,-1156235011,1038455278,1027139080)+W(5,-1100046248,1029167261,-1103441674,1057887999)+W(6,1043502422,1027001826,1033885827,-1087115665)+W(7,1043995308,1023459588,-1124163292,1020243248);sum2=W(0,-1116902056,1035295215,1032715073,1039897191)+W(1,-1116419565,-1089611288,1051413477,-1115617116)+W(2,1003022729,-1102315300,1039274043,-1121428266)+W(3,-1161229156,1023483611,1012620980,1032782009)+W(4,-1120385367,-1118716257,-1103487249,-1104821098)+W(5,-1132652148,1048354743,-1091510775,1060018690)+W(6,-1117381948,1037629937,1040404198,1008252604)+W(7,-1116040249,-1132320852,1035102099,-1113601670);WS(-1088253760,-1127575790);
+[   0.162][d][vo/gpu-next/libplacebo] [119] sum1=W(0,1033404580,1042126700,-1156102863,1038728366)+W(1,1045370723,-1083618166,-1099951467,1036121471)+W(2,1036217881,-1099186053,1040753147,994877095)+W(3,1040247041,-1099351704,1033329669,1012008372)+W(4,-1111684630,1043566527,1011512228,1036225546)+W(5,-1088174091,1050156122,1032168346,1050604224)+W(6,1039701042,1034991255,1037663513,-1098202972)+W(7,1032444126,1041638884,1030253051,1015138122);sum2=W(0,1009286759,1025260806,-1147399085,1030438042)+W(1,1019667875,1065802217,1032031341,1027607240)+W(2,1032828373,-1110418147,1046766533,-1113200383)+W(3,1008172775,-1119451994,-1137630919,-1125602091)+W(4,-1086940227,-1143426189,-1109485523,-1093920639)+W(5,1049694895,-1135657207,-1114490725,-1090745109)+W(6,1041550488,1024844082,1032826151,-1117099650)+W(7,1034586333,-1137428855,993352218,-1114583845);WS(-1079364256,1057874888);
+[   0.162][d][vo/gpu-next/libplacebo] [120] sum1=W(0,1028964378,1034807569,1023431711,1038744583)+W(1,1044691424,-1093522810,1043817591,1038770168)+W(2,1031872786,1026052487,1033837359,1039465822)+W(3,1026510455,1032349913,1024735357,1031706975)+W(4,-1105253352,1030066159,1027252187,-1097930673)+W(5,-1085514994,1045101529,1037737491,-1095573950)+W(6,1038514603,1014931844,1019830473,-1111615463)+W(7,1036441879,1025856707,1030853165,1029114647);sum2=W(0,-1122608874,1020476676,1023276596,-1110129969)+W(1,1036903789,1056514262,1055608478,-1109784187)+W(2,-1134147112,1032271709,-1122102418,1016388156)+W(3,-1114085729,1030585586,-1109100200,1025386706)+W(4,-1106237621,-1145788944,-1115008651,1028080466)+W(5,-1099727798,1034305529,-1135649000,-1110801543)+W(6,-1114242709,-1104837577,1019861916,1033517697)+W(7,-1128034084,-1105665752,1027443202,-1110189468);WS(-1091483264,-1079194671);
+[   0.162][d][vo/gpu-next/libplacebo] [121] sum1=W(0,-1113984995,1032278999,-1116837930,-1131351604)+W(1,-1116327562,1045060919,-1099425098,1021186040)+W(2,-1206829265,-1113261897,1054575181,-1132080655)+W(3,-1126861572,-1115285054,-1130307600,1023600234)+W(4,987288903,-1120582522,1024497830,-1139989065)+W(5,1046630795,-1115581427,-1105371085,1055014512)+W(6,1027226210,-1110689206,1026057008,-1092379987)+W(7,1003385298,-1136751161,-1130576880,-1122295330);sum2=W(0,1028468886,-1114381934,1004745569,-1129629424)+W(1,-1136732761,1051604488,1032177433,-1120636360)+W(2,1022425868,1026786204,-1115452378,1036262769)+W(3,-1123045172,-1139760465,-1123076816,1019955588)+W(4,1032075412,1000184001,1021845392,1012138921)+W(5,-1122709320,-1141636449,1017905952,-1114041388)+W(6,-1102674451,1006971361,-1138562729,-1105925279)+W(7,-1135173233,-1127921184,-1146151969,1002766561);WS(1067689632,-1150117831);
+[   0.162][d][vo/gpu-next/libplacebo] [122] sum1=W(0,-1130553174,1029999475,1047555836,-1109849008)+W(1,1036413160,-1116179871,1050420518,-1123520321)+W(2,-1127374955,-1104890550,1035246488,1029117869)+W(3,1027561031,-1113066609,1020611803,-1140464318)+W(4,-1114674616,-1113991840,-1099893915,1035630764)+W(5,-1098283742,-1150636351,-1107722684,1040630545)+W(6,-1116392999,1019029347,1041501593,1031697439)+W(7,-1114557056,1006720846,1031847583,-1125473743);sum2=W(0,-1114467512,1037446674,1032483043,1032302578)+W(1,-1140727686,-1107033941,-1114962225,1035589071)+W(2,-1123814512,-1102520792,1017647091,1028178655)+W(3,-1114865396,-1106445462,1028700703,-1131958732)+W(4,1053856893,-1095432519,-1089061083,1055539881)+W(5,1044678306,-1119624965,-1087688027,1060021172)+W(6,-1096729370,1056004093,1060967891,-1086216329)+W(7,-1103816765,1049601918,1046082925,-1098594526);WS(1053174400,-1151490459);
+[   0.162][d][vo/gpu-next/libplacebo] [123] sum1=W(0,-1147738936,-1116405775,1032070534,-1122069115)+W(1,1032697654,-1108806494,1043517586,1027718109)+W(2,-1112696969,1030488179,1041596435,1025368761)+W(3,-1121758051,1032005679,-1145227340,1007532846)+W(4,1015337751,-1131178679,1016988943,-1106451229)+W(5,-1117317899,1014470144,1030116243,-1118269791)+W(6,-1098708424,1036691591,-1112007328,1044803791)+W(7,-1105947015,1025294511,-1121635481,1024445699);sum2=W(0,1021517080,-1126516206,-1130068082,1030975148)+W(1,1077778659,-1071480833,-1091517508,1055956931)+W(2,1029844584,-1129174056,-1089646275,1057214094)+W(3,1021753404,998387790,-1116251741,1029913248)+W(4,1010660367,1014043007,1009416079,-1128045540)+W(5,-1096786527,1028586964,-1124472846,-1115164896)+W(6,1010452735,-1122799750,1004868686,-1109767888)+W(7,-1161269496,-1126055830,1023899390,-1130073888);WS(1064255296,1017910760);
+[   0.162][d][vo/gpu-next/libplacebo] [124] sum1=W(0,-1112041607,1053450179,1054734130,1034554881)+W(1,-1098306542,1044871248,1051103338,-1108750194)+W(2,-1117661336,1027829882,-1103441076,-1140839485)+W(3,-1131295699,1024857124,-1122634224,-1142577806)+W(4,1024002066,-1117294562,-1127407003,-1098111935)+W(5,1046694116,-1097130662,1016696883,-1095577677)+W(6,1048629833,-1104687573,983357671,-1111281057)+W(7,1048835924,-1098281839,-1118108640,1032310597);sum2=W(0,1032914397,1073793292,1053966016,-1120767464)+W(1,1040094052,-1072585870,1060302091,-1109760249)+W(2,1009241688,-1113143087,-1094220304,1016200567)+W(3,1032959032,-1104349617,1028063795,-1122384418)+W(4,1040357442,-1129131123,-1147532546,1035968374)+W(5,-1086238928,-1116834009,-1130362887,-1122023462)+W(6,1043210576,1015923256,1036030945,-1172011891)+W(7,-1119727737,1019714285,1017132829,1025380203);WS(-1096343168,-1126236522);
+[   0.162][d][vo/gpu-next/libplacebo] [125] sum1=W(0,1007810299,-1119306439,-1108689250,1030703603)+W(1,1047119465,-1085509191,-1096469888,1040041675)+W(2,-1132527909,1020253526,1056154112,-1113575360)+W(3,1009418349,1033231243,1041829816,-1134236941)+W(4,1031818658,-1127608870,-1121378303,1038321302)+W(5,-1089344732,1045457184,-1126859158,1053153171)+W(6,999324634,1029954693,-1144694086,1045446045)+W(7,-1107897834,1026209383,1019451938,-1115315934);sum2=W(0,1016178696,-1144975071,1020456556,983284602)+W(1,1029986296,1041996066,-1114118472,1029794920)+W(2,-1131549160,-1114876306,-1139464095,-1109420788)+W(3,-1117716768,983229178,1015095008,-1118046352)+W(4,-1131007184,1022946788,1015204808,-1131636264)+W(5,1053737341,1023304596,998054973,997214653)+W(6,-1113647896,1024576522,1029400914,-1097949071)+W(7,-1141234271,-1131778280,-1124860928,-1115559594);WS(1054415488,1031748714);
+[   0.162][d][vo/gpu-next/libplacebo] [126] sum1=W(0,-1106849745,1048190511,1016814449,1032036500)+W(1,998976710,1051815981,1025341687,1032905605)+W(2,1024707071,-1113968464,-1102465150,1035586875)+W(3,1040319748,-1115415046,-1127337837,-1137244643)+W(4,-1110288412,-1119790601,1018567785,-1098109636)+W(5,1042721902,1029877301,1041909072,-1090213441)+W(6,1046144796,-1106536335,1033626399,-1117518441)+W(7,-1135047459,-1122513053,1018599181,-1117570737);sum2=W(0,-1138393335,-1121991569,-1103416430,990440998)+W(1,1002996807,-1100463136,-1128966950,-1115155620)+W(2,-1107496177,1010012987,-1095499559,-1122715509)+W(3,-1100731818,1048400711,1000571127,-1109700727)+W(4,1037302636,-1117267403,1034530622,-1120602807)+W(5,1060125031,-1114490937,1032576586,-1098451061)+W(6,1038403096,-1126507430,-1120765719,1057202890)+W(7,1041385707,-1105804206,1027555951,1011003397);WS(1057399616,1074070393);
+[   0.162][d][vo/gpu-next/libplacebo] [127] sum1=W(0,-1167692925,1048650971,1049855515,-1116946950)+W(1,1027460150,-1096264273,1035712138,1025124136)+W(2,1043057687,-1089515076,-1093603523,1033233658)+W(3,1036180887,-1089497938,-1102565613,1031827147)+W(4,-1103643414,1041758026,1045229301,-1097294408)+W(5,-1106323062,1036926493,1045455640,-1094845877)+W(6,1057610273,-1123310040,1036007790,1045414146)+W(7,1048651645,1034964477,1012034194,1043872372);sum2=W(0,1016280180,-1104821294,-1135117191,-1099019906)+W(1,-1160553787,1057285857,1031344902,-1104956478)+W(2,1040551613,-1096822242,-1108143797,-1115190705)+W(3,1043284947,-1108844527,-1121444630,-1110901592)+W(4,-1108236474,1021862852,-1102919364,1053230727)+W(5,1060881655,-1121198562,-1102746088,1044240449)+W(6,-1110487530,1027740054,-1107568696,-1141578351)+W(7,-1097266933,1039050835,-1115478973,1033167055);WS(-1079272096,-1088198283);
+[   0.162][d][vo/gpu-next/libplacebo] [128] sum1=W(0,-1136809437,-1147892734,-1112293630,-1150549691)+W(1,-1114730926,-1153686203,-1101200910,1035238887)+W(2,1024493634,-1111552818,1033312670,1013948517)+W(3,1007675727,-1115285591,993656219,1014747375)+W(4,-1131332343,1024124492,-1117531256,1038263474)+W(5,-1109365886,1038223988,1022854919,1042949876)+W(6,1033656538,-1131368443,-1137128325,-1123815596)+W(7,1031561484,983503863,-1123012682,999554974);sum2=W(0,933663296,973137042,-1131869901,-1130912341)+W(1,1026863962,-1103034755,1022547165,1024898014)+W(2,1015250909,-1122671508,1032168251,1006981209)+W(3,-1163156681,-1124284861,1002623282,-1128875465)+W(4,1031913949,-1114826138,-1116201618,1021624533)+W(5,1074345895,-1074065991,-1097351564,1049231168)+W(6,1033396431,-1116799454,-1101411998,1046910286)+W(7,987851849,-1131138133,-1122428830,1015118461);WS(1066898592,-1135257599);
+[   0.162][d][vo/gpu-next/libplacebo] [129] sum1=W(0,-1104421608,1036077428,1039457202,-1110180874)+W(1,-1109212258,1047234565,1042328969,-1108282395)+W(2,-1104815307,-1101771699,-1102031401,-1112266449)+W(3,-1107536862,-1105991798,-1107974833,-1117810340)+W(4,-1109956850,1025966004,1033603984,-1099722419)+W(5,1050666829,-1127852161,1027866348,-1108344348)+W(6,1056795268,-1103088922,-1117920074,1052651555)+W(7,1052879183,-1109126692,-1114797145,1044347095);sum2=W(0,-1130272686,-1099761318,1053252716,-1109573955)+W(1,-1135365682,1015950468,1053124236,-1112628352)+W(2,-1109041460,1056516595,1055173972,-1127976571)+W(3,-1124075328,-1111067004,-1111992284,-1141484375)+W(4,1023415227,-1113318439,-1104024699,-1111963093)+W(5,-1098416341,989675628,-1113101390,1036225124)+W(6,-1099834172,1021900236,-1113626094,984548524)+W(7,-1123095583,1035158074,-1121224929,-1115296758);WS(-1080514464,1071098312);
+[   0.162][d][vo/gpu-next/libplacebo] [130] sum1=W(0,1032590577,-1109637973,-1104998922,1029423638)+W(1,1032314563,1052963835,-1100165641,1026820152)+W(2,-1118573868,1051364482,1049180397,-1121041060)+W(3,-1138006521,1046351030,1040988017,-1120807462)+W(4,1035675859,-1116754806,-1121480226,1034143047)+W(5,1044386890,-1124675269,-1119258414,1041959039)+W(6,-1091683740,1026232616,-1141724766,-1094089003)+W(7,-1100071438,-1128189972,-1142663074,-1104568584);sum2=W(0,1015651007,-1161898742,1047440331,-1103917515)+W(1,-1102760582,1064882055,1037971494,-1110033797)+W(2,1038662254,-1095531648,-1094052244,-1111112749)+W(3,1037944898,-1103088589,1028288648,-1114159185)+W(4,-1107946310,1034127906,-1101094893,1045127249)+W(5,1062501861,-1105985747,-1105034150,1032097498)+W(6,-1103513552,1029080884,952358760,-1097807648)+W(7,-1103412727,1036625418,-1115269879,1000704926);WS(1048356096,1025975827);
+[   0.162][d][vo/gpu-next/libplacebo] [131] sum1=W(0,-1122099232,1042373466,1042988217,-1127785256)+W(1,1026577988,1024353684,1057753530,-1101696686)+W(2,1035389109,-1100403603,-1089144738,1038799529)+W(3,1026531900,-1118224663,-1117105634,1026796836)+W(4,-1109964850,985728647,-1113788528,-1143337570)+W(5,1027827940,1025248769,981326605,-1091154007)+W(6,-1125657656,1042938314,1031883373,1052285203)+W(7,-1110632314,1024598728,1041478413,-1109515886);sum2=W(0,-1116521159,-1105350472,-1127410563,1012220951)+W(1,1029633040,-1097063130,1052174871,-1112142878)+W(2,-1123437332,1029744370,-1157154125,-1134401830)+W(3,-1127142758,1031896001,-1133421881,-1127274631)+W(4,1023881724,-1121646209,-1150652997,-1133847817)+W(5,-1106094805,1019540966,-1123898264,1044599155)+W(6,-1111846084,-1113752268,-1101447493,1059986787)+W(7,-1111750394,-1144497399,-1115689394,1028497368);WS(1047538944,-1094881626);
+[   0.162][d][vo/gpu-next/libplacebo] [132] sum1=W(0,-1116924690,1015768341,1026526343,-1131292909)+W(1,1021777101,1006944475,1061821276,-1112297452)+W(2,-1116873677,1042550748,-1091685625,1043477817)+W(3,-1142312694,1025260793,-1112344306,-1148100662)+W(4,1040643394,-1105713526,-1137761291,-1137367995)+W(5,-1090839121,-1122499811,1031500559,-1088680894)+W(6,-1162815447,-1119456201,-1107169411,1059324523)+W(7,1009991259,1032218389,998501030,1036475455);sum2=W(0,1027383442,-1114299623,-1112001321,1018368946)+W(1,-1120907217,1048017951,-1159080892,1026347909)+W(2,1015876554,-1117678872,1043117803,-1113638165)+W(3,-1157376536,-1122492527,1016312397,-1121952605)+W(4,-1113414147,995591994,-1136144308,-1120361628)+W(5,1047229175,-1113455406,-1130300135,-1114902877)+W(6,-1153448320,-1135559770,-1104824263,1034197636)+W(7,-1146986041,1024817261,-1116260909,1030999359);WS(1059019584,-1093542352);
+[   0.162][d][vo/gpu-next/libplacebo] [133] sum1=W(0,1036739212,-1117660736,1030085820,-1118590060)+W(1,1044992135,-1088498407,1053611807,-1117950862)+W(2,-1157350427,1041316489,-1106481599,1031932973)+W(3,-1135788111,1042914684,1033416637,1018600951)+W(4,1037660574,1017695255,-1139295455,1044414089)+W(5,-1087395836,1041445842,-1132182919,1035930184)+W(6,-1101366685,1028651518,-1162575911,1044296603)+W(7,-1105147443,1024137952,1029799946,-1113146202);sum2=W(0,-1129149604,-1096002059,-1098733365,-1139124704)+W(1,1041796064,1042574015,-1099326395,-1112674264)+W(2,983636161,1013026008,993486752,1023328190)+W(3,968306692,1025526661,-1121650464,-1131439188)+W(4,-1139933424,-1120672660,1017748092,-1134878408)+W(5,1054885382,1038924927,1007868832,1006823136)+W(6,1012616072,-1117420588,-1118903044,1040771663)+W(7,1007743024,1016029412,1032346590,-1119789204);WS(1034201600,1032755867);
+[   0.162][d][vo/gpu-next/libplacebo] [134] sum1=W(0,1027758260,-1105013167,-1096012775,-1153568391)+W(1,-1106713574,1052356477,-1096428191,-1120836106)+W(2,-1113115007,1046162344,1040996254,-1110497539)+W(3,-1106649828,1046578147,1026611286,-1129181937)+W(4,1040809774,-1113241540,-1151613767,1054286804)+W(5,1045456334,-1103823871,-1109787424,1052819554)+W(6,-1106901340,-1136669162,-1140335480,-1104715738)+W(7,-1111616164,1018423993,-1129950605,-1119554608);sum2=W(0,-1114916062,1044137813,1046553581,-1116195452)+W(1,1031939547,-1081686100,1039450853,1015539387)+W(2,1002967134,1023858175,-1106570618,1004500534)+W(3,1037899637,1018521363,1032662783,-1116253852)+W(4,1067697792,1023665145,-1133268119,1060291180)+W(5,-1075409426,1033868463,1037512606,1056432615)+W(6,1018449047,-1120650920,1015733077,-1100622921)+W(7,-1106597825,1008358731,1016550645,1002080710);WS(-1092032128,-1114982082);
+[   0.162][d][vo/gpu-next/libplacebo] [135] sum1=W(0,1030256707,-1096516325,-1092594901,1022785838)+W(1,-1129380878,1046024022,-1091986421,1019093490)+W(2,-1112386231,1047446468,-1122621159,-1136259347)+W(3,-1105547264,1044817638,983613607,-1119087591)+W(4,1038780564,-1117764855,-1131318086,1053421570)+W(5,1055287349,-1136363407,-1114799192,1047196191)+W(6,-1103792760,1031400745,-1144800614,-1127922606)+W(7,-1107803612,1035179430,-1141783466,-1127804734);sum2=W(0,-1122718101,-1105911709,-1101864626,1041280609)+W(1,-1105883428,1058683727,-1098031958,1032208518)+W(2,-1105712369,1049511237,-1120084233,1032385022)+W(3,-1100029914,1048360263,-1101782173,1026423073)+W(4,-1103824921,-1107222411,1033694830,-1094055741)+W(5,1064792422,-1108861898,-1124818562,-1096453130)+W(6,1028614917,-1108778587,-1126293810,1036982526)+W(7,1045846387,-1104838815,1022233154,1024411853);WS(-1109129728,1010433912);
+[   0.162][d][vo/gpu-next/libplacebo] [136] sum1=W(0,1006908285,-1105899410,-1096823624,-1117250164)+W(1,-1107144297,1057728383,-1092542200,-1122855062)+W(2,-1123315850,1026000812,1037050434,-1106683568)+W(3,-1125685047,-1122267030,-1117617698,-1130212999)+W(4,1019351431,-1137630799,1019407999,1040646763)+W(5,1064635860,-1105008732,-1109418342,1052048931)+W(6,-1107858814,1029923270,-1114857797,-1117087348)+W(7,-1100117973,1034575732,-1137382471,-1107016783);sum2=W(0,-1146428548,1040260969,-1138461074,-1153548328)+W(1,-1131960189,1057542522,1050908092,-1122720334)+W(2,-1140382642,-1105004761,1046314824,-1105417557)+W(3,1025793768,-1110366356,1024281381,-1130524097)+W(4,-1109276610,1016706951,970383811,-1109953492)+W(5,-1109440842,-1149783528,-1113772244,-1119113122)+W(6,-1140136790,-1114961145,-1111645386,1008998438)+W(7,-1135544654,-1113390177,-1128062487,-1119699464);WS(1028043776,1066748487);
+[   0.162][d][vo/gpu-next/libplacebo] [137] sum1=W(0,1029235758,-1142684082,1042153037,1020869188)+W(1,1035504777,1053860476,1055996350,-1130366216)+W(2,1028701624,-1103910983,-1085695847,1043701316)+W(3,-1122144394,-1125763849,-1112356264,-1140377801)+W(4,-1109061593,1025123714,-1111756535,-1114798157)+W(5,1054127718,1020063133,1039957533,-1084468040)+W(6,-1111428405,1027291444,1020852591,1050138268)+W(7,-1122964802,-1137256281,1023500800,-1142788434);sum2=W(0,924100096,-1119644642,-1129530165,-1124029698)+W(1,-1110737625,1050522694,-1119677450,-1114278109)+W(2,-1121059730,-1121636434,1031715210,-1113250169)+W(3,-1125884533,-1119348450,-1145009875,998717971)+W(4,1007880106,-1133743274,1021970837,-1125964837)+W(5,1051750384,-1114387111,-1118803866,1030663674)+W(6,-1117515026,1025411170,999385235,-1120664914)+W(7,1010693450,-1127692741,1019195093,-1122454562);WS(1060837696,-1133947077);
+[   0.162][d][vo/gpu-next/libplacebo] [138] sum1=W(0,1028161858,-1107876293,1043511426,-1111653883)+W(1,1035200691,-1100826286,1032976162,1026751705)+W(2,-1124636570,-1109841015,1046154066,1000443428)+W(3,1010162044,-1123706233,1028652293,-1153569903)+W(4,1015032078,-1120891991,-1102491073,1035524535)+W(5,-1104551490,-1125941943,-1107214884,1051427819)+W(6,-1105048272,1029969865,1038586510,1014718172)+W(7,-1122173975,990755503,1023653077,-1150803951);sum2=W(0,1027230711,-1130116966,-1124907300,-1109148006)+W(1,-1115012616,1033368851,-1099589874,-1141349815)+W(2,-1129789352,1048790586,-1097709653,1025861327)+W(3,1031045509,1042673858,-1111271581,1018453676)+W(4,-1092832201,1052271642,1058387135,-1092637531)+W(5,1040685020,1019043320,1062146597,-1085994041)+W(6,1056989663,-1089224415,-1085821967,1063174823)+W(7,1044673285,-1096709646,-1100831168,1049450817);WS(1052991104,1024635730);
+[   0.162][d][vo/gpu-next/libplacebo] [139] sum1=W(0,-1113667962,1053766219,1054985227,1035832004)+W(1,-1099876558,-1128304655,1046292645,-1115665493)+W(2,-1123144798,1032906080,-1115760280,-1124670698)+W(3,991927035,1032830229,1011324759,-1141396670)+W(4,1027437528,-1121298600,-1119430356,-1101014640)+W(5,-1148766910,-1098528437,1029858016,-1097461637)+W(6,1048476772,-1107490221,1026860541,-1103841730)+W(7,1048946541,-1098098175,-1114702739,1034147624);sum2=W(0,-1123155104,-1081244300,-1101540780,1023525971)+W(1,-1119336486,1068940029,-1094597742,1037524511)+W(2,-1140931614,998725346,1051860638,-1120201684)+W(3,-1116496860,1038812729,1002156586,1025256785)+W(4,-1107189914,989815561,-1124206084,-1109590196)+W(5,1038949441,1039597181,979200786,1026840221)+W(6,-1110977051,-1128575576,-1126284432,1014639773)+W(7,1033886084,-1117282785,-1123250336,-1117345859);WS(-1106197760,-1107941957);
+[   0.162][d][vo/gpu-next/libplacebo] [140] sum1=W(0,992223587,-1096404880,958134964,-1126741205)+W(1,-1096167611,-1089676235,1050569383,-1103296147)+W(2,1041994672,1020956357,1032016157,-1103227950)+W(3,1027666259,1043412107,-1180953690,-1124973941)+W(4,-1114006205,-1156891819,-1131232109,1042417753)+W(5,-1101748223,-1105076618,-1104768673,1053212362)+W(6,1042030605,-1124618361,-1101041056,1057274419)+W(7,1052224033,-1117167007,-1114495652,1049652990);sum2=W(0,-1149001791,1045400432,1033666378,-1114619118)+W(1,-1090736686,1063026008,924614016,-1110825372)+W(2,1027272732,-1108719036,-1114127208,-1106216772)+W(3,-1120615480,-1114760302,1032301903,1033544093)+W(4,-1103940412,-1125963088,1027002418,1015708744)+W(5,1059931802,-1091159350,-1103385448,-1107881456)+W(6,1024735270,-1125128312,-1139192735,-1107266078)+W(7,1034226031,1032462491,1019689496,-1134995311);WS(-1076602784,-1079939509);
+[   0.162][d][vo/gpu-next/libplacebo] [141] sum1=W(0,-1124683769,-1119780485,-1103738752,1033209209)+W(1,-1141354248,1042233324,-1096323000,1015980198)+W(2,-1114123684,1052850909,1054450248,-1106007132)+W(3,1019464370,1045060053,1043529432,-1121157953)+W(4,1041533536,-1112424745,1002177000,1025390185)+W(5,1039917313,-1113895617,-1104846498,1052087227)+W(6,-1098158311,-1112376802,-1119444855,-1105614956)+W(7,-1103437636,-1109951699,1021969694,-1107965437);sum2=W(0,-1119329897,-1117977933,-1106233686,1032197744)+W(1,1042368013,-1074309068,-1119744119,1026978731)+W(2,-1109569271,1064708176,1068607081,1034747948)+W(3,-1111213511,1041980892,-1119111329,1037031349)+W(4,1035649904,-1113988579,1036373860,-1119285117)+W(5,-1080074847,-1148379867,-1150690390,1046616172)+W(6,1043980108,-1113275705,1031972703,1045039448)+W(7,1028259198,1008019670,1015848847,1029320825);WS(-1093673600,-1131421273);
+[   0.162][d][vo/gpu-next/libplacebo] [142] sum1=W(0,-1126420325,-1110871822,-1114120908,-1121371719)+W(1,1021303790,-1118558279,-1087025669,1033366837)+W(2,1011797877,1032969664,1056872571,-1117842165)+W(3,-1131840478,1040800018,1037611499,1021502382)+W(4,1021798446,1008740253,1009001293,1035660544)+W(5,1042294182,1022689127,-1120291359,1058317703)+W(6,-1114500968,-1148303562,1031810222,-1088792724)+W(7,1017988942,-1121301883,-1137856917,-1111697864);sum2=W(0,-1129835426,-1119983153,-1114206314,-1145039688)+W(1,-1110668832,1051729955,-1121785409,-1119915157)+W(2,1002833896,-1118223897,1012089860,-1111519800)+W(3,1006052904,-1123764449,-1130809610,-1127947266)+W(4,-1113040628,1000979816,1020565626,-1116540509)+W(5,1051989643,-1112437186,989230112,-1118504757)+W(6,1025479957,1015165050,-1112214518,1039755978)+W(7,-1127132522,1025956493,-1128941978,-1158783904);WS(1065682080,-1111828541);
+[   0.163][d][vo/gpu-next/libplacebo] [143] sum1=W(0,1017604463,-1115077208,-1145885026,1015869752)+W(1,1024786188,-1121697500,1052074397,-1112250175)+W(2,1002255762,1045248549,-1086889687,1036568133)+W(3,982208647,1037568127,-1130857684,-1131800664)+W(4,1021224792,1032942526,-1126764880,1022264616)+W(5,1047440331,1035803452,1040282413,-1089954536)+W(6,-1109225970,1031850711,-1125683619,1049268572)+W(7,-1113425822,1017131424,-1141787602,-1123514660);sum2=W(0,1016040732,968811648,1016858600,-1122978131)+W(1,-1125004872,1051074882,1029169324,-1114060649)+W(2,1026938249,-1154135582,1006053609,1029971540)+W(3,-1124460348,-1140773838,-1115290499,1017189437)+W(4,1021399769,-1144040913,993636865,1028741871)+W(5,1031746308,-1109484363,-1118019503,1032336595)+W(6,-1113140779,1013417282,-1124468225,-1103346234)+W(7,-1122277912,-1139883250,-1169769501,-1141169189);WS(1068575136,1057679145);
+[   0.163][d][vo/gpu-next/libplacebo] [144] sum1=W(0,1008215334,1049251178,1049880682,-1106541599)+W(1,1042310507,-1095539136,1026486412,989927934)+W(2,1040070410,-1089191083,-1094672658,1018512183)+W(3,1041475113,-1087252724,-1100618939,1014261304)+W(4,-1111487207,1042509671,1052783569,-1093397815)+W(5,-1103138323,1040579493,1051194971,-1092992340)+W(6,1057944056,-1114567880,1038856114,1043830943)+W(7,1049811244,1038361721,1025292508,1044894993);sum2=W(0,-1136765855,1055007475,1053593458,-1114445084)+W(1,-1113238946,-1078800745,-1105638736,1039574032)+W(2,-1106803932,1059224194,-1104375874,1030357662)+W(3,-1113028634,1035501186,1050059734,964162478)+W(4,1054334485,-1141017037,-1150175899,1057823779)+W(5,-1078443122,-1134493359,1042094581,-1096181786)+W(6,1058193036,-1099695416,1020483059,1049857835)+W(7,1029634285,-1110238952,-1118569338,1043677394);WS(-1069843280,1043992756);
+[   0.163][d][vo/gpu-next/libplacebo] [145] sum1=W(0,-1135429253,-1119099178,1027695014,-1124948267)+W(1,1025838726,-1113789227,1044103833,1025550072)+W(2,-1116233196,1024839950,1039477491,1019242118)+W(3,-1130610171,1028120504,-1142719774,998797102)+W(4,1017935435,-1129507307,1008956039,-1108770183)+W(5,-1130965835,1014849865,1030807982,-1112757821)+W(6,-1101790135,1035190516,-1114625158,1042243413)+W(7,-1106167085,1023573770,-1127852007,1012540023);sum2=W(0,-1121247640,1028491168,1026300352,-1114838118)+W(1,-1072953064,1074653957,1053083344,-1095359738)+W(2,-1115141896,1033233928,1056568596,-1093135708)+W(3,-1127503160,1023653964,1030713448,-1116140314)+W(4,-1130258048,-1127851536,-1130791968,1004928481)+W(5,-1102013621,1030571860,1025789396,1024432884)+W(6,-1116002270,1025870428,984097412,1030571276)+W(7,-1129660856,1016702232,-1120604784,1015669456);WS(1066802848,-1129257078);
+[   0.163][d][vo/gpu-next/libplacebo] [146] sum1=W(0,-1118978065,-1155453851,1033473243,1015630667)+W(1,-1101616805,1065736411,1035395194,-1113784260)+W(2,-1114908350,1040181775,1045542397,-1108037466)+W(3,-1111947911,1036229652,-1177594330,-1114956027)+W(4,-1122431286,-1121467910,-1114728473,-1104672775)+W(5,1061324843,-1095556296,-1105320751,-1115117829)+W(6,-1114134583,-1109993148,-1104703871,-1100789945)+W(7,-1138173719,-1106051686,-1111474306,-1124148059);sum2=W(0,-1134031950,-1108713026,-1155123513,-1109560646)+W(1,1017238679,1026897780,1038996664,-1107125821)+W(2,-1127256871,-1107869542,-1107646918,1024343484)+W(3,-1129735047,-1145442397,-1112902766,1004378333)+W(4,-1107664082,1019412439,-1115008786,1035199782)+W(5,1051508948,1016515095,-1123597732,1043157052)+W(6,998755997,-1116358964,-1106563795,1055083262)+W(7,1012570830,-1110777694,-1117600772,-1159444594);WS(-1093453440,1062530498);
+[   0.163][d][vo/gpu-next/libplacebo] [147] sum1=W(0,1018166794,-1109318263,-1115495349,-1124930739)+W(1,-1114300581,1040214918,1024699176,-1109529502)+W(2,1023247327,1043329716,-1105577322,1025096231)+W(3,-1125424515,1034740398,-1123543752,998443854)+W(4,1039727605,1023563962,1023868966,1025637074)+W(5,1052285453,-1104984446,-1131885027,931786146)+W(6,-1105534248,-1137647791,-1110072888,1009762919)+W(7,-1116356474,1018092315,-1123805240,988548151);sum2=W(0,-1110334365,-1135013993,1018118074,-1116378324)+W(1,-1134041225,-1097345050,-1117515615,-1139723269)+W(2,-1112237914,-1107830137,1039717826,-1147091114)+W(3,-1131603942,978891919,1032288465,-1123080609)+W(4,1002595554,-1111471528,-1110082211,1027066059)+W(5,1043336959,1040454031,-1114430561,1053899571)+W(6,1010598309,-1117546906,1033656482,1040668505)+W(7,1026333875,-1119917138,-1115822981,1016807738);WS(1067735712,-1080534052);
+[   0.163][d][vo/gpu-next/libplacebo] [148] return clamp(mstd0 + 5.0 * vsum / wsum * mstd1, 0.0, 1.0);
+[   0.163][d][vo/gpu-next/libplacebo] [149] }  // nnedi3
+[   0.163][d][vo/gpu-next/libplacebo] [150] vec4 hook() {
+[   0.163][d][vo/gpu-next/libplacebo] [151] vec4 ret = vec4(0.0);
+[   0.163][d][vo/gpu-next/libplacebo] [152] vec4 samples[8];
+[   0.163][d][vo/gpu-next/libplacebo] [153] samples[0] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(-1, -3), 0);
+[   0.163][d][vo/gpu-next/libplacebo] [154] samples[1] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(-1, -1), 0);
+[   0.163][d][vo/gpu-next/libplacebo] [155] samples[2] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(-1, 1), 0);
+[   0.163][d][vo/gpu-next/libplacebo] [156] samples[3] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(-1, 3), 0);
+[   0.163][d][vo/gpu-next/libplacebo] [157] samples[4] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(1, -3), 0);
+[   0.163][d][vo/gpu-next/libplacebo] [158] samples[5] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(1, -1), 0);
+[   0.163][d][vo/gpu-next/libplacebo] [159] samples[6] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(1, 1), 0);
+[   0.163][d][vo/gpu-next/libplacebo] [160] samples[7] = HOOKED_mul * textureGatherOffset(HOOKED_raw, HOOKED_pos, ivec2(1, 3), 0);
+[   0.163][d][vo/gpu-next/libplacebo] [161] ret[0] = nnedi3(samples);
+[   0.163][d][vo/gpu-next/libplacebo] [162] return ret;
+[   0.163][d][vo/gpu-next/libplacebo] [163] }  // hook
+[   0.163][d][vo/gpu-next/libplacebo] [164] //!DESC NNEDI3 (combine_x, nns32, win8x4)
+[   0.163][d][vo/gpu-next/libplacebo] [165] //!HOOK LUMA
+[   0.163][d][vo/gpu-next/libplacebo] [166] //!BIND HOOKED
+[   0.163][d][vo/gpu-next/libplacebo] [167] //!BIND nnedi3_int
+[   0.163][d][vo/gpu-next/libplacebo] [168] //!WIDTH 2 HOOKED.w *
+[   0.163][d][vo/gpu-next/libplacebo] [169] //!OFFSET -0.500000 0.000000
+[   0.163][d][vo/gpu-next/libplacebo] [170] //!WHEN HOOKED.w OUTPUT.w / 0.833333 <
+[   0.163][d][vo/gpu-next/libplacebo] [171] vec4 hook() {
+[   0.163][d][vo/gpu-next/libplacebo] [172]     vec2 dir = fract(HOOKED_pos * HOOKED_size) - 0.5;
+[   0.163][d][vo/gpu-next/libplacebo] [173]     if (dir.x < 0.0) {
+[   0.163][d][vo/gpu-next/libplacebo] [174]         return HOOKED_texOff(-dir);
+[   0.163][d][vo/gpu-next/libplacebo] [175]     } else {
+[   0.163][d][vo/gpu-next/libplacebo] [176]         return nnedi3_int_texOff(-dir);
+[   0.163][d][vo/gpu-next/libplacebo] [177]     }
+[   0.163][d][vo/gpu-next/libplacebo] [178] }
+[   0.163][d][global] config path: 'shaders/igv/adaptive-sharpen_luma.glsl' -> 'C:\Users\darkxch\AppData\Roaming/mpv/shaders/igv/adaptive-sharpen_luma.glsl'
+[   0.163][d][global] user path: '~~/shaders/igv/adaptive-sharpen_luma.glsl' -> 'C:\Users\darkxch\AppData\Roaming/mpv/shaders/igv/adaptive-sharpen_luma.glsl'
+[   0.163][v][vo/gpu-next/libplacebo] Registering hook pass: adaptive-sharpen_luma
+[   0.163][v][vo/gpu-next/libplacebo] Registering hook pass: adaptive-sharpen_luma
+[   0.163][d][vo/gpu-next/libplacebo] Loaded user shader:
+[   0.163][d][vo/gpu-next/libplacebo] [  1] // Copyright (c) 2015-2021, bacondither
+[   0.163][d][vo/gpu-next/libplacebo] [  2] // All rights reserved.
+[   0.163][d][vo/gpu-next/libplacebo] [  3] //
+[   0.163][d][vo/gpu-next/libplacebo] [  4] // Redistribution and use in source and binary forms, with or without
+[   0.163][d][vo/gpu-next/libplacebo] [  5] // modification, are permitted provided that the following conditions
+[   0.163][d][vo/gpu-next/libplacebo] [  6] // are met:
+[   0.163][d][vo/gpu-next/libplacebo] [  7] // 1. Redistributions of source code must retain the above copyright
+[   0.163][d][vo/gpu-next/libplacebo] [  8] //    notice, this list of conditions and the following disclaimer
+[   0.163][d][vo/gpu-next/libplacebo] [  9] //    in this position and unchanged.
+[   0.163][d][vo/gpu-next/libplacebo] [ 10] // 2. Redistributions in binary form must reproduce the above copyright
+[   0.163][d][vo/gpu-next/libplacebo] [ 11] //    notice, this list of conditions and the following disclaimer in the
+[   0.163][d][vo/gpu-next/libplacebo] [ 12] //    documentation and/or other materials provided with the distribution.
+[   0.163][d][vo/gpu-next/libplacebo] [ 13] //
+[   0.163][d][vo/gpu-next/libplacebo] [ 14] // THIS SOFTWARE IS PROVIDED BY THE AUTHORS ``AS IS'' AND ANY EXPRESS OR
+[   0.163][d][vo/gpu-next/libplacebo] [ 15] // IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+[   0.163][d][vo/gpu-next/libplacebo] [ 16] // OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+[   0.163][d][vo/gpu-next/libplacebo] [ 17] // IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+[   0.163][d][vo/gpu-next/libplacebo] [ 18] // INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+[   0.163][d][vo/gpu-next/libplacebo] [ 19] // NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+[   0.163][d][vo/gpu-next/libplacebo] [ 20] // DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+[   0.163][d][vo/gpu-next/libplacebo] [ 21] // THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+[   0.163][d][vo/gpu-next/libplacebo] [ 22] // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+[   0.163][d][vo/gpu-next/libplacebo] [ 23] // THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+[   0.163][d][vo/gpu-next/libplacebo] [ 24] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 25] // Adaptive sharpen - version 2021-10-17
+[   0.163][d][vo/gpu-next/libplacebo] [ 26] // Tuned for use post-resize
+[   0.163][d][vo/gpu-next/libplacebo] [ 27] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 28] //!HOOK LUMA
+[   0.163][d][vo/gpu-next/libplacebo] [ 29] //!BIND HOOKED
+[   0.163][d][vo/gpu-next/libplacebo] [ 30] //!WHEN HOOKED.w OUTPUT.w < HOOKED.h OUTPUT.h < *
+[   0.163][d][vo/gpu-next/libplacebo] [ 31] //!DESC adaptive-sharpen_luma
+[   0.163][d][vo/gpu-next/libplacebo] [ 32] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 33] //--------------------------------------- Settings ------------------------------------------------
+[   0.163][d][vo/gpu-next/libplacebo] [ 34] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 35] #define curve_height    0.3                  // Main control of sharpening strength [>0]
+[   0.163][d][vo/gpu-next/libplacebo] [ 36]                                              // 0.3 <-> 2.0 is a reasonable range of values
+[   0.163][d][vo/gpu-next/libplacebo] [ 37] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 38] #define overshoot_ctrl  false                // Allow for higher overshoot if the current edge pixel
+[   0.163][d][vo/gpu-next/libplacebo] [ 39]                                              // is surrounded by similar edge pixels
+[   0.163][d][vo/gpu-next/libplacebo] [ 40] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 41] // Defined values under this row are "optimal" DO NOT CHANGE IF YOU DO NOT KNOW WHAT YOU ARE DOING!
+[   0.163][d][vo/gpu-next/libplacebo] [ 42] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 43] #define curveslope      0.5                  // Sharpening curve slope, high edge values
+[   0.163][d][vo/gpu-next/libplacebo] [ 44] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 45] #define L_compr_low     0.167                // Light compression, default (0.167=~6x)
+[   0.163][d][vo/gpu-next/libplacebo] [ 46] #define L_compr_high    0.334                // Light compression, surrounded by edges (0.334=~3x)
+[   0.163][d][vo/gpu-next/libplacebo] [ 47] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 48] #define D_compr_low     0.250                // Dark compression, default (0.250=4x)
+[   0.163][d][vo/gpu-next/libplacebo] [ 49] #define D_compr_high    0.500                // Dark compression, surrounded by edges (0.500=2x)
+[   0.163][d][vo/gpu-next/libplacebo] [ 50] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 51] #define scale_lim       0.1                  // Abs max change before compression [>0.01]
+[   0.163][d][vo/gpu-next/libplacebo] [ 52] #define scale_cs        0.056                // Compression slope above scale_lim
+[   0.163][d][vo/gpu-next/libplacebo] [ 53] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 54] #define pm_p            1.0                  // Power mean p-value [>0-1.0]
+[   0.163][d][vo/gpu-next/libplacebo] [ 55] //-------------------------------------------------------------------------------------------------
+[   0.163][d][vo/gpu-next/libplacebo] [ 56] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 57] #define max4(a,b,c,d)  ( max(max(a, b), max(c, d)) )
+[   0.163][d][vo/gpu-next/libplacebo] [ 58] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 59] // Soft if, fast linear approx
+[   0.163][d][vo/gpu-next/libplacebo] [ 60] #define soft_if(a,b,c) ( sat((a + b + c + 0.056/2.5)/(maxedge + 0.03/2.5) - 0.85) )
+[   0.163][d][vo/gpu-next/libplacebo] [ 61] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 62] // Soft limit, modified tanh approx
+[   0.163][d][vo/gpu-next/libplacebo] [ 63] #define soft_lim(v,s)  ( sat(abs(v/s)*(27.0 + pow(v/s, 2.0))/(27.0 + 9.0*pow(v/s, 2.0)))*s )
+[   0.163][d][vo/gpu-next/libplacebo] [ 64] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 65] // Weighted power mean
+[   0.163][d][vo/gpu-next/libplacebo] [ 66] #define wpmean(a,b,w)  ( pow(w*pow(abs(a), pm_p) + abs(1.0-w)*pow(abs(b), pm_p), (1.0/pm_p)) )
+[   0.163][d][vo/gpu-next/libplacebo] [ 67] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 68] // Get destination pixel values
+[   0.163][d][vo/gpu-next/libplacebo] [ 69] #define get(x,y)       ( HOOKED_texOff(vec2(x, y)).rgb )
+[   0.163][d][vo/gpu-next/libplacebo] [ 70] #define sat(x)         ( clamp(x, 0.0, 1.0) )
+[   0.163][d][vo/gpu-next/libplacebo] [ 71] #define dxdy(val)      ( length(fwidth(val)) ) // =~1/2.5 hq edge without c_comp
+[   0.163][d][vo/gpu-next/libplacebo] [ 72] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 73] #ifdef LUMA_tex
+[   0.163][d][vo/gpu-next/libplacebo] [ 74] #define CtL(RGB)       RGB.x
+[   0.163][d][vo/gpu-next/libplacebo] [ 75] #else
+[   0.163][d][vo/gpu-next/libplacebo] [ 76] #define CtL(RGB)       ( sqrt(dot(sat(RGB)*sat(RGB), vec3(0.2126, 0.7152, 0.0722))) )
+[   0.163][d][vo/gpu-next/libplacebo] [ 77] #endif
+[   0.163][d][vo/gpu-next/libplacebo] [ 78] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 79] #define b_diff(pix)    ( (blur-luma[pix])*(blur-luma[pix]) )
+[   0.163][d][vo/gpu-next/libplacebo] [ 80] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 81] vec4 hook() {
+[   0.163][d][vo/gpu-next/libplacebo] [ 82] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 83]     // [                c22               ]
+[   0.163][d][vo/gpu-next/libplacebo] [ 84]     // [           c24, c9,  c23          ]
+[   0.163][d][vo/gpu-next/libplacebo] [ 85]     // [      c21, c1,  c2,  c3, c18      ]
+[   0.163][d][vo/gpu-next/libplacebo] [ 86]     // [ c19, c10, c4,  c0,  c5, c11, c16 ]
+[   0.163][d][vo/gpu-next/libplacebo] [ 87]     // [      c20, c6,  c7,  c8, c17      ]
+[   0.163][d][vo/gpu-next/libplacebo] [ 88]     // [           c15, c12, c14          ]
+[   0.163][d][vo/gpu-next/libplacebo] [ 89]     // [                c13               ]
+[   0.163][d][vo/gpu-next/libplacebo] [ 90]     vec3 c[25] = vec3[](get( 0, 0), get(-1,-1), get( 0,-1), get( 1,-1), get(-1, 0),
+[   0.163][d][vo/gpu-next/libplacebo] [ 91]                         get( 1, 0), get(-1, 1), get( 0, 1), get( 1, 1), get( 0,-2),
+[   0.163][d][vo/gpu-next/libplacebo] [ 92]                         get(-2, 0), get( 2, 0), get( 0, 2), get( 0, 3), get( 1, 2),
+[   0.163][d][vo/gpu-next/libplacebo] [ 93]                         get(-1, 2), get( 3, 0), get( 2, 1), get( 2,-1), get(-3, 0),
+[   0.163][d][vo/gpu-next/libplacebo] [ 94]                         get(-2, 1), get(-2,-1), get( 0,-3), get( 1,-2), get(-1,-2));
+[   0.163][d][vo/gpu-next/libplacebo] [ 95] 
+[   0.163][d][vo/gpu-next/libplacebo] [ 96]     float e[13] = float[](dxdy(c[0]),  dxdy(c[1]),  dxdy(c[2]),  dxdy(c[3]),  dxdy(c[4]),
+[   0.163][d][vo/gpu-next/libplacebo] [ 97]                           dxdy(c[5]),  dxdy(c[6]),  dxdy(c[7]),  dxdy(c[8]),  dxdy(c[9]),
+[   0.163][d][vo/gpu-next/libplacebo] [ 98]                           dxdy(c[10]), dxdy(c[11]), dxdy(c[12]));
+[   0.163][d][vo/gpu-next/libplacebo] [ 99] 
+[   0.163][d][vo/gpu-next/libplacebo] [100]     // RGB to luma
+[   0.163][d][vo/gpu-next/libplacebo] [101]     float luma[25] = float[](CtL(c[0]), CtL(c[1]), CtL(c[2]), CtL(c[3]), CtL(c[4]), CtL(c[5]), CtL(c[6]),
+[   0.163][d][vo/gpu-next/libplacebo] [102]                              CtL(c[7]),  CtL(c[8]),  CtL(c[9]),  CtL(c[10]), CtL(c[11]), CtL(c[12]),
+[   0.163][d][vo/gpu-next/libplacebo] [103]                              CtL(c[13]), CtL(c[14]), CtL(c[15]), CtL(c[16]), CtL(c[17]), CtL(c[18]),
+[   0.163][d][vo/gpu-next/libplacebo] [104]                              CtL(c[19]), CtL(c[20]), CtL(c[21]), CtL(c[22]), CtL(c[23]), CtL(c[24]));
+[   0.163][d][vo/gpu-next/libplacebo] [105] 
+[   0.163][d][vo/gpu-next/libplacebo] [106]     float c0_Y = luma[0];
+[   0.163][d][vo/gpu-next/libplacebo] [107] 
+[   0.163][d][vo/gpu-next/libplacebo] [108]     // Blur, gauss 3x3
+[   0.163][d][vo/gpu-next/libplacebo] [109]     float  blur   = (2.0 * (luma[2]+luma[4]+luma[5]+luma[7]) + (luma[1]+luma[3]+luma[6]+luma[8]) + 4.0 * luma[0]) / 16.0;
+[   0.163][d][vo/gpu-next/libplacebo] [110] 
+[   0.163][d][vo/gpu-next/libplacebo] [111]     // Contrast compression, center = 0.5
+[   0.163][d][vo/gpu-next/libplacebo] [112]     float c_comp = sat(0.266666681f + 0.9*exp2(blur * blur * -7.4));
+[   0.163][d][vo/gpu-next/libplacebo] [113] 
+[   0.163][d][vo/gpu-next/libplacebo] [114]     // Edge detection
+[   0.163][d][vo/gpu-next/libplacebo] [115]     // Relative matrix weights
+[   0.163][d][vo/gpu-next/libplacebo] [116]     // [          1          ]
+[   0.163][d][vo/gpu-next/libplacebo] [117]     // [      4,  5,  4      ]
+[   0.163][d][vo/gpu-next/libplacebo] [118]     // [  1,  5,  6,  5,  1  ]
+[   0.163][d][vo/gpu-next/libplacebo] [119]     // [      4,  5,  4      ]
+[   0.163][d][vo/gpu-next/libplacebo] [120]     // [          1          ]
+[   0.163][d][vo/gpu-next/libplacebo] [121]     float edge = ( 1.38*b_diff(0)
+[   0.163][d][vo/gpu-next/libplacebo] [122]                  + 1.15*(b_diff(2) + b_diff(4) + b_diff(5) + b_diff(7))
+[   0.163][d][vo/gpu-next/libplacebo] [123]                  + 0.92*(b_diff(1) + b_diff(3) + b_diff(6) + b_diff(8))
+[   0.163][d][vo/gpu-next/libplacebo] [124]                  + 0.23*(b_diff(9) + b_diff(10) + b_diff(11) + b_diff(12)) ) * c_comp;
+[   0.163][d][vo/gpu-next/libplacebo] [125] 
+[   0.163][d][vo/gpu-next/libplacebo] [126]     vec2 cs = vec2(L_compr_low,  D_compr_low);
+[   0.163][d][vo/gpu-next/libplacebo] [127] 
+[   0.163][d][vo/gpu-next/libplacebo] [128]     if (overshoot_ctrl) {
+[   0.163][d][vo/gpu-next/libplacebo] [129]         float maxedge = max4( max4(e[1],e[2],e[3],e[4]), max4(e[5],e[6],e[7],e[8]),
+[   0.163][d][vo/gpu-next/libplacebo] [130]                               max4(e[9],e[10],e[11],e[12]), e[0] );
+[   0.163][d][vo/gpu-next/libplacebo] [131] 
+[   0.163][d][vo/gpu-next/libplacebo] [132]         // [          x          ]
+[   0.163][d][vo/gpu-next/libplacebo] [133]         // [       z, x, w       ]
+[   0.163][d][vo/gpu-next/libplacebo] [134]         // [    z, z, x, w, w    ]
+[   0.163][d][vo/gpu-next/libplacebo] [135]         // [ y, y, y, 0, y, y, y ]
+[   0.163][d][vo/gpu-next/libplacebo] [136]         // [    w, w, x, z, z    ]
+[   0.163][d][vo/gpu-next/libplacebo] [137]         // [       w, x, z       ]
+[   0.163][d][vo/gpu-next/libplacebo] [138]         // [          x          ]
+[   0.163][d][vo/gpu-next/libplacebo] [139]         float sbe = soft_if(e[2],e[9], dxdy(c[22]))*soft_if(e[7],e[12],dxdy(c[13]))  // x dir
+[   0.163][d][vo/gpu-next/libplacebo] [140]                   + soft_if(e[4],e[10],dxdy(c[19]))*soft_if(e[5],e[11],dxdy(c[16]))  // y dir
+[   0.163][d][vo/gpu-next/libplacebo] [141]                   + soft_if(e[1],dxdy(c[24]),dxdy(c[21]))*soft_if(e[8],dxdy(c[14]),dxdy(c[17]))  // z dir
+[   0.163][d][vo/gpu-next/libplacebo] [142]                   + soft_if(e[3],dxdy(c[23]),dxdy(c[18]))*soft_if(e[6],dxdy(c[20]),dxdy(c[15])); // w dir
+[   0.163][d][vo/gpu-next/libplacebo] [143] 
+[   0.163][d][vo/gpu-next/libplacebo] [144]         cs = mix(cs, vec2(L_compr_high, D_compr_high), sat(2.4002*sbe - 2.282));
+[   0.163][d][vo/gpu-next/libplacebo] [145]     }
+[   0.163][d][vo/gpu-next/libplacebo] [146] 
+[   0.163][d][vo/gpu-next/libplacebo] [147]     // Precalculated default squared kernel weights
+[   0.163][d][vo/gpu-next/libplacebo] [148]     const vec3 w1 = vec3(0.5,           1.0, 1.41421356237); // 0.25, 1.0, 2.0
+[   0.163][d][vo/gpu-next/libplacebo] [149]     const vec3 w2 = vec3(0.86602540378, 1.0, 0.54772255751); // 0.75, 1.0, 0.3
+[   0.163][d][vo/gpu-next/libplacebo] [150] 
+[   0.163][d][vo/gpu-next/libplacebo] [151]     // Transition to a concave kernel if the center edge val is above thr
+[   0.163][d][vo/gpu-next/libplacebo] [152]     vec3 dW = pow(mix( w1, w2, sat(2.4*edge - 0.82)), vec3(2.0));
+[   0.163][d][vo/gpu-next/libplacebo] [153] 
+[   0.163][d][vo/gpu-next/libplacebo] [154]     // Use lower weights for pixels in a more active area relative to center pixel area
+[   0.163][d][vo/gpu-next/libplacebo] [155]     // This results in narrower and less visible overshoots around sharp edges
+[   0.163][d][vo/gpu-next/libplacebo] [156]     float modif_e0 = 3.0 * e[0] + 0.02/2.5;
+[   0.163][d][vo/gpu-next/libplacebo] [157] 
+[   0.163][d][vo/gpu-next/libplacebo] [158]     float weights[12]  = float[](( min(modif_e0/e[1],  dW.y) ),
+[   0.163][d][vo/gpu-next/libplacebo] [159]                                  ( dW.x ),
+[   0.163][d][vo/gpu-next/libplacebo] [160]                                  ( min(modif_e0/e[3],  dW.y) ),
+[   0.163][d][vo/gpu-next/libplacebo] [161]                                  ( dW.x ),
+[   0.163][d][vo/gpu-next/libplacebo] [162]                                  ( dW.x ),
+[   0.163][d][vo/gpu-next/libplacebo] [163]                                  ( min(modif_e0/e[6],  dW.y) ),
+[   0.163][d][vo/gpu-next/libplacebo] [164]                                  ( dW.x ),
+[   0.163][d][vo/gpu-next/libplacebo] [165]                                  ( min(modif_e0/e[8],  dW.y) ),
+[   0.163][d][vo/gpu-next/libplacebo] [166]                                  ( min(modif_e0/e[9],  dW.z) ),
+[   0.163][d][vo/gpu-next/libplacebo] [167]                                  ( min(modif_e0/e[10], dW.z) ),
+[   0.163][d][vo/gpu-next/libplacebo] [168]                                  ( min(modif_e0/e[11], dW.z) ),
+[   0.163][d][vo/gpu-next/libplacebo] [169]                                  ( min(modif_e0/e[12], dW.z) ));
+[   0.163][d][vo/gpu-next/libplacebo] [170] 
+[   0.163][d][vo/gpu-next/libplacebo] [171]     weights[0] = (max(max((weights[8]  + weights[9])/4.0,  weights[0]), 0.25) + weights[0])/2.0;
+[   0.163][d][vo/gpu-next/libplacebo] [172]     weights[2] = (max(max((weights[8]  + weights[10])/4.0, weights[2]), 0.25) + weights[2])/2.0;
+[   0.163][d][vo/gpu-next/libplacebo] [173]     weights[5] = (max(max((weights[9]  + weights[11])/4.0, weights[5]), 0.25) + weights[5])/2.0;
+[   0.163][d][vo/gpu-next/libplacebo] [174]     weights[7] = (max(max((weights[10] + weights[11])/4.0, weights[7]), 0.25) + weights[7])/2.0;
+[   0.163][d][vo/gpu-next/libplacebo] [175] 
+[   0.163][d][vo/gpu-next/libplacebo] [176]     // Calculate the negative part of the laplace kernel and the low threshold weight
+[   0.163][d][vo/gpu-next/libplacebo] [177]     float lowthrsum   = 0.0;
+[   0.163][d][vo/gpu-next/libplacebo] [178]     float weightsum   = 0.0;
+[   0.163][d][vo/gpu-next/libplacebo] [179]     float neg_laplace = 0.0;
+[   0.163][d][vo/gpu-next/libplacebo] [180] 
+[   0.163][d][vo/gpu-next/libplacebo] [181]     for (int pix = 0; pix < 12; ++pix)
+[   0.163][d][vo/gpu-next/libplacebo] [182]     {
+[   0.163][d][vo/gpu-next/libplacebo] [183]         float lowthr = sat((20.*4.5*c_comp*e[pix + 1] - 0.221));
+[   0.163][d][vo/gpu-next/libplacebo] [184] 
+[   0.163][d][vo/gpu-next/libplacebo] [185]         neg_laplace += luma[pix+1] * luma[pix+1] * weights[pix] * lowthr;
+[   0.163][d][vo/gpu-next/libplacebo] [186]         weightsum   += weights[pix] * lowthr;
+[   0.163][d][vo/gpu-next/libplacebo] [187]         lowthrsum   += lowthr / 12.0;
+[   0.163][d][vo/gpu-next/libplacebo] [188]     }
+[   0.163][d][vo/gpu-next/libplacebo] [189] 
+[   0.163][d][vo/gpu-next/libplacebo] [190]     neg_laplace = sqrt(neg_laplace / weightsum);
+[   0.163][d][vo/gpu-next/libplacebo] [191] 
+[   0.163][d][vo/gpu-next/libplacebo] [192]     // Compute sharpening magnitude function
+[   0.163][d][vo/gpu-next/libplacebo] [193]     float sharpen_val = curve_height/(curve_height*curveslope*edge + 0.625);
+[   0.163][d][vo/gpu-next/libplacebo] [194] 
+[   0.163][d][vo/gpu-next/libplacebo] [195]     // Calculate sharpening diff and scale
+[   0.163][d][vo/gpu-next/libplacebo] [196]     float sharpdiff = (c0_Y - neg_laplace)*(lowthrsum*sharpen_val + 0.01);
+[   0.163][d][vo/gpu-next/libplacebo] [197] 
+[   0.163][d][vo/gpu-next/libplacebo] [198]     // Calculate local near min & max, partial sort
+[   0.163][d][vo/gpu-next/libplacebo] [199]     float temp;
+[   0.163][d][vo/gpu-next/libplacebo] [200] 
+[   0.163][d][vo/gpu-next/libplacebo] [201]     for (int i1 = 0; i1 < 24; i1 += 2)
+[   0.163][d][vo/gpu-next/libplacebo] [202]     {
+[   0.163][d][vo/gpu-next/libplacebo] [203]         temp = luma[i1];
+[   0.163][d][vo/gpu-next/libplacebo] [204]         luma[i1]   = min(luma[i1], luma[i1+1]);
+[   0.163][d][vo/gpu-next/libplacebo] [205]         luma[i1+1] = max(temp, luma[i1+1]);
+[   0.163][d][vo/gpu-next/libplacebo] [206]     }
+[   0.163][d][vo/gpu-next/libplacebo] [207] 
+[   0.163][d][vo/gpu-next/libplacebo] [208]     for (int i2 = 24; i2 > 0; i2 -= 2)
+[   0.163][d][vo/gpu-next/libplacebo] [209]     {
+[   0.163][d][vo/gpu-next/libplacebo] [210]         temp = luma[0];
+[   0.163][d][vo/gpu-next/libplacebo] [211]         luma[0]    = min(luma[0], luma[i2]);
+[   0.163][d][vo/gpu-next/libplacebo] [212]         luma[i2]   = max(temp, luma[i2]);
+[   0.163][d][vo/gpu-next/libplacebo] [213] 
+[   0.163][d][vo/gpu-next/libplacebo] [214]         temp = luma[24];
+[   0.163][d][vo/gpu-next/libplacebo] [215]         luma[24] = max(luma[24], luma[i2-1]);
+[   0.163][d][vo/gpu-next/libplacebo] [216]         luma[i2-1] = min(temp, luma[i2-1]);
+[   0.163][d][vo/gpu-next/libplacebo] [217]     }
+[   0.163][d][vo/gpu-next/libplacebo] [218] 
+[   0.163][d][vo/gpu-next/libplacebo] [219]     float min_dist  = min(abs(luma[24] - c0_Y), abs(c0_Y - luma[0]));
+[   0.163][d][vo/gpu-next/libplacebo] [220]     min_dist = min(min_dist, scale_lim*(1.0 - scale_cs) + min_dist*scale_cs);
+[   0.163][d][vo/gpu-next/libplacebo] [221] 
+[   0.163][d][vo/gpu-next/libplacebo] [222]     // Soft limited anti-ringing with tanh, wpmean to control compression slope
+[   0.163][d][vo/gpu-next/libplacebo] [223]     sharpdiff = wpmean(max(sharpdiff, 0.0), soft_lim( max(sharpdiff, 0.0), min_dist ), cs.x )
+[   0.163][d][vo/gpu-next/libplacebo] [224]               - wpmean(min(sharpdiff, 0.0), soft_lim( min(sharpdiff, 0.0), min_dist ), cs.y );
+[   0.163][d][vo/gpu-next/libplacebo] [225]     
+[   0.163][d][vo/gpu-next/libplacebo] [226]     float sharpdiff_lim = sat(c0_Y + sharpdiff) - c0_Y;
+[   0.163][d][vo/gpu-next/libplacebo] [227]     /*float satmul = (c0_Y + max(sharpdiff_lim*0.9, sharpdiff_lim)*1.03 + 0.03)/(c0_Y + 0.03);
+[   0.163][d][vo/gpu-next/libplacebo] [228]     vec3 res = c0_Y + sharpdiff_lim + (c[0] - c0_Y)*satmul;
+[   0.163][d][vo/gpu-next/libplacebo] [229]     */
+[   0.163][d][vo/gpu-next/libplacebo] [230]     return vec4(sharpdiff_lim + c[0], HOOKED_texOff(0).a);
+[   0.163][d][vo/gpu-next/libplacebo] [231] }
+[   0.163][d][vo/gpu-next/libplacebo] [232] 
+[   0.163][d][vo/gpu-next/libplacebo] [233] //!HOOK LUMA
+[   0.163][d][vo/gpu-next/libplacebo] [234] //!BIND HOOKED
+[   0.163][d][vo/gpu-next/libplacebo] [235] //!WHEN HOOKED.w OUTPUT.w > HOOKED.h OUTPUT.h > *
+[   0.163][d][vo/gpu-next/libplacebo] [236] //!DESC adaptive-sharpen_luma
+[   0.163][d][vo/gpu-next/libplacebo] [237] 
+[   0.163][d][vo/gpu-next/libplacebo] [238] //--------------------------------------- Settings ------------------------------------------------
+[   0.163][d][vo/gpu-next/libplacebo] [239] 
+[   0.163][d][vo/gpu-next/libplacebo] [240] #define curve_height    0.3                  // Main control of sharpening strength [>0]
+[   0.163][d][vo/gpu-next/libplacebo] [241]                                              // 0.3 <-> 2.0 is a reasonable range of values
+[   0.163][d][vo/gpu-next/libplacebo] [242] 
+[   0.163][d][vo/gpu-next/libplacebo] [243] #define overshoot_ctrl  false                // Allow for higher overshoot if the current edge pixel
+[   0.163][d][vo/gpu-next/libplacebo] [244]                                              // is surrounded by similar edge pixels
+[   0.163][d][vo/gpu-next/libplacebo] [245] 
+[   0.163][d][vo/gpu-next/libplacebo] [246] // Defined values under this row are "optimal" DO NOT CHANGE IF YOU DO NOT KNOW WHAT YOU ARE DOING!
+[   0.163][d][vo/gpu-next/libplacebo] [247] 
+[   0.163][d][vo/gpu-next/libplacebo] [248] #define curveslope      0.5                  // Sharpening curve slope, high edge values
+[   0.163][d][vo/gpu-next/libplacebo] [249] 
+[   0.163][d][vo/gpu-next/libplacebo] [250] #define L_compr_low     0.167                // Light compression, default (0.167=~6x)
+[   0.163][d][vo/gpu-next/libplacebo] [251] #define L_compr_high    0.334                // Light compression, surrounded by edges (0.334=~3x)
+[   0.163][d][vo/gpu-next/libplacebo] [252] 
+[   0.163][d][vo/gpu-next/libplacebo] [253] #define D_compr_low     0.250                // Dark compression, default (0.250=4x)
+[   0.163][d][vo/gpu-next/libplacebo] [254] #define D_compr_high    0.500                // Dark compression, surrounded by edges (0.500=2x)
+[   0.163][d][vo/gpu-next/libplacebo] [255] 
+[   0.163][d][vo/gpu-next/libplacebo] [256] #define scale_lim       0.1                  // Abs max change before compression [>0.01]
+[   0.163][d][vo/gpu-next/libplacebo] [257] #define scale_cs        0.056                // Compression slope above scale_lim
+[   0.163][d][vo/gpu-next/libplacebo] [258] 
+[   0.163][d][vo/gpu-next/libplacebo] [259] #define pm_p            1.0                  // Power mean p-value [>0-1.0]
+[   0.163][d][vo/gpu-next/libplacebo] [260] //-------------------------------------------------------------------------------------------------
+[   0.163][d][vo/gpu-next/libplacebo] [261] 
+[   0.163][d][vo/gpu-next/libplacebo] [262] #define max4(a,b,c,d)  ( max(max(a, b), max(c, d)) )
+[   0.163][d][vo/gpu-next/libplacebo] [263] 
+[   0.163][d][vo/gpu-next/libplacebo] [264] // Soft if, fast linear approx
+[   0.163][d][vo/gpu-next/libplacebo] [265] #define soft_if(a,b,c) ( sat((a + b + c + 0.056/2.5)/(maxedge + 0.03/2.5) - 0.85) )
+[   0.163][d][vo/gpu-next/libplacebo] [266] 
+[   0.163][d][vo/gpu-next/libplacebo] [267] // Soft limit, modified tanh approx
+[   0.163][d][vo/gpu-next/libplacebo] [268] #define soft_lim(v,s)  ( sat(abs(v/s)*(27.0 + pow(v/s, 2.0))/(27.0 + 9.0*pow(v/s, 2.0)))*s )
+[   0.163][d][vo/gpu-next/libplacebo] [269] 
+[   0.163][d][vo/gpu-next/libplacebo] [270] // Weighted power mean
+[   0.163][d][vo/gpu-next/libplacebo] [271] #define wpmean(a,b,w)  ( pow(w*pow(abs(a), pm_p) + abs(1.0-w)*pow(abs(b), pm_p), (1.0/pm_p)) )
+[   0.163][d][vo/gpu-next/libplacebo] [272] 
+[   0.163][d][vo/gpu-next/libplacebo] [273] // Get destination pixel values
+[   0.163][d][vo/gpu-next/libplacebo] [274] #define get(x,y)       ( HOOKED_texOff(vec2(x, y)).rgb )
+[   0.163][d][vo/gpu-next/libplacebo] [275] #define sat(x)         ( clamp(x, 0.0, 1.0) )
+[   0.163][d][vo/gpu-next/libplacebo] [276] #define dxdy(val)      ( length(fwidth(val)) ) // =~1/2.5 hq edge without c_comp
+[   0.163][d][vo/gpu-next/libplacebo] [277] 
+[   0.163][d][vo/gpu-next/libplacebo] [278] #ifdef LUMA_tex
+[   0.163][d][vo/gpu-next/libplacebo] [279] #define CtL(RGB)       RGB.x
+[   0.163][d][vo/gpu-next/libplacebo] [280] #else
+[   0.163][d][vo/gpu-next/libplacebo] [281] #define CtL(RGB)       ( sqrt(dot(sat(RGB)*sat(RGB), vec3(0.2126, 0.7152, 0.0722))) )
+[   0.163][d][vo/gpu-next/libplacebo] [282] #endif
+[   0.163][d][vo/gpu-next/libplacebo] [283] 
+[   0.163][d][vo/gpu-next/libplacebo] [284] #define b_diff(pix)    ( (blur-luma[pix])*(blur-luma[pix]) )
+[   0.163][d][vo/gpu-next/libplacebo] [285] 
+[   0.163][d][vo/gpu-next/libplacebo] [286] vec4 hook() {
+[   0.163][d][vo/gpu-next/libplacebo] [287] 
+[   0.163][d][vo/gpu-next/libplacebo] [288]     // [                c22               ]
+[   0.163][d][vo/gpu-next/libplacebo] [289]     // [           c24, c9,  c23          ]
+[   0.163][d][vo/gpu-next/libplacebo] [290]     // [      c21, c1,  c2,  c3, c18      ]
+[   0.163][d][vo/gpu-next/libplacebo] [291]     // [ c19, c10, c4,  c0,  c5, c11, c16 ]
+[   0.163][d][vo/gpu-next/libplacebo] [292]     // [      c20, c6,  c7,  c8, c17      ]
+[   0.163][d][vo/gpu-next/libplacebo] [293]     // [           c15, c12, c14          ]
+[   0.163][d][vo/gpu-next/libplacebo] [294]     // [                c13               ]
+[   0.163][d][vo/gpu-next/libplacebo] [295]     vec3 c[25] = vec3[](get( 0, 0), get(-1,-1), get( 0,-1), get( 1,-1), get(-1, 0),
+[   0.163][d][vo/gpu-next/libplacebo] [296]                         get( 1, 0), get(-1, 1), get( 0, 1), get( 1, 1), get( 0,-2),
+[   0.163][d][vo/gpu-next/libplacebo] [297]                         get(-2, 0), get( 2, 0), get( 0, 2), get( 0, 3), get( 1, 2),
+[   0.163][d][vo/gpu-next/libplacebo] [298]                         get(-1, 2), get( 3, 0), get( 2, 1), get( 2,-1), get(-3, 0),
+[   0.163][d][vo/gpu-next/libplacebo] [299]                         get(-2, 1), get(-2,-1), get( 0,-3), get( 1,-2), get(-1,-2));
+[   0.163][d][vo/gpu-next/libplacebo] [300] 
+[   0.163][d][vo/gpu-next/libplacebo] [301]     float e[13] = float[](dxdy(c[0]),  dxdy(c[1]),  dxdy(c[2]),  dxdy(c[3]),  dxdy(c[4]),
+[   0.163][d][vo/gpu-next/libplacebo] [302]                           dxdy(c[5]),  dxdy(c[6]),  dxdy(c[7]),  dxdy(c[8]),  dxdy(c[9]),
+[   0.163][d][vo/gpu-next/libplacebo] [303]                           dxdy(c[10]), dxdy(c[11]), dxdy(c[12]));
+[   0.163][d][vo/gpu-next/libplacebo] [304] 
+[   0.163][d][vo/gpu-next/libplacebo] [305]     // RGB to luma
+[   0.163][d][vo/gpu-next/libplacebo] [306]     float luma[25] = float[](CtL(c[0]), CtL(c[1]), CtL(c[2]), CtL(c[3]), CtL(c[4]), CtL(c[5]), CtL(c[6]),
+[   0.163][d][vo/gpu-next/libplacebo] [307]                              CtL(c[7]),  CtL(c[8]),  CtL(c[9]),  CtL(c[10]), CtL(c[11]), CtL(c[12]),
+[   0.163][d][vo/gpu-next/libplacebo] [308]                              CtL(c[13]), CtL(c[14]), CtL(c[15]), CtL(c[16]), CtL(c[17]), CtL(c[18]),
+[   0.163][d][vo/gpu-next/libplacebo] [309]                              CtL(c[19]), CtL(c[20]), CtL(c[21]), CtL(c[22]), CtL(c[23]), CtL(c[24]));
+[   0.163][d][vo/gpu-next/libplacebo] [310] 
+[   0.163][d][vo/gpu-next/libplacebo] [311]     float c0_Y = luma[0];
+[   0.163][d][vo/gpu-next/libplacebo] [312] 
+[   0.163][d][vo/gpu-next/libplacebo] [313]     // Blur, gauss 3x3
+[   0.163][d][vo/gpu-next/libplacebo] [314]     float  blur   = (2.0 * (luma[2]+luma[4]+luma[5]+luma[7]) + (luma[1]+luma[3]+luma[6]+luma[8]) + 4.0 * luma[0]) / 16.0;
+[   0.163][d][vo/gpu-next/libplacebo] [315] 
+[   0.163][d][vo/gpu-next/libplacebo] [316]     // Contrast compression, center = 0.5
+[   0.163][d][vo/gpu-next/libplacebo] [317]     float c_comp = sat(0.266666681f + 0.9*exp2(blur * blur * -7.4));
+[   0.163][d][vo/gpu-next/libplacebo] [318] 
+[   0.163][d][vo/gpu-next/libplacebo] [319]     // Edge detection
+[   0.163][d][vo/gpu-next/libplacebo] [320]     // Relative matrix weights
+[   0.163][d][vo/gpu-next/libplacebo] [321]     // [          1          ]
+[   0.163][d][vo/gpu-next/libplacebo] [322]     // [      4,  5,  4      ]
+[   0.163][d][vo/gpu-next/libplacebo] [323]     // [  1,  5,  6,  5,  1  ]
+[   0.163][d][vo/gpu-next/libplacebo] [324]     // [      4,  5,  4      ]
+[   0.163][d][vo/gpu-next/libplacebo] [325]     // [          1          ]
+[   0.163][d][vo/gpu-next/libplacebo] [326]     float edge = ( 1.38*b_diff(0)
+[   0.163][d][vo/gpu-next/libplacebo] [327]                  + 1.15*(b_diff(2) + b_diff(4) + b_diff(5) + b_diff(7))
+[   0.163][d][vo/gpu-next/libplacebo] [328]                  + 0.92*(b_diff(1) + b_diff(3) + b_diff(6) + b_diff(8))
+[   0.163][d][vo/gpu-next/libplacebo] [329]                  + 0.23*(b_diff(9) + b_diff(10) + b_diff(11) + b_diff(12)) ) * c_comp;
+[   0.163][d][vo/gpu-next/libplacebo] [330] 
+[   0.163][d][vo/gpu-next/libplacebo] [331]     vec2 cs = vec2(L_compr_low,  D_compr_low);
+[   0.163][d][vo/gpu-next/libplacebo] [332] 
+[   0.163][d][vo/gpu-next/libplacebo] [333]     if (overshoot_ctrl) {
+[   0.163][d][vo/gpu-next/libplacebo] [334]         float maxedge = max4( max4(e[1],e[2],e[3],e[4]), max4(e[5],e[6],e[7],e[8]),
+[   0.163][d][vo/gpu-next/libplacebo] [335]                               max4(e[9],e[10],e[11],e[12]), e[0] );
+[   0.163][d][vo/gpu-next/libplacebo] [336] 
+[   0.163][d][vo/gpu-next/libplacebo] [337]         // [          x          ]
+[   0.163][d][vo/gpu-next/libplacebo] [338]         // [       z, x, w       ]
+[   0.163][d][vo/gpu-next/libplacebo] [339]         // [    z, z, x, w, w    ]
+[   0.163][d][vo/gpu-next/libplacebo] [340]         // [ y, y, y, 0, y, y, y ]
+[   0.163][d][vo/gpu-next/libplacebo] [341]         // [    w, w, x, z, z    ]
+[   0.163][d][vo/gpu-next/libplacebo] [342]         // [       w, x, z       ]
+[   0.163][d][vo/gpu-next/libplacebo] [343]         // [          x          ]
+[   0.163][d][vo/gpu-next/libplacebo] [344]         float sbe = soft_if(e[2],e[9], dxdy(c[22]))*soft_if(e[7],e[12],dxdy(c[13]))  // x dir
+[   0.163][d][vo/gpu-next/libplacebo] [345]                   + soft_if(e[4],e[10],dxdy(c[19]))*soft_if(e[5],e[11],dxdy(c[16]))  // y dir
+[   0.163][d][vo/gpu-next/libplacebo] [346]                   + soft_if(e[1],dxdy(c[24]),dxdy(c[21]))*soft_if(e[8],dxdy(c[14]),dxdy(c[17]))  // z dir
+[   0.163][d][vo/gpu-next/libplacebo] [347]                   + soft_if(e[3],dxdy(c[23]),dxdy(c[18]))*soft_if(e[6],dxdy(c[20]),dxdy(c[15])); // w dir
+[   0.163][d][vo/gpu-next/libplacebo] [348] 
+[   0.163][d][vo/gpu-next/libplacebo] [349]         cs = mix(cs, vec2(L_compr_high, D_compr_high), sat(2.4002*sbe - 2.282));
+[   0.163][d][vo/gpu-next/libplacebo] [350]     }
+[   0.163][d][vo/gpu-next/libplacebo] [351] 
+[   0.163][d][vo/gpu-next/libplacebo] [352]     // Precalculated default squared kernel weights
+[   0.163][d][vo/gpu-next/libplacebo] [353]     const vec3 w1 = vec3(0.5,           1.0, 1.41421356237); // 0.25, 1.0, 2.0
+[   0.163][d][vo/gpu-next/libplacebo] [354]     const vec3 w2 = vec3(0.86602540378, 1.0, 0.54772255751); // 0.75, 1.0, 0.3
+[   0.163][d][vo/gpu-next/libplacebo] [355] 
+[   0.163][d][vo/gpu-next/libplacebo] [356]     // Transition to a concave kernel if the center edge val is above thr
+[   0.163][d][vo/gpu-next/libplacebo] [357]     vec3 dW = pow(mix( w1, w2, sat(2.4*edge - 0.82)), vec3(2.0));
+[   0.163][d][vo/gpu-next/libplacebo] [358] 
+[   0.163][d][vo/gpu-next/libplacebo] [359]     // Use lower weights for pixels in a more active area relative to center pixel area
+[   0.163][d][vo/gpu-next/libplacebo] [360]     // This results in narrower and less visible overshoots around sharp edges
+[   0.163][d][vo/gpu-next/libplacebo] [361]     float modif_e0 = 3.0 * e[0] + 0.02/2.5;
+[   0.163][d][vo/gpu-next/libplacebo] [362] 
+[   0.163][d][vo/gpu-next/libplacebo] [363]     float weights[12]  = float[](( min(modif_e0/e[1],  dW.y) ),
+[   0.163][d][vo/gpu-next/libplacebo] [364]                                  ( dW.x ),
+[   0.163][d][vo/gpu-next/libplacebo] [365]                                  ( min(modif_e0/e[3],  dW.y) ),
+[   0.163][d][vo/gpu-next/libplacebo] [366]                                  ( dW.x ),
+[   0.163][d][vo/gpu-next/libplacebo] [367]                                  ( dW.x ),
+[   0.163][d][vo/gpu-next/libplacebo] [368]                                  ( min(modif_e0/e[6],  dW.y) ),
+[   0.163][d][vo/gpu-next/libplacebo] [369]                                  ( dW.x ),
+[   0.163][d][vo/gpu-next/libplacebo] [370]                                  ( min(modif_e0/e[8],  dW.y) ),
+[   0.163][d][vo/gpu-next/libplacebo] [371]                                  ( min(modif_e0/e[9],  dW.z) ),
+[   0.163][d][vo/gpu-next/libplacebo] [372]                                  ( min(modif_e0/e[10], dW.z) ),
+[   0.163][d][vo/gpu-next/libplacebo] [373]                                  ( min(modif_e0/e[11], dW.z) ),
+[   0.163][d][vo/gpu-next/libplacebo] [374]                                  ( min(modif_e0/e[12], dW.z) ));
+[   0.163][d][vo/gpu-next/libplacebo] [375] 
+[   0.163][d][vo/gpu-next/libplacebo] [376]     weights[0] = (max(max((weights[8]  + weights[9])/4.0,  weights[0]), 0.25) + weights[0])/2.0;
+[   0.163][d][vo/gpu-next/libplacebo] [377]     weights[2] = (max(max((weights[8]  + weights[10])/4.0, weights[2]), 0.25) + weights[2])/2.0;
+[   0.163][d][vo/gpu-next/libplacebo] [378]     weights[5] = (max(max((weights[9]  + weights[11])/4.0, weights[5]), 0.25) + weights[5])/2.0;
+[   0.163][d][vo/gpu-next/libplacebo] [379]     weights[7] = (max(max((weights[10] + weights[11])/4.0, weights[7]), 0.25) + weights[7])/2.0;
+[   0.163][d][vo/gpu-next/libplacebo] [380] 
+[   0.163][d][vo/gpu-next/libplacebo] [381]     // Calculate the negative part of the laplace kernel and the low threshold weight
+[   0.163][d][vo/gpu-next/libplacebo] [382]     float lowthrsum   = 0.0;
+[   0.163][d][vo/gpu-next/libplacebo] [383]     float weightsum   = 0.0;
+[   0.163][d][vo/gpu-next/libplacebo] [384]     float neg_laplace = 0.0;
+[   0.163][d][vo/gpu-next/libplacebo] [385] 
+[   0.163][d][vo/gpu-next/libplacebo] [386]     for (int pix = 0; pix < 12; ++pix)
+[   0.163][d][vo/gpu-next/libplacebo] [387]     {
+[   0.163][d][vo/gpu-next/libplacebo] [388]         float lowthr = sat((20.*4.5*c_comp*e[pix + 1] - 0.221));
+[   0.163][d][vo/gpu-next/libplacebo] [389] 
+[   0.163][d][vo/gpu-next/libplacebo] [390]         neg_laplace += luma[pix+1] * luma[pix+1] * weights[pix] * lowthr;
+[   0.164][d][vo/gpu-next/libplacebo] [391]         weightsum   += weights[pix] * lowthr;
+[   0.164][d][vo/gpu-next/libplacebo] [392]         lowthrsum   += lowthr / 12.0;
+[   0.164][d][vo/gpu-next/libplacebo] [393]     }
+[   0.164][d][vo/gpu-next/libplacebo] [394] 
+[   0.164][d][vo/gpu-next/libplacebo] [395]     neg_laplace = sqrt(neg_laplace / weightsum);
+[   0.164][d][vo/gpu-next/libplacebo] [396] 
+[   0.164][d][vo/gpu-next/libplacebo] [397]     // Compute sharpening magnitude function
+[   0.164][d][vo/gpu-next/libplacebo] [398]     float sharpen_val = curve_height/(curve_height*curveslope*edge + 0.625);
+[   0.164][d][vo/gpu-next/libplacebo] [399] 
+[   0.164][d][vo/gpu-next/libplacebo] [400]     // Calculate sharpening diff and scale
+[   0.164][d][vo/gpu-next/libplacebo] [401]     float sharpdiff = (c0_Y - neg_laplace)*(lowthrsum*sharpen_val + 0.01);
+[   0.164][d][vo/gpu-next/libplacebo] [402] 
+[   0.164][d][vo/gpu-next/libplacebo] [403]     // Calculate local near min & max, partial sort
+[   0.164][d][vo/gpu-next/libplacebo] [404]     float temp;
+[   0.164][d][vo/gpu-next/libplacebo] [405] 
+[   0.164][d][vo/gpu-next/libplacebo] [406]     for (int i1 = 0; i1 < 24; i1 += 2)
+[   0.164][d][vo/gpu-next/libplacebo] [407]     {
+[   0.164][d][vo/gpu-next/libplacebo] [408]         temp = luma[i1];
+[   0.164][d][vo/gpu-next/libplacebo] [409]         luma[i1]   = min(luma[i1], luma[i1+1]);
+[   0.164][d][vo/gpu-next/libplacebo] [410]         luma[i1+1] = max(temp, luma[i1+1]);
+[   0.164][d][vo/gpu-next/libplacebo] [411]     }
+[   0.164][d][vo/gpu-next/libplacebo] [412] 
+[   0.164][d][vo/gpu-next/libplacebo] [413]     for (int i2 = 24; i2 > 0; i2 -= 2)
+[   0.164][d][vo/gpu-next/libplacebo] [414]     {
+[   0.164][d][vo/gpu-next/libplacebo] [415]         temp = luma[0];
+[   0.164][d][vo/gpu-next/libplacebo] [416]         luma[0]    = min(luma[0], luma[i2]);
+[   0.164][d][vo/gpu-next/libplacebo] [417]         luma[i2]   = max(temp, luma[i2]);
+[   0.164][d][vo/gpu-next/libplacebo] [418] 
+[   0.164][d][vo/gpu-next/libplacebo] [419]         temp = luma[24];
+[   0.164][d][vo/gpu-next/libplacebo] [420]         luma[24] = max(luma[24], luma[i2-1]);
+[   0.164][d][vo/gpu-next/libplacebo] [421]         luma[i2-1] = min(temp, luma[i2-1]);
+[   0.164][d][vo/gpu-next/libplacebo] [422]     }
+[   0.164][d][vo/gpu-next/libplacebo] [423] 
+[   0.164][d][vo/gpu-next/libplacebo] [424]     float min_dist  = min(abs(luma[24] - c0_Y), abs(c0_Y - luma[0]));
+[   0.164][d][vo/gpu-next/libplacebo] [425]     min_dist = min(min_dist, scale_lim*(1.0 - scale_cs) + min_dist*scale_cs);
+[   0.164][d][vo/gpu-next/libplacebo] [426] 
+[   0.164][d][vo/gpu-next/libplacebo] [427]     // Soft limited anti-ringing with tanh, wpmean to control compression slope
+[   0.164][d][vo/gpu-next/libplacebo] [428]     sharpdiff = wpmean(max(sharpdiff, 0.0), soft_lim( max(sharpdiff, 0.0), min_dist ), cs.x )
+[   0.164][d][vo/gpu-next/libplacebo] [429]               - wpmean(min(sharpdiff, 0.0), soft_lim( min(sharpdiff, 0.0), min_dist ), cs.y );
+[   0.164][d][vo/gpu-next/libplacebo] [430]     
+[   0.164][d][vo/gpu-next/libplacebo] [431]     float sharpdiff_lim = sat(c0_Y + sharpdiff) - c0_Y;
+[   0.164][d][vo/gpu-next/libplacebo] [432]     /*float satmul = (c0_Y + max(sharpdiff_lim*0.9, sharpdiff_lim)*1.03 + 0.03)/(c0_Y + 0.03);
+[   0.164][d][vo/gpu-next/libplacebo] [433]     vec3 res = c0_Y + sharpdiff_lim + (c[0] - c0_Y)*satmul;
+[   0.164][d][vo/gpu-next/libplacebo] [434]     */
+[   0.164][d][vo/gpu-next/libplacebo] [435]     return vec4(sharpdiff_lim + c[0], HOOKED_texOff(0).a);
+[   0.164][d][vo/gpu-next/libplacebo] [436] }
+[   0.164][d][vo/gpu-next] Render options updated, resetting render state.
+[   0.165][v][vo/gpu-next] Querying ICC profile...
+[   0.167][d][vo/gpu-next/libplacebo] Opening new ICC profile
+[   0.168][v][vo/gpu-next/libplacebo] Opened ICC profile:
+[   0.168][d][vo/gpu-next/libplacebo]     Raw white point: X=76.04 Y=80.00 Z=87.12 cd/m^2
+[   0.168][d][vo/gpu-next/libplacebo]     Raw black point: X=0.000000% Y=0.000000% Z=-0.000000%
+[   0.168][v][vo/gpu-next/libplacebo]     Contrast = 203 cd/m^2 : 0.001 mcd/m^2 ≈ 203000000 : 1
+[   0.168][v][vo/gpu-next/libplacebo]     Detected primaries: ITU-R Rec. BT.709 (HD), also sRGB
+[   0.168][v][vo/gpu-next/libplacebo]     Transfer function: IEC 61966-2-4 sRGB (CRT emulation)
+[   0.168][v][vo/gpu-next/libplacebo] Attempting to reconfigure swap chain format: R8G8B8A8_UNORM -> R10G10B10A2_UNORM
+[   0.169][v][vo/gpu-next] Assuming 170.003000 FPS for display sync.
+[   0.169][v][vo/gpu-next] reconfig to 960x540 yuv444p auto/auto/auto/auto/auto CL=unknown
+[   0.169][d][vo/gpu-next] max content size: 2544x1431
+[   0.169][d][vo/gpu-next] monitor size: 2560x1440
+[   0.169][v][vo/gpu-next/win32] reset window bounds: 644:359:1272:715
+[   0.170][v][vo/gpu-next/win32] resize window: 1272:715
+[   0.186][v][vo/gpu-next/win32] resize window: 1272:715
+[   0.202][v][vo/gpu-next] Window size: 1272x715 (Borders: l=0 t=0 r=0 b=0)
+[   0.202][v][vo/gpu-next] Video source: 960x540 (1:1)
+[   0.202][v][vo/gpu-next] Video display: (0, 0) 960x540 -> (0, 0) 1272x715
+[   0.202][v][vo/gpu-next] Video scale: 1.325000/1.324074
+[   0.202][v][vo/gpu-next] OSD borders: l=0 t=0 r=0 b=0
+[   0.202][v][vo/gpu-next] Video borders: l=0 t=0 r=0 b=0
+[   0.204][v][vo/gpu-next] Window size: 1272x715 (Borders: l=0 t=0 r=0 b=0)
+[   0.204][v][vo/gpu-next] Video source: 960x540 (1:1)
+[   0.204][v][vo/gpu-next] Video display: (0, 0) 960x540 -> (0, 0) 1272x715
+[   0.204][v][vo/gpu-next] Video scale: 1.325000/1.324074
+[   0.204][v][vo/gpu-next] OSD borders: l=0 t=0 r=0 b=0
+[   0.204][v][vo/gpu-next] Video borders: l=0 t=0 r=0 b=0
+[   0.206][v][auto_profiles] Re-evaluating auto profile SDR-target
+[   0.206][i][auto_profiles] Applying auto profile: SDR-target
+[   0.206][d][cplayer] Run command: apply-profile, flags=64, args=[name="SDR-target", mode="apply"]
+[   0.206][v][cplayer] Applying profile 'SDR-target'...
+[   0.206][v][cplayer] Setting option 'target-colorspace-hint' = 'no' (flags = 4)
+[   0.207][d][global] config path: 'fonts' -> 'C:\Users\darkxch\AppData\Roaming/mpv/fonts'
+[   0.207][d][osd/libass] ASS library version: 0x1704000 (runtime 0x1704000)
+[   0.207][v][osd/libass] libass API version: 0x1704000
+[   0.207][v][osd/libass] libass source: meson, commit: 0.17.4-14-g338fd2cea8ac156a910b04838b5f40b868e41160
+[   0.207][v][osd/libass] Shaper: FriBidi 1.0.16 (SIMPLE) HarfBuzz-ng 11.3.3 (COMPLEX)
+[   0.207][d][global] config path: 'subfont.ttf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/subfont.ttf'
+[   0.207][d][global] config path: 'subfont.ttf' -/-> 'G:/mpv/subfont.ttf'
+[   0.207][d][global] config path: 'subfont.ttf' -/-> 'G:/mpv/mpv/subfont.ttf'
+[   0.208][d][global] config path: 'fonts.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/fonts.conf'
+[   0.208][d][global] config path: 'fonts.conf' -/-> 'G:/mpv/fonts.conf'
+[   0.208][d][global] config path: 'fonts.conf' -> 'G:/mpv/mpv/fonts.conf'
+[   0.208][v][osd/libass] Setting up fonts...
+[   0.208][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\LXGWWenKai-Light.ttf'
+[   0.220][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\LXGWWenKaiMono-Light.ttf'
+[   0.232][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\uosc_icons.otf'
+[   0.232][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\uosc_textures.ttf'
+[   0.233][v][osd/libass] Using font provider directwrite (with GDI)
+[   0.233][v][osd/libass] Done.
+[   0.233][d][cplayer] Run command: script-message, flags=64, args=[args="thumbfast-info", args="{\"available\":true,\"thumbnail\":\"C:\\\\Users\\\\darkxch\\\\AppData\\\\Local\\\\Temp\\\\thumbfast.out36016\",\"disabled\":false,\"scale_factor\":1,\"width\":200,\"overlay_id\":42,\"socket\":\"thumbfast36016\",\"height\":113}"]
+[   0.233][d][vo/gpu-next] Render options updated, resetting render state.
+[   0.233][v][vo/gpu-next] Querying ICC profile...
+[   0.233][d][vo/gpu-next/libplacebo] Opening new ICC profile
+[   0.234][v][vo/gpu-next/libplacebo] Opened ICC profile:
+[   0.234][d][vo/gpu-next/libplacebo]     Raw white point: X=76.04 Y=80.00 Z=87.12 cd/m^2
+[   0.234][d][vo/gpu-next/libplacebo]     Raw black point: X=0.000000% Y=0.000000% Z=-0.000000%
+[   0.234][v][vo/gpu-next/libplacebo]     Contrast = 203 cd/m^2 : 0.001 mcd/m^2 ≈ 203000000 : 1
+[   0.234][v][vo/gpu-next/libplacebo]     Detected primaries: ITU-R Rec. BT.709 (HD), also sRGB
+[   0.234][v][vo/gpu-next/libplacebo]     Transfer function: IEC 61966-2-4 sRGB (CRT emulation)
+[   0.235][d][cplayer] Run command: script-message-to, flags=64, args=[target="thumbfast", args="clear"]
+[   0.235][d][cplayer] Run command: overlay-remove, flags=64, args=[id="42"]
+[   0.235][d][global] config path: 'fonts' -> 'C:\Users\darkxch\AppData\Roaming/mpv/fonts'
+[   0.235][d][osd/libass] ASS library version: 0x1704000 (runtime 0x1704000)
+[   0.235][v][osd/libass] libass API version: 0x1704000
+[   0.235][v][osd/libass] libass source: meson, commit: 0.17.4-14-g338fd2cea8ac156a910b04838b5f40b868e41160
+[   0.236][v][osd/libass] Shaper: FriBidi 1.0.16 (SIMPLE) HarfBuzz-ng 11.3.3 (COMPLEX)
+[   0.236][d][global] config path: 'subfont.ttf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/subfont.ttf'
+[   0.236][d][global] config path: 'subfont.ttf' -/-> 'G:/mpv/subfont.ttf'
+[   0.236][d][global] config path: 'subfont.ttf' -/-> 'G:/mpv/mpv/subfont.ttf'
+[   0.236][d][global] config path: 'fonts.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/fonts.conf'
+[   0.236][d][global] config path: 'fonts.conf' -/-> 'G:/mpv/fonts.conf'
+[   0.236][d][global] config path: 'fonts.conf' -> 'G:/mpv/mpv/fonts.conf'
+[   0.236][v][osd/libass] Setting up fonts...
+[   0.236][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\LXGWWenKai-Light.ttf'
+[   0.248][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\LXGWWenKaiMono-Light.ttf'
+[   0.260][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\uosc_icons.otf'
+[   0.260][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\uosc_textures.ttf'
+[   0.260][v][osd/libass] Using font provider directwrite (with GDI)
+[   0.260][v][osd/libass] Done.
+[   0.261][d][cplayer] Run command: script-message, flags=64, args=[args="thumbfast-info", args="{\"available\":true,\"thumbnail\":\"C:\\\\Users\\\\darkxch\\\\AppData\\\\Local\\\\Temp\\\\thumbfast.out36016\",\"disabled\":false,\"scale_factor\":1,\"width\":200,\"overlay_id\":42,\"socket\":\"thumbfast36016\",\"height\":113}"]
+[   0.261][d][cplayer] Run command: define-section, flags=64, args=[name="input_uosc", contents="", flags="default"]
+[   0.261][d][cplayer] Run command: enable-section, flags=64, args=[name="input_uosc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.261][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_uosc", contents="", flags="force"]
+[   0.261][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_uosc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.264][v][osd/libass] fontselect: (LXGW WenKai Mono, 400, 0) -> LXGWWenKaiMono-Regular, 0, LXGWWenKaiMono-Regular
+[   0.266][v][osd/libass] fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+[   0.266][v][osd/libass] fontselect: (MaterialIconsRound-Regular, 400, 0) -> MaterialIconsRound-Regular, 0, MaterialIconsRound-Regular
+[   0.267][d][osd] Spent 6.136 ms in osd_render (slow!)
+[   0.267][d][vo/gpu-next/libplacebo] (Re)creating 773x162x0 texture with format r8: unknown
+[   0.268][d][vo/gpu-next] cache_load_obj: key(7bac23a627a1e4df), size(2197000), load time(0.706 ms)
+[   0.268][d][vo/gpu-next/libplacebo] Re-using cached LUT (0x7bac23a627a1e4df) with size 2197000
+[   0.269][d][vo/gpu-next] cache_save_obj: key(7bac23a627a1e4df), size(2197000)
+[   0.269][d][vo/gpu-next/libplacebo] vertex shader source:
+[   0.269][d][vo/gpu-next/libplacebo] [  1] #version 450
+[   0.269][d][vo/gpu-next/libplacebo] [  2] #extension GL_ARB_uniform_buffer_object : enable
+[   0.269][d][vo/gpu-next/libplacebo] [  3] #extension GL_ARB_texture_gather : enable
+[   0.269][d][vo/gpu-next/libplacebo] [  4] layout(binding=0) uniform  sampler2D _2;
+[   0.269][d][vo/gpu-next/libplacebo] [  5] layout(binding=1) uniform  sampler3D _8;
+[   0.269][d][vo/gpu-next/libplacebo] [  6] layout(std140, binding=2) uniform _12 {
+[   0.269][d][vo/gpu-next/libplacebo] [  7]     layout(offset=0) mat3 _5;
+[   0.269][d][vo/gpu-next/libplacebo] [  8]     layout(offset=48) mat3 _6;
+[   0.269][d][vo/gpu-next/libplacebo] [  9] };
+[   0.269][d][vo/gpu-next/libplacebo] [ 10] layout(location=0) in vec2 _13;
+[   0.269][d][vo/gpu-next/libplacebo] [ 11] layout(location=1) in vec2 _14;
+[   0.269][d][vo/gpu-next/libplacebo] [ 12] layout(location=1) out vec2 _10;
+[   0.269][d][vo/gpu-next/libplacebo] [ 13] layout(location=2) in vec4 _15;
+[   0.269][d][vo/gpu-next/libplacebo] [ 14] layout(location=2) out vec4 _11;
+[   0.269][d][vo/gpu-next/libplacebo] [ 15] void main() {
+[   0.269][d][vo/gpu-next/libplacebo] [ 16] vec2 va_pos = _13; 
+[   0.269][d][vo/gpu-next/libplacebo] [ 17] gl_Position = vec4(va_pos, 0.0, 1.0); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 18] _10 = _14;
+[   0.269][d][vo/gpu-next/libplacebo] [ 19] _11 = _15;
+[   0.269][d][vo/gpu-next/libplacebo] [ 20] }
+[   0.269][d][vo/gpu-next/libplacebo] fragment shader source:
+[   0.269][d][vo/gpu-next/libplacebo] [  1] #version 450
+[   0.269][d][vo/gpu-next/libplacebo] [  2] #extension GL_ARB_uniform_buffer_object : enable
+[   0.269][d][vo/gpu-next/libplacebo] [  3] #extension GL_ARB_texture_gather : enable
+[   0.269][d][vo/gpu-next/libplacebo] [  4] layout(binding=0) uniform  sampler2D _2;
+[   0.269][d][vo/gpu-next/libplacebo] [  5] layout(binding=1) uniform  sampler3D _8;
+[   0.269][d][vo/gpu-next/libplacebo] [  6] layout(std140, binding=2) uniform _12 {
+[   0.269][d][vo/gpu-next/libplacebo] [  7]     layout(offset=0) mat3 _5;
+[   0.269][d][vo/gpu-next/libplacebo] [  8]     layout(offset=48) mat3 _6;
+[   0.269][d][vo/gpu-next/libplacebo] [  9] };
+[   0.269][d][vo/gpu-next/libplacebo] [ 10] layout(location=1) in vec2 _10;
+[   0.269][d][vo/gpu-next/libplacebo] [ 11] layout(location=2) in vec4 _11;
+[   0.269][d][vo/gpu-next/libplacebo] [ 12] layout(location=0) out vec4 out_color;
+[   0.269][d][vo/gpu-next/libplacebo] [ 13] #define pos _f
+[   0.269][d][vo/gpu-next/libplacebo] [ 14] #define coord _10
+[   0.269][d][vo/gpu-next/libplacebo] [ 15] #define osd_color _11
+[   0.269][d][vo/gpu-next/libplacebo] [ 16] 
+[   0.269][d][vo/gpu-next/libplacebo] [ 17] const float _3 = float(1); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 18] const float _4 = float(4.926108410074903e-09); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 19] #define _7(pos) (texelFetch(_8, ivec3(pos), 0).xyzw)
+[   0.269][d][vo/gpu-next/libplacebo] [ 20] vec4 _9(vec3 pos) {                                       
+[   0.269][d][vo/gpu-next/libplacebo] [ 21]     pos = clamp(pos, 0.0, 1.0) * vec3(64.0, 64.0, 64.0); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 22]     vec3 base = floor(pos);                              
+[   0.269][d][vo/gpu-next/libplacebo] [ 23]     vec3 fpart = pos - base;                             
+[   0.269][d][vo/gpu-next/libplacebo] [ 24]     ivec3 v0 = ivec3(base), v3 = ivec3(ceil(pos));       
+[   0.269][d][vo/gpu-next/libplacebo] [ 25]     ivec3 v1 = v0, v2 = v3;                              
+[   0.269][d][vo/gpu-next/libplacebo] [ 26]     bvec3 c = greaterThanEqual(fpart.xyz, fpart.yzx);    
+[   0.269][d][vo/gpu-next/libplacebo] [ 27]     bool c_xy = c.x, c_yx = !c.x,                        
+[   0.269][d][vo/gpu-next/libplacebo] [ 28]        c_yz = c.y, c_zy = !c.y,                          
+[   0.269][d][vo/gpu-next/libplacebo] [ 29]        c_zx = c.z, c_xz = !c.z;                          
+[   0.269][d][vo/gpu-next/libplacebo] [ 30]     vec3 s = fpart.xyz;                                  
+[   0.269][d][vo/gpu-next/libplacebo] [ 31]     bool cond;                                           
+[   0.269][d][vo/gpu-next/libplacebo] [ 32] cond = c_xy && c_yz;          
+[   0.269][d][vo/gpu-next/libplacebo] [ 33] s = cond ? fpart.xyz : s;      
+[   0.269][d][vo/gpu-next/libplacebo] [ 34] v1.x = cond ? v3.x : v1.x;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 35] v2.z = cond ? v0.z : v2.z;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 36] cond = c_xz && c_zy;          
+[   0.269][d][vo/gpu-next/libplacebo] [ 37] s = cond ? fpart.xzy : s;      
+[   0.269][d][vo/gpu-next/libplacebo] [ 38] v1.x = cond ? v3.x : v1.x;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 39] v2.y = cond ? v0.y : v2.y;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 40] cond = c_zx && c_xy;          
+[   0.269][d][vo/gpu-next/libplacebo] [ 41] s = cond ? fpart.zxy : s;      
+[   0.269][d][vo/gpu-next/libplacebo] [ 42] v1.z = cond ? v3.z : v1.z;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 43] v2.y = cond ? v0.y : v2.y;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 44] cond = c_zy && c_yx;          
+[   0.269][d][vo/gpu-next/libplacebo] [ 45] s = cond ? fpart.zyx : s;      
+[   0.269][d][vo/gpu-next/libplacebo] [ 46] v1.z = cond ? v3.z : v1.z;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 47] v2.x = cond ? v0.x : v2.x;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 48] cond = c_yz && c_zx;          
+[   0.269][d][vo/gpu-next/libplacebo] [ 49] s = cond ? fpart.yzx : s;      
+[   0.269][d][vo/gpu-next/libplacebo] [ 50] v1.y = cond ? v3.y : v1.y;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 51] v2.x = cond ? v0.x : v2.x;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 52] cond = c_yx && c_xz;          
+[   0.269][d][vo/gpu-next/libplacebo] [ 53] s = cond ? fpart.yxz : s;      
+[   0.269][d][vo/gpu-next/libplacebo] [ 54] v1.y = cond ? v3.y : v1.y;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 55] v2.z = cond ? v0.z : v2.z;     
+[   0.269][d][vo/gpu-next/libplacebo] [ 56]     return (1.0 - s.x) * _7(v0) +   
+[   0.269][d][vo/gpu-next/libplacebo] [ 57]            (s.x - s.y) * _7(v1) +   
+[   0.269][d][vo/gpu-next/libplacebo] [ 58]            (s.y - s.z) * _7(v2) +   
+[   0.269][d][vo/gpu-next/libplacebo] [ 59]            (s.z)       * _7(v3);    
+[   0.269][d][vo/gpu-next/libplacebo] [ 60] }                                    
+[   0.269][d][vo/gpu-next/libplacebo] [ 61] const float _a = float(1); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 62] const float _b = float(0.4606960415840149); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 63] const float _c = float(0.9998511672019958); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 64] const float _d = float(0.0001488792331656441); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 65] vec4 _1() {
+[   0.269][d][vo/gpu-next/libplacebo] [ 66] // overlay 
+[   0.269][d][vo/gpu-next/libplacebo] [ 67] vec4 color = osd_color; 
+[   0.269][d][vo/gpu-next/libplacebo] [ 68] // pl_shader_decode_color 
+[   0.269][d][vo/gpu-next/libplacebo] [ 69] { 
+[   0.269][d][vo/gpu-next/libplacebo] [ 70] }
+[   0.269][d][vo/gpu-next/libplacebo] [ 71] // pl_shader_color_map 
+[   0.269][d][vo/gpu-next/libplacebo] [ 72] {                      
+[   0.269][d][vo/gpu-next/libplacebo] [ 73] // pl_shader_linearize           
+[   0.269][d][vo/gpu-next/libplacebo] [ 74] color.rgb = max(color.rgb, 0.0); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 75] color.rgb = mix(color.rgb * vec3(1.0/12.92),               
+[   0.269][d][vo/gpu-next/libplacebo] [ 76]                 pow((color.rgb + vec3(0.055))/vec3(1.055), 
+[   0.269][d][vo/gpu-next/libplacebo] [ 77]                     vec3(2.4)),                            
+[   0.269][d][vo/gpu-next/libplacebo] [ 78]                 lessThan(vec3(0.04045), color.rgb));       
+[   0.269][d][vo/gpu-next/libplacebo] [ 79] color.rgb = _3 * color.rgb + vec3(_4); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 80] }
+[   0.269][d][vo/gpu-next/libplacebo] [ 81] // pl_icc_encode                          
+[   0.269][d][vo/gpu-next/libplacebo] [ 82] {                                         
+[   0.269][d][vo/gpu-next/libplacebo] [ 83] color.rgb = max(color.rgb, 0.0);          
+[   0.269][d][vo/gpu-next/libplacebo] [ 84] color.rgb = 1.0/_a * color.rgb;          
+[   0.269][d][vo/gpu-next/libplacebo] [ 85] color.rgb = pow(color.rgb, vec3(_b));    
+[   0.269][d][vo/gpu-next/libplacebo] [ 86] color.rgb = 1.0/_c * color.rgb - _d;    
+[   0.269][d][vo/gpu-next/libplacebo] [ 87] color.rgb = _9(color.rgb).rgb;           
+[   0.269][d][vo/gpu-next/libplacebo] [ 88] }                                         
+[   0.269][d][vo/gpu-next/libplacebo] [ 89] // pl_shader_encode_color 
+[   0.269][d][vo/gpu-next/libplacebo] [ 90] { 
+[   0.269][d][vo/gpu-next/libplacebo] [ 91] color.rgb *= vec3(color.a); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 92] }
+[   0.269][d][vo/gpu-next/libplacebo] [ 93] color.rgba *= textureLod(_2, coord, 0.0).r; 
+[   0.269][d][vo/gpu-next/libplacebo] [ 94] vec4 _e = color;                 
+[   0.269][d][vo/gpu-next/libplacebo] [ 95] color = vec4(0.0, 0.0, 0.0, 1.0); 
+[   0.269][d][vo/gpu-next/libplacebo] [ 96] color[0] = _e[0]; 
+[   0.269][d][vo/gpu-next/libplacebo] [ 97] color[1] = _e[1]; 
+[   0.269][d][vo/gpu-next/libplacebo] [ 98] color[2] = _e[2]; 
+[   0.269][d][vo/gpu-next/libplacebo] [ 99] color[3] = _e[3]; 
+[   0.269][d][vo/gpu-next/libplacebo] [100] color.a = _e.a; 
+[   0.269][d][vo/gpu-next/libplacebo] [101] return color;
+[   0.269][d][vo/gpu-next/libplacebo] [102] }
+[   0.269][d][vo/gpu-next/libplacebo] [103] 
+[   0.269][d][vo/gpu-next/libplacebo] [104] void main() {
+[   0.269][d][vo/gpu-next/libplacebo] [105] out_color = _1();
+[   0.269][d][vo/gpu-next/libplacebo] [106] }
+[   0.269][d][vo/gpu-next] cache_load_obj: key(845cff49217b07cc), size(3233), load time(0.073 ms)
+[   0.269][d][vo/gpu-next/libplacebo] Using cached DXBC shaders
+[   0.269][d][vo/gpu-next] cache_save_obj: key(845cff49217b07cc), size(3233)
+[   0.882][d][global] config path: 'fonts' -> 'C:\Users\darkxch\AppData\Roaming/mpv/fonts'
+[   0.882][d][osd/libass] ASS library version: 0x1704000 (runtime 0x1704000)
+[   0.882][v][osd/libass] libass API version: 0x1704000
+[   0.882][v][osd/libass] libass source: meson, commit: 0.17.4-14-g338fd2cea8ac156a910b04838b5f40b868e41160
+[   0.882][v][osd/libass] Shaper: FriBidi 1.0.16 (SIMPLE) HarfBuzz-ng 11.3.3 (COMPLEX)
+[   0.882][d][global] config path: 'subfont.ttf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/subfont.ttf'
+[   0.882][d][global] config path: 'subfont.ttf' -/-> 'G:/mpv/subfont.ttf'
+[   0.882][d][global] config path: 'subfont.ttf' -/-> 'G:/mpv/mpv/subfont.ttf'
+[   0.882][d][global] config path: 'fonts.conf' -/-> 'C:\Users\darkxch\AppData\Roaming/mpv/fonts.conf'
+[   0.882][d][global] config path: 'fonts.conf' -/-> 'G:/mpv/fonts.conf'
+[   0.882][d][global] config path: 'fonts.conf' -> 'G:/mpv/mpv/fonts.conf'
+[   0.882][v][osd/libass] Setting up fonts...
+[   0.882][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\LXGWWenKai-Light.ttf'
+[   0.894][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\LXGWWenKaiMono-Light.ttf'
+[   0.906][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\uosc_icons.otf'
+[   0.906][v][osd/libass] Loading font file 'C:\Users\darkxch\AppData\Roaming/mpv/fonts\uosc_textures.ttf'
+[   0.906][v][osd/libass] Using font provider directwrite (with GDI)
+[   0.906][v][osd/libass] Done.
+[   0.907][v][osd/libass] fontselect: (LXGW WenKai Mono, 400, 0) -> LXGWWenKaiMono-Regular, 0, LXGWWenKaiMono-Regular
+[   0.909][v][osd/libass] fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+[   0.909][v][osd/libass] Glyph 0x1F4CC not found, selecting one more font for (LXGW WenKai Mono, 400, 0)
+[   0.915][v][osd/libass] fontselect: (LXGW WenKai Mono, 400, 0) -> SegoeUIEmoji, 0, SegoeUIEmoji
+[   0.916][v][osd/libass] Glyph 0x1F4CC not found, selecting one more font for (LXGW WenKai Mono, 400, 0)
+[   0.918][v][osd/libass] fontselect: (LXGW WenKai Mono, 400, 0) -> SegoeUIEmoji, 0, SegoeUIEmoji
+[   0.918][d][vo/gpu-next/libplacebo] (Re)creating 1000x162x0 texture with format r8: unknown
+[   1.106][d][cplayer] Run command: begin-vo-dragging, flags=73, args=[]
+[   1.573][d][cplayer] Run command: enable-section, flags=64, args=[name="mbtn_left_dbl", flags=""]
+[   1.573][d][cplayer] Run command: enable-section, flags=64, args=[name="mbtn_left", flags=""]
+[   1.575][d][vo/gpu-next/libplacebo] (Re)creating 1011x162x0 texture with format r8: unknown
+[   1.626][d][cplayer] Run command: disable-section, flags=64, args=[name="mbtn_left_dbl"]
+[   1.626][d][cplayer] Run command: disable-section, flags=64, args=[name="mbtn_left"]
+[   1.859][d][cplayer] Run command: enable-section, flags=64, args=[name="mbtn_left_dbl", flags=""]
+[   1.859][d][cplayer] Run command: enable-section, flags=64, args=[name="mbtn_left", flags=""]
+[   2.023][d][cplayer] Run command: script-binding, flags=73, args=[name="uosc/__keybinding1", arg=""]
+[   2.033][d][cplayer] Run command: script-binding, flags=73, args=[name="uosc/menu-blurred", arg=""]
+[   2.034][d][global] config path: 'input.conf' -> 'C:\Users\darkxch\AppData\Roaming/mpv/input.conf'
+[   2.034][d][global] user path: '~~/input.conf' -> 'C:\Users\darkxch\AppData\Roaming/mpv/input.conf'
+[   2.034][v][cplayer] Set property: user-data/uosc/menu/type="menu" -> 1
+[   2.034][v][osd/libass] fontselect: (LXGW WenKai Mono, 700, 0) -> LXGWWenKaiMono-Regular, 0, LXGWWenKaiMono-Regular
+[   2.040][d][cplayer] Run command: define-section, flags=64, args=[name="input_uosc", contents="", flags="default"]
+[   2.040][d][cplayer] Run command: enable-section, flags=64, args=[name="input_uosc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   2.041][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_uosc", contents="any_unicode nonscalable script-binding uosc/menu-any_unicode\nkp_dec nonscalable script-binding uosc/menu-kp_dec\nkp0 nonscalable script-binding uosc/menu-kp0\nkp1 nonscalable script-binding uosc/menu-kp1\nkp2 nonscalable script-binding uosc/menu-kp2\nkp3 nonscalable script-binding uosc/menu-kp3\nkp4 nonscalable script-binding uosc/menu-kp4\nkp5 nonscalable script-binding uosc/menu-kp5\nkp6 nonscalable script-binding uosc/menu-kp6\nkp7 nonscalable script-binding uosc/menu-kp7\nkp8 nonscalable script-binding uosc/menu-kp8\nkp9 nonscalable script-binding uosc/menu-kp9\nf1 nonscalable script-binding uosc/menu-f1\nf2 nonscalable script-binding uosc/menu-f2\nf3 nonscalable script-binding uosc/menu-f3\nf4 nonscalable script-binding uosc/menu-f4\nf5 nonscalable script-binding uosc/menu-f5\nf6 nonscalable script-binding uosc/menu-f6\nf7 nonscalable script-binding uosc/menu-f7\nf8 nonscalable script-binding uosc/menu-f8\nf9 nonscalable script-binding uosc/menu-f9\nf10 nonscalable script-binding uosc/menu-f10\nf11 nonscalable script-binding uosc/menu-f11\nf12 nonscalable script-binding uosc/menu-f12\n/ nonscalable script-binding uosc/menu-/\nkp_divide nonscalable script-binding uosc/menu-kp_divide\nmbtn_back nonscalable script-binding uosc/menu-mbtn_back\nctrl+f nonscalable script-binding uosc/menu-ctrl+f\nctrl+v nonscalable script-binding uosc/menu-ctrl+v\nctrl+c nonscalable script-binding uosc/menu-ctrl+c\nup nonscalable script-binding uosc/menu-up\nalt+up nonscalable script-binding uosc/menu-alt+up\nalt+ctrl+up nonscalable script-binding uosc/menu-alt+ctrl+up\nalt+shift+up nonscalable script-binding uosc/menu-alt+shift+up\nalt+ctrl+shift+up nonscalable script-binding uosc/menu-alt+ctrl+shift+up\nctrl+up nonscalable script-binding uosc/menu-ctrl+up\nctrl+shift+up nonscalable script-binding uosc/menu-ctrl+shift+up\nshift+up nonscalable script-binding uosc/menu-shift+up\ndown nonscalable script-binding uosc/menu-down\nalt+down nonscalable script-binding uosc/menu-alt+down\nalt+ctrl+down nonscalable script-binding uosc/menu-alt+ctrl+down\nalt+shift+down nonscalable script-binding uosc/menu-alt+shift+down\nalt+ctrl+shift+down nonscalable script-binding uosc/menu-alt+ctrl+shift+down\nctrl+down nonscalable script-binding uosc/menu-ctrl+down\nctrl+shift+down nonscalable script-binding uosc/menu-ctrl+shift+down\nshift+down nonscalable script-binding uosc/menu-shift+down\nleft nonscalable script-binding uosc/menu-left\nalt+left nonscalable script-binding uosc/menu-alt+left\nalt+ctrl+left nonscalable script-binding uosc/menu-alt+ctrl+left\nalt+shift+left nonscalable script-binding uosc/menu-alt+shift+left\nalt+ctrl+shift+left nonscalable script-binding uosc/menu-alt+ctrl+shift+left\nctrl+left nonscalable script-binding uosc/menu-ctrl+left\nctrl+shift+left nonscalable script-binding uosc/menu-ctrl+shift+left\nshift+left nonscalable script-binding uosc/menu-shift+left\nright nonscalable script-binding uosc/menu-right\nalt+right nonscalable script-binding uosc/menu-alt+right\nalt+ctrl+right nonscalable script-binding uosc/menu-alt+ctrl+right\nalt+shift+right nonscalable script-binding uosc/menu-alt+shift+right\nalt+ctrl+shift+right nonscalable script-binding uosc/menu-alt+ctrl+shift+right\nctrl+right nonscalable script-binding uosc/menu-ctrl+right\nctrl+shift+right nonscalable script-binding uosc/menu-ctrl+shift+right\nshift+right nonscalable script-binding uosc/menu-shift+right\nenter nonscalable script-binding uosc/menu-enter\nalt+enter nonscalable script-binding uosc/menu-alt+enter\nalt+ctrl+enter nonscalable script-binding uosc/menu-alt+ctrl+enter\nalt+shift+enter nonscalable script-binding uosc/menu-alt+shift+enter\nalt+ctrl+shift+enter nonscalable script-binding uosc/menu-alt+ctrl+shift+enter\nctrl+enter nonscalable script-binding uosc/menu-ctrl+enter\nctrl+shift+enter nonscalable script-binding uosc/menu-ctrl+shift+enter\nshift+enter nonscalable script-binding uosc/menu-shift+enter\nkp_enter nonscalable script-binding uosc/menu-kp_enter\nalt+kp_enter nonscalable script-binding uosc/menu-alt+kp_enter\nalt+ctrl+kp_enter nonscalable script-binding uosc/menu-alt+ctrl+kp_enter\nalt+shift+kp_enter nonscalable script-binding uosc/menu-alt+shift+kp_enter\nalt+ctrl+shift+kp_enter nonscalable script-binding uosc/menu-alt+ctrl+shift+kp_enter\nctrl+kp_enter nonscalable script-binding uosc/menu-ctrl+kp_enter\nctrl+shift+kp_enter nonscalable script-binding uosc/menu-ctrl+shift+kp_enter\nshift+kp_enter nonscalable script-binding uosc/menu-shift+kp_enter\nbs nonscalable script-binding uosc/menu-bs\nalt+bs nonscalable script-binding uosc/menu-alt+bs\nalt+ctrl+bs nonscalable script-binding uosc/menu-alt+ctrl+bs\nalt+shift+bs nonscalable script-binding uosc/menu-alt+shift+bs\nalt+ctrl+shift+bs nonscalable script-binding uosc/menu-alt+ctrl+shift+bs\nctrl+bs nonscalable script-binding uosc/menu-ctrl+bs\nctrl+shift+bs nonscalable script-binding uosc/menu-ctrl+shift+bs\nshift+bs nonscalable script-binding uosc/menu-shift+bs\ntab nonscalable script-binding uosc/menu-tab\nalt+tab nonscalable script-binding uosc/menu-alt+tab\nalt+ctrl+tab nonscalable script-binding uosc/menu-alt+ctrl+tab\nalt+shift+tab nonscalable script-binding uosc/menu-alt+shift+tab\nalt+ctrl+shift+tab nonscalable script-binding uosc/menu-alt+ctrl+shift+tab\nctrl+tab nonscalable script-binding uosc/menu-ctrl+tab\nctrl+shift+tab nonscalable script-binding uosc/menu-ctrl+shift+tab\nshift+tab nonscalable script-binding uosc/menu-shift+tab\nesc nonscalable script-binding uosc/menu-esc\nalt+esc nonscalable script-binding uosc/menu-alt+esc\nalt+ctrl+esc nonscalable script-binding uosc/menu-alt+ctrl+esc\nalt+shift+esc nonscalable script-binding uosc/menu-alt+shift+esc\nalt+ctrl+shift+esc nonscalable script-binding uosc/menu-alt+ctrl+shift+esc\nctrl+esc nonscalable script-binding uosc/menu-ctrl+esc\nctrl+shift+esc nonscalable script-binding uosc/menu-ctrl+shift+esc\nshift+esc nonscalable script-binding uosc/menu-shift+esc\npgup nonscalable script-binding uosc/menu-pgup\nalt+pgup nonscalable script-binding uosc/menu-alt+pgup\nalt+ctrl+pgup nonscalable script-binding uosc/menu-alt+ctrl+pgup\nalt+shift+pgup nonscalable script-binding uosc/menu-alt+shift+pgup\nalt+ctrl+shift+pgup nonscalable script-binding uosc/menu-alt+ctrl+shift+pgup\nctrl+pgup nonscalable script-binding uosc/menu-ctrl+pgup\nctrl+shift+pgup nonscalable script-binding uosc/menu-ctrl+shift+pgup\nshift+pgup nonscalable script-binding uosc/menu-shift+pgup\npgdwn nonscalable script-binding uosc/menu-pgdwn\nalt+pgdwn nonscalable script-binding uosc/menu-alt+pgdwn\nalt+ctrl+pgdwn nonscalable script-binding uosc/menu-alt+ctrl+pgdwn\nalt+shift+pgdwn nonscalable script-binding uosc/menu-alt+shift+pgdwn\nalt+ctrl+shift+pgdwn nonscalable script-binding uosc/menu-alt+ctrl+shift+pgdwn\nctrl+pgdwn nonscalable script-binding uosc/menu-ctrl+pgdwn\nctrl+shift+pgdwn nonscalable script-binding uosc/menu-ctrl+shift+pgdwn\nshift+pgdwn nonscalable script-binding uosc/menu-shift+pgdwn\nhome nonscalable script-binding uosc/menu-home\nalt+home nonscalable script-binding uosc/menu-alt+home\nalt+ctrl+home nonscalable script-binding uosc/menu-alt+ctrl+home\nalt+shift+home nonscalable script-binding uosc/menu-alt+shift+home\nalt+ctrl+shift+home nonscalable script-binding uosc/menu-alt+ctrl+shift+home\nctrl+home nonscalable script-binding uosc/menu-ctrl+home\nctrl+shift+home nonscalable script-binding uosc/menu-ctrl+shift+home\nshift+home nonscalable script-binding uosc/menu-shift+home\nend nonscalable script-binding uosc/menu-end\nalt+end nonscalable script-binding uosc/menu-alt+end\nalt+ctrl+end nonscalable script-binding uosc/menu-alt+ctrl+end\nalt+shift+end nonscalable script-binding uosc/menu-alt+shift+end\nalt+ctrl+shift+end nonscalable script-binding uosc/menu-alt+ctrl+shift+end\nctrl+end nonscalable script-binding uosc/menu-ctrl+end\nctrl+shift+end nonscalable script-binding uosc/menu-ctrl+shift+end\nshift+end nonscalable script-binding uosc/menu-shift+end\ndel nonscalable script-binding uosc/menu-del\nalt+del nonscalable script-binding uosc/menu-alt+del\nalt+ctrl+del nonscalable script-binding uosc/menu-alt+ctrl+del\nalt+shift+del nonscalable script-binding uosc/menu-alt+shift+del\nalt+ctrl+shift+del nonscalable script-binding uosc/menu-alt+ctrl+shift+del\nctrl+del nonscalable script-binding uosc/menu-ctrl+del\nctrl+shift+del nonscalable script-binding uosc/menu-ctrl+shift+del\nshift+del nonscalable script-binding uosc/menu-shift+del\n", flags="force"]
+[   2.041][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_uosc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   2.051][d][osd] Spent 10.666 ms in osd_render (slow!)
+[   2.051][d][vo/gpu-next/libplacebo] (Re)creating 2047x717x0 texture with format r8: unknown
+[   2.111][d][cplayer] Run command: script-binding, flags=73, args=[name="uosc/__keybinding1", arg=""]
+[   2.604][d][cplayer] Run command: enable-section, flags=64, args=[name="wheel", flags="allow-hide-cursor+allow-vo-dragging"]
+[   2.687][d][cplayer] Run command: disable-section, flags=64, args=[name="wheel"]
+[   2.883][d][cplayer] Run command: script-binding, flags=73, args=[name="uosc/__keybinding1", arg=""]
+[   2.951][d][cplayer] Run command: script-binding, flags=73, args=[name="uosc/__keybinding1", arg=""]
+[   2.985][v][cplayer] Set property: user-data/uosc/menu/type=null -> 1
+[   2.985][d][cplayer] Run command: disable-section, flags=64, args=[name="mbtn_left_dbl"]
+[   2.985][d][cplayer] Run command: disable-section, flags=64, args=[name="mbtn_left"]
+[   2.985][d][cplayer] Run command: define-section, flags=64, args=[name="input_uosc", contents="", flags="default"]
+[   2.985][d][cplayer] Run command: enable-section, flags=64, args=[name="input_uosc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   2.985][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_uosc", contents="", flags="force"]
+[   2.985][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_uosc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   3.667][d][cplayer] Run command: begin-vo-dragging, flags=73, args=[]
+[   4.013][d][cplayer] Run command: begin-vo-dragging, flags=73, args=[]
+[   4.726][d][cplayer] Run command: begin-vo-dragging, flags=73, args=[]
+[   5.149][d][cplayer] Run command: enable-section, flags=64, args=[name="mbtn_left_dbl", flags=""]
+[   5.149][d][cplayer] Run command: enable-section, flags=64, args=[name="mbtn_left", flags=""]
+[   6.392][d][cplayer] Run command: disable-section, flags=64, args=[name="mbtn_left_dbl"]
+[   6.392][d][cplayer] Run command: disable-section, flags=64, args=[name="mbtn_left"]
+[   7.179][v][osd/libass] fontselect: (uosc_textures, 400, 0) -> uosc_textures, 0, uosc_textures
+[   7.533][d][cplayer] Run command: enable-section, flags=64, args=[name="mbtn_left_dbl", flags=""]
+[   7.533][d][cplayer] Run command: enable-section, flags=64, args=[name="mbtn_left", flags=""]
+[   9.739][d][cplayer] Run command: script-binding, flags=73, args=[name="uosc/__keybinding1", arg=""]
+[   9.739][d][cplayer] Run command: quit, flags=73, args=[code="0"]
+[   9.739][i][cplayer] Exiting... (Quit)
+[   9.739][d][cplayer] Run command: del, flags=64, args=[name="user-data/mpv/console"]
+[   9.739][d][positioning] Destroying client handle...
+[   9.739][d][ytdl_hook] Destroying client handle...
+[   9.739][d][stats] Destroying client handle...
+[   9.739][d][select] Destroying client handle...
+[   9.739][d][auto_profiles] Destroying client handle...
+[   9.739][d][console] Destroying client handle...
+[   9.739][d][thumbfast] Destroying client handle...
+[   9.740][d][commands] Destroying client handle...
+[   9.740][d][uosc_danmaku] Destroying client handle...
+[   9.740][d][uosc] Destroying client handle...
+[   9.741][d][SystemMediaTransportControls] Destroying client handle...
+[   9.772][v][vo/gpu-next/win32] uninit
