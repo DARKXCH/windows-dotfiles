@@ -3,3 +3,4 @@
 **/watch_later/**
 **/*.log
 **/files/watch_history.jsonl
+**/danmaku-history.json
